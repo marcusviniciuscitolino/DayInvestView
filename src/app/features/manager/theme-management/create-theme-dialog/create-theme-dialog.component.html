@@ -1,0 +1,45 @@
+<h2 mat-dialog-title>Criar Novo Tema</h2>
+
+<mat-dialog-content>
+  <form [formGroup]="themeForm">
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Nome do Tema</mat-label>
+      <input matInput formControlName="name" required>
+      <mat-error *ngIf="themeForm.get('name')?.hasError('required')">
+        Nome é obrigatório
+      </mat-error>
+    </mat-form-field>
+
+    <div class="color-row">
+      <mat-form-field appearance="outline" class="color-field">
+        <mat-label>Cor Principal</mat-label>
+        <input matInput type="color" formControlName="primaryColor" required>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="color-field">
+        <mat-label>Cor de Destaque</mat-label>
+        <input matInput type="color" formControlName="accentColor" required>
+      </mat-form-field>
+    </div>
+
+    <div class="color-row">
+      <mat-form-field appearance="outline" class="color-field">
+        <mat-label>Cor de Fundo</mat-label>
+        <input matInput type="color" formControlName="backgroundColor" required>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="color-field">
+        <mat-label>Cor do Texto</mat-label>
+        <input matInput type="color" formControlName="textColor" required>
+      </mat-form-field>
+    </div>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button (click)="cancel()">Cancelar</button>
+  <button mat-raised-button color="primary" (click)="onSubmit()" [disabled]="themeForm.invalid">
+    Criar Tema
+  </button>
+</mat-dialog-actions>
+

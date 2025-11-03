@@ -1,0 +1,166 @@
+.client-configuration {
+  h1 {
+    color: #1a1a1a;
+    margin-bottom: 32px;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+  }
+
+  .configuration-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    .investors-selection {
+      h2 {
+        color: #1A3B7A;
+        margin-bottom: 16px;
+        font-size: 1.25rem;
+      }
+
+      .full-width {
+        width: 100%;
+        max-width: 500px;
+      }
+
+      .investor-option {
+        display: flex;
+        flex-direction: column;
+        
+        .investor-name {
+          font-weight: 500;
+          color: #1A3B7A;
+          margin-bottom: 4px;
+        }
+
+        .investor-email {
+          font-size: 0.875rem;
+          color: #666;
+        }
+      }
+    }
+
+    .configuration-panel {
+      h2 {
+        color: #1A3B7A;
+        margin-bottom: 24px;
+        font-size: 1.5rem;
+      }
+
+      .config-section {
+        margin-bottom: 40px;
+
+        h3 {
+          color: #1A3B7A;
+          margin-bottom: 20px;
+          font-size: 1.25rem;
+          font-weight: 600;
+        }
+
+        .full-width {
+          width: 100%;
+        }
+
+        .charts-list {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+          gap: 16px;
+
+          .chart-card-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+          }
+
+          .chart-card {
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+
+            &:hover {
+              transform: translateY(-2px);
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+            }
+
+            &.selected {
+              border: 2px solid #1A3B7A;
+              background: linear-gradient(135deg, #f0f4ff 0%, #e3f2fd 100%);
+              box-shadow: 0 4px 12px rgba(26, 59, 122, 0.15);
+            }
+
+            mat-card-content {
+              display: flex;
+              align-items: center;
+              gap: 12px;
+
+              .chart-info {
+                flex: 1;
+
+                h4 {
+                  margin: 0;
+                  color: #1A3B7A;
+                }
+
+                p {
+                  margin: 4px 0 0 0;
+                  color: #666;
+                  font-size: 0.875rem;
+                }
+              }
+            }
+          }
+
+          .chart-filters {
+            padding: 16px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            margin-top: 8px;
+
+            h5 {
+              margin: 0 0 12px 0;
+              font-size: 0.875rem;
+              font-weight: 600;
+              color: #1A3B7A;
+            }
+
+            .filter-checkboxes {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+
+              mat-checkbox {
+                font-size: 0.875rem;
+              }
+            }
+
+            .info-text {
+              margin: 0;
+              font-size: 0.875rem;
+              color: #666;
+              font-style: italic;
+            }
+          }
+        }
+      }
+
+      .save-button {
+        width: 100%;
+        height: 52px;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(26, 59, 122, 0.2);
+        transition: all 0.2s ease;
+
+        &:not(:disabled):hover {
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(26, 59, 122, 0.3);
+        }
+      }
+    }
+  }
+}
+

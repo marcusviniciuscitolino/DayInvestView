@@ -1,0 +1,78 @@
+<div class="stocks-info">
+  <mat-card class="highlight-card">
+    <mat-card-header>
+      <mat-card-title>Destaques de Ações</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="highlights-container">
+        <div class="highlight-item" *ngIf="bestReturnPercentage">
+          <div class="highlight-icon">
+            <mat-icon>trending_up</mat-icon>
+          </div>
+          <div class="highlight-content">
+            <h4>Maior Rendimento Percentual</h4>
+            <p class="stock-name">{{ bestReturnPercentage.name }}</p>
+            <p class="stock-value">{{ bestReturnPercentage.returnPercentage | number:'1.2-2' }}%</p>
+            <p class="stock-detail">Retorno: {{ bestReturnPercentage.return | currency:'BRL':'symbol':'1.2-2' }}</p>
+            <p class="stock-detail">Valor Investido: {{ bestReturnPercentage.value | currency:'BRL':'symbol':'1.2-2' }}</p>
+          </div>
+        </div>
+
+        <div class="highlight-item" *ngIf="bestReturnValue">
+          <div class="highlight-icon">
+            <mat-icon>attach_money</mat-icon>
+          </div>
+          <div class="highlight-content">
+            <h4>Maior Valor Retornado</h4>
+            <p class="stock-name">{{ bestReturnValue.name }}</p>
+            <p class="stock-value">{{ bestReturnValue.return | currency:'BRL':'symbol':'1.2-2' }}</p>
+            <p class="stock-detail">Rendimento: {{ bestReturnValue.returnPercentage | number:'1.2-2' }}%</p>
+            <p class="stock-detail">Valor Investido: {{ bestReturnValue.value | currency:'BRL':'symbol':'1.2-2' }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="table-card">
+    <mat-card-header>
+      <mat-card-title>Tabela de Ações</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <table mat-table [dataSource]="dataSource" matSort class="stocks-table">
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Ação</th>
+          <td mat-cell *matCellDef="let stock">{{ stock.name }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="value">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Valor Investido</th>
+          <td mat-cell *matCellDef="let stock">{{ stock.value | currency:'BRL':'symbol':'1.2-2' }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="return">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Retorno</th>
+          <td mat-cell *matCellDef="let stock">{{ stock.return | currency:'BRL':'symbol':'1.2-2' }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="returnPercentage">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Rendimento %</th>
+          <td mat-cell *matCellDef="let stock">
+            <span [class.positive]="stock.returnPercentage >= 0" [class.negative]="stock.returnPercentage < 0">
+              {{ stock.returnPercentage | number:'1.2-2' }}%
+            </span>
+          </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+
+      <div *ngIf="dataSource.data.length === 0" class="no-data">
+        <mat-icon>info</mat-icon>
+        <p>Nenhuma ação encontrada no portfólio.</p>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
+

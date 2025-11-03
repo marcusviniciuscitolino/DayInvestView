@@ -1,0 +1,16 @@
+.full-width {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.color-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+
+  .color-field {
+    width: 100%;
+  }
+}
+

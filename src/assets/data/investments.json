@@ -1,0 +1,1786 @@
+{
+  "investments": [
+    {
+      "id": "inv-1",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "PETR4",
+      "value": 249472,
+      "return": 26450,
+      "date": "2024-03-16"
+    },
+    {
+      "id": "inv-2",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "VALE3",
+      "value": 244641,
+      "return": 24075,
+      "date": "2024-03-02"
+    },
+    {
+      "id": "inv-3",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "ITUB4",
+      "value": 179956,
+      "return": 30991,
+      "date": "2024-01-21"
+    },
+    {
+      "id": "inv-4",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "BBDC4",
+      "value": 72229,
+      "return": 8705,
+      "date": "2024-03-05"
+    },
+    {
+      "id": "inv-5",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "WEGE3",
+      "value": 176841,
+      "return": 32479,
+      "date": "2024-02-04"
+    },
+    {
+      "id": "inv-6",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "MGLU3",
+      "value": 222370,
+      "return": 30724,
+      "date": "2024-03-07"
+    },
+    {
+      "id": "inv-7",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "SUZB3",
+      "value": 196782,
+      "return": 18929,
+      "date": "2024-03-06"
+    },
+    {
+      "id": "inv-8",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "ELET3",
+      "value": 242239,
+      "return": 28186,
+      "date": "2024-01-14"
+    },
+    {
+      "id": "inv-9",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "ABEV3",
+      "value": 137674,
+      "return": 15551,
+      "date": "2024-02-23"
+    },
+    {
+      "id": "inv-10",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "RENT3",
+      "value": 210301,
+      "return": 18067,
+      "date": "2024-03-21"
+    },
+    {
+      "id": "inv-11",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "BRAP4",
+      "value": 117987,
+      "return": 33418,
+      "date": "2024-03-25"
+    },
+    {
+      "id": "inv-12",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "CSAN3",
+      "value": 141026,
+      "return": 16919,
+      "date": "2024-02-12"
+    },
+    {
+      "id": "inv-13",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "CMIG4",
+      "value": 125131,
+      "return": 34773,
+      "date": "2024-01-04"
+    },
+    {
+      "id": "inv-14",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "BRFS3",
+      "value": 224416,
+      "return": 18182,
+      "date": "2024-03-04"
+    },
+    {
+      "id": "inv-15",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "UGPA3",
+      "value": 227118,
+      "return": 8036,
+      "date": "2024-02-13"
+    },
+    {
+      "id": "inv-16",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "GGBR4",
+      "value": 120255,
+      "return": 17985,
+      "date": "2024-01-04"
+    },
+    {
+      "id": "inv-17",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "USIM5",
+      "value": 62797,
+      "return": 18569,
+      "date": "2024-01-10"
+    },
+    {
+      "id": "inv-18",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "CYRE3",
+      "value": 188349,
+      "return": 28942,
+      "date": "2024-02-15"
+    },
+    {
+      "id": "inv-19",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "CCRO3",
+      "value": 184593,
+      "return": 10471,
+      "date": "2024-03-19"
+    },
+    {
+      "id": "inv-20",
+      "userId": "investor-1",
+      "type": "AÃ§Ãµes",
+      "name": "EQTL3",
+      "value": 100777,
+      "return": 31469,
+      "date": "2024-01-21"
+    },
+    {
+      "id": "inv-21",
+      "userId": "investor-1",
+      "type": "Fundos",
+      "name": "Fundo Multimercado XYZ",
+      "value": 304107,
+      "return": 47561,
+      "date": "2024-02-01"
+    },
+    {
+      "id": "inv-22",
+      "userId": "investor-1",
+      "type": "Tesouro",
+      "name": "Tesouro IPCA+ 2029",
+      "value": 83905,
+      "return": 24132,
+      "date": "2024-03-16"
+    },
+    {
+      "id": "inv-23",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "PETR4",
+      "value": 225808,
+      "return": 24734,
+      "date": "2024-02-09"
+    },
+    {
+      "id": "inv-24",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "VALE3",
+      "value": 69614,
+      "return": 19935,
+      "date": "2024-03-12"
+    },
+    {
+      "id": "inv-25",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "ITUB4",
+      "value": 88926,
+      "return": 10197,
+      "date": "2024-03-01"
+    },
+    {
+      "id": "inv-26",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "BBDC4",
+      "value": 69830,
+      "return": 15995,
+      "date": "2024-03-12"
+    },
+    {
+      "id": "inv-27",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "WEGE3",
+      "value": 95221,
+      "return": 24587,
+      "date": "2024-01-19"
+    },
+    {
+      "id": "inv-28",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "MGLU3",
+      "value": 201527,
+      "return": 5870,
+      "date": "2024-01-23"
+    },
+    {
+      "id": "inv-29",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "SUZB3",
+      "value": 113764,
+      "return": 30958,
+      "date": "2024-02-07"
+    },
+    {
+      "id": "inv-30",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "ELET3",
+      "value": 58496,
+      "return": 10969,
+      "date": "2024-02-16"
+    },
+    {
+      "id": "inv-31",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "ABEV3",
+      "value": 93558,
+      "return": 10915,
+      "date": "2024-02-03"
+    },
+    {
+      "id": "inv-32",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "RENT3",
+      "value": 136297,
+      "return": 9437,
+      "date": "2024-01-10"
+    },
+    {
+      "id": "inv-33",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "BRAP4",
+      "value": 195733,
+      "return": 28131,
+      "date": "2024-01-15"
+    },
+    {
+      "id": "inv-34",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "CSAN3",
+      "value": 173694,
+      "return": 25704,
+      "date": "2024-03-16"
+    },
+    {
+      "id": "inv-35",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "CMIG4",
+      "value": 224403,
+      "return": 23544,
+      "date": "2024-01-24"
+    },
+    {
+      "id": "inv-36",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "BRFS3",
+      "value": 110959,
+      "return": 19730,
+      "date": "2024-01-12"
+    },
+    {
+      "id": "inv-37",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "UGPA3",
+      "value": 118548,
+      "return": 28309,
+      "date": "2024-03-18"
+    },
+    {
+      "id": "inv-38",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "GGBR4",
+      "value": 140084,
+      "return": 6201,
+      "date": "2024-03-25"
+    },
+    {
+      "id": "inv-39",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "USIM5",
+      "value": 64340,
+      "return": 25302,
+      "date": "2024-01-20"
+    },
+    {
+      "id": "inv-40",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "CYRE3",
+      "value": 63904,
+      "return": 22874,
+      "date": "2024-03-11"
+    },
+    {
+      "id": "inv-41",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "CCRO3",
+      "value": 183310,
+      "return": 17627,
+      "date": "2024-03-13"
+    },
+    {
+      "id": "inv-42",
+      "userId": "investor-2",
+      "type": "AÃ§Ãµes",
+      "name": "EQTL3",
+      "value": 133026,
+      "return": 29313,
+      "date": "2024-02-23"
+    },
+    {
+      "id": "inv-43",
+      "userId": "investor-2",
+      "type": "Fundos",
+      "name": "Fundo Renda Fixa ABC",
+      "value": 390663,
+      "return": 17218,
+      "date": "2024-02-18"
+    },
+    {
+      "id": "inv-44",
+      "userId": "investor-2",
+      "type": "Tesouro",
+      "name": "Tesouro Selic 2027",
+      "value": 257236,
+      "return": 17924,
+      "date": "2024-02-08"
+    },
+    {
+      "id": "inv-45",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "PETR4",
+      "value": 224319,
+      "return": 7249,
+      "date": "2024-01-27"
+    },
+    {
+      "id": "inv-46",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "VALE3",
+      "value": 180546,
+      "return": 25038,
+      "date": "2024-02-23"
+    },
+    {
+      "id": "inv-47",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "ITUB4",
+      "value": 116541,
+      "return": 13781,
+      "date": "2024-03-04"
+    },
+    {
+      "id": "inv-48",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "BBDC4",
+      "value": 65079,
+      "return": 13644,
+      "date": "2024-03-10"
+    },
+    {
+      "id": "inv-49",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "WEGE3",
+      "value": 184994,
+      "return": 28844,
+      "date": "2024-03-18"
+    },
+    {
+      "id": "inv-50",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "MGLU3",
+      "value": 51514,
+      "return": 21358,
+      "date": "2024-01-10"
+    },
+    {
+      "id": "inv-51",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "SUZB3",
+      "value": 69491,
+      "return": 26319,
+      "date": "2024-02-13"
+    },
+    {
+      "id": "inv-52",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "ELET3",
+      "value": 141569,
+      "return": 14590,
+      "date": "2024-03-04"
+    },
+    {
+      "id": "inv-53",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "ABEV3",
+      "value": 147338,
+      "return": 6089,
+      "date": "2024-03-11"
+    },
+    {
+      "id": "inv-54",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "RENT3",
+      "value": 244263,
+      "return": 17142,
+      "date": "2024-01-27"
+    },
+    {
+      "id": "inv-55",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "BRAP4",
+      "value": 141708,
+      "return": 33849,
+      "date": "2024-02-19"
+    },
+    {
+      "id": "inv-56",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "CSAN3",
+      "value": 151027,
+      "return": 20792,
+      "date": "2024-01-19"
+    },
+    {
+      "id": "inv-57",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "CMIG4",
+      "value": 219568,
+      "return": 30049,
+      "date": "2024-03-13"
+    },
+    {
+      "id": "inv-58",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "BRFS3",
+      "value": 210281,
+      "return": 19532,
+      "date": "2024-03-28"
+    },
+    {
+      "id": "inv-59",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "UGPA3",
+      "value": 138756,
+      "return": 5783,
+      "date": "2024-03-17"
+    },
+    {
+      "id": "inv-60",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "GGBR4",
+      "value": 189178,
+      "return": 34922,
+      "date": "2024-02-08"
+    },
+    {
+      "id": "inv-61",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "USIM5",
+      "value": 109554,
+      "return": 30482,
+      "date": "2024-01-05"
+    },
+    {
+      "id": "inv-62",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "CYRE3",
+      "value": 140524,
+      "return": 28522,
+      "date": "2024-02-01"
+    },
+    {
+      "id": "inv-63",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "CCRO3",
+      "value": 247895,
+      "return": 23042,
+      "date": "2024-01-21"
+    },
+    {
+      "id": "inv-64",
+      "userId": "investor-3",
+      "type": "AÃ§Ãµes",
+      "name": "EQTL3",
+      "value": 159162,
+      "return": 14441,
+      "date": "2024-02-12"
+    },
+    {
+      "id": "inv-65",
+      "userId": "investor-3",
+      "type": "Fundos",
+      "name": "Fundo AÃ§Ãµes Premium",
+      "value": 242521,
+      "return": 16264,
+      "date": "2024-02-16"
+    },
+    {
+      "id": "inv-66",
+      "userId": "investor-3",
+      "type": "Tesouro",
+      "name": "Tesouro IPCA+ 2035",
+      "value": 327949,
+      "return": 16597,
+      "date": "2024-03-27"
+    },
+    {
+      "id": "inv-67",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "PETR4",
+      "value": 206606,
+      "return": 5410,
+      "date": "2024-02-21"
+    },
+    {
+      "id": "inv-68",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "VALE3",
+      "value": 135127,
+      "return": 26083,
+      "date": "2024-01-09"
+    },
+    {
+      "id": "inv-69",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "ITUB4",
+      "value": 103128,
+      "return": 18408,
+      "date": "2024-01-24"
+    },
+    {
+      "id": "inv-70",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "BBDC4",
+      "value": 219761,
+      "return": 10065,
+      "date": "2024-02-22"
+    },
+    {
+      "id": "inv-71",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "WEGE3",
+      "value": 101065,
+      "return": 34744,
+      "date": "2024-01-15"
+    },
+    {
+      "id": "inv-72",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "MGLU3",
+      "value": 73279,
+      "return": 24688,
+      "date": "2024-02-23"
+    },
+    {
+      "id": "inv-73",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "SUZB3",
+      "value": 156913,
+      "return": 12148,
+      "date": "2024-01-04"
+    },
+    {
+      "id": "inv-74",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "ELET3",
+      "value": 177070,
+      "return": 32934,
+      "date": "2024-02-10"
+    },
+    {
+      "id": "inv-75",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "ABEV3",
+      "value": 185272,
+      "return": 15469,
+      "date": "2024-01-27"
+    },
+    {
+      "id": "inv-76",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "RENT3",
+      "value": 202110,
+      "return": 19527,
+      "date": "2024-02-17"
+    },
+    {
+      "id": "inv-77",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "BRAP4",
+      "value": 70414,
+      "return": 30264,
+      "date": "2024-01-27"
+    },
+    {
+      "id": "inv-78",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "CSAN3",
+      "value": 204611,
+      "return": 20743,
+      "date": "2024-02-21"
+    },
+    {
+      "id": "inv-79",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "CMIG4",
+      "value": 68580,
+      "return": 23575,
+      "date": "2024-03-05"
+    },
+    {
+      "id": "inv-80",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "BRFS3",
+      "value": 124688,
+      "return": 20818,
+      "date": "2024-02-13"
+    },
+    {
+      "id": "inv-81",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "UGPA3",
+      "value": 82138,
+      "return": 31597,
+      "date": "2024-02-24"
+    },
+    {
+      "id": "inv-82",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "GGBR4",
+      "value": 79216,
+      "return": 11295,
+      "date": "2024-02-02"
+    },
+    {
+      "id": "inv-83",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "USIM5",
+      "value": 129921,
+      "return": 26775,
+      "date": "2024-02-25"
+    },
+    {
+      "id": "inv-84",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "CYRE3",
+      "value": 126637,
+      "return": 21979,
+      "date": "2024-02-01"
+    },
+    {
+      "id": "inv-85",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "CCRO3",
+      "value": 182101,
+      "return": 18803,
+      "date": "2024-03-22"
+    },
+    {
+      "id": "inv-86",
+      "userId": "investor-4",
+      "type": "AÃ§Ãµes",
+      "name": "EQTL3",
+      "value": 59672,
+      "return": 34574,
+      "date": "2024-01-23"
+    },
+    {
+      "id": "inv-87",
+      "userId": "investor-4",
+      "type": "Fundos",
+      "name": "Fundo Multimercado Plus",
+      "value": 269400,
+      "return": 47162,
+      "date": "2024-03-14"
+    },
+    {
+      "id": "inv-88",
+      "userId": "investor-4",
+      "type": "Tesouro",
+      "name": "Tesouro Prefixado 2028",
+      "value": 146872,
+      "return": 9314,
+      "date": "2024-03-11"
+    },
+    {
+      "id": "inv-89",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "PETR4",
+      "value": 119378,
+      "return": 33536,
+      "date": "2024-01-04"
+    },
+    {
+      "id": "inv-90",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "VALE3",
+      "value": 75392,
+      "return": 27412,
+      "date": "2024-03-24"
+    },
+    {
+      "id": "inv-91",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "ITUB4",
+      "value": 103382,
+      "return": 7734,
+      "date": "2024-02-06"
+    },
+    {
+      "id": "inv-92",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "BBDC4",
+      "value": 114877,
+      "return": 28083,
+      "date": "2024-03-25"
+    },
+    {
+      "id": "inv-93",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "WEGE3",
+      "value": 116573,
+      "return": 29633,
+      "date": "2024-01-10"
+    },
+    {
+      "id": "inv-94",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "MGLU3",
+      "value": 229550,
+      "return": 33357,
+      "date": "2024-03-11"
+    },
+    {
+      "id": "inv-95",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "SUZB3",
+      "value": 84704,
+      "return": 15352,
+      "date": "2024-01-20"
+    },
+    {
+      "id": "inv-96",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "ELET3",
+      "value": 83670,
+      "return": 15488,
+      "date": "2024-03-22"
+    },
+    {
+      "id": "inv-97",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "ABEV3",
+      "value": 93869,
+      "return": 8740,
+      "date": "2024-03-04"
+    },
+    {
+      "id": "inv-98",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "RENT3",
+      "value": 75824,
+      "return": 14483,
+      "date": "2024-02-28"
+    },
+    {
+      "id": "inv-99",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "BRAP4",
+      "value": 103499,
+      "return": 10128,
+      "date": "2024-03-11"
+    },
+    {
+      "id": "inv-100",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "CSAN3",
+      "value": 237595,
+      "return": 34509,
+      "date": "2024-01-05"
+    },
+    {
+      "id": "inv-101",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "CMIG4",
+      "value": 116812,
+      "return": 5619,
+      "date": "2024-01-20"
+    },
+    {
+      "id": "inv-102",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "BRFS3",
+      "value": 57544,
+      "return": 29052,
+      "date": "2024-03-14"
+    },
+    {
+      "id": "inv-103",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "UGPA3",
+      "value": 145744,
+      "return": 5457,
+      "date": "2024-01-04"
+    },
+    {
+      "id": "inv-104",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "GGBR4",
+      "value": 88088,
+      "return": 5989,
+      "date": "2024-02-28"
+    },
+    {
+      "id": "inv-105",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "USIM5",
+      "value": 59341,
+      "return": 31071,
+      "date": "2024-01-22"
+    },
+    {
+      "id": "inv-106",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "CYRE3",
+      "value": 232302,
+      "return": 18645,
+      "date": "2024-03-24"
+    },
+    {
+      "id": "inv-107",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "CCRO3",
+      "value": 227354,
+      "return": 25088,
+      "date": "2024-03-20"
+    },
+    {
+      "id": "inv-108",
+      "userId": "investor-5",
+      "type": "AÃ§Ãµes",
+      "name": "EQTL3",
+      "value": 247409,
+      "return": 21597,
+      "date": "2024-02-04"
+    },
+    {
+      "id": "inv-109",
+      "userId": "investor-5",
+      "type": "Fundos",
+      "name": "Fundo Renda Fixa Plus",
+      "value": 200650,
+      "return": 13165,
+      "date": "2024-02-23"
+    },
+    {
+      "id": "inv-110",
+      "userId": "investor-5",
+      "type": "Tesouro",
+      "name": "Tesouro IPCA+ 2032",
+      "value": 155714,
+      "return": 24835,
+      "date": "2024-03-13"
+    },
+    {
+      "id": "inv-111",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "PETR4",
+      "value": 211192,
+      "return": 15108,
+      "date": "2024-01-07"
+    },
+    {
+      "id": "inv-112",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "VALE3",
+      "value": 54178,
+      "return": 19368,
+      "date": "2024-01-22"
+    },
+    {
+      "id": "inv-113",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "ITUB4",
+      "value": 185377,
+      "return": 33775,
+      "date": "2024-01-09"
+    },
+    {
+      "id": "inv-114",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "BBDC4",
+      "value": 201769,
+      "return": 11321,
+      "date": "2024-03-01"
+    },
+    {
+      "id": "inv-115",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "WEGE3",
+      "value": 243150,
+      "return": 9268,
+      "date": "2024-03-12"
+    },
+    {
+      "id": "inv-116",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "MGLU3",
+      "value": 78219,
+      "return": 9388,
+      "date": "2024-02-04"
+    },
+    {
+      "id": "inv-117",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "SUZB3",
+      "value": 217897,
+      "return": 14478,
+      "date": "2024-03-03"
+    },
+    {
+      "id": "inv-118",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "ELET3",
+      "value": 228656,
+      "return": 31155,
+      "date": "2024-02-06"
+    },
+    {
+      "id": "inv-119",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "ABEV3",
+      "value": 110752,
+      "return": 21096,
+      "date": "2024-02-13"
+    },
+    {
+      "id": "inv-120",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "RENT3",
+      "value": 223154,
+      "return": 28877,
+      "date": "2024-03-27"
+    },
+    {
+      "id": "inv-121",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "BRAP4",
+      "value": 161183,
+      "return": 20809,
+      "date": "2024-01-22"
+    },
+    {
+      "id": "inv-122",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "CSAN3",
+      "value": 193163,
+      "return": 29457,
+      "date": "2024-01-24"
+    },
+    {
+      "id": "inv-123",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "CMIG4",
+      "value": 84431,
+      "return": 34659,
+      "date": "2024-02-21"
+    },
+    {
+      "id": "inv-124",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "BRFS3",
+      "value": 230176,
+      "return": 24020,
+      "date": "2024-03-26"
+    },
+    {
+      "id": "inv-125",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "UGPA3",
+      "value": 163372,
+      "return": 32660,
+      "date": "2024-01-05"
+    },
+    {
+      "id": "inv-126",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "GGBR4",
+      "value": 99635,
+      "return": 22411,
+      "date": "2024-02-22"
+    },
+    {
+      "id": "inv-127",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "USIM5",
+      "value": 187770,
+      "return": 12035,
+      "date": "2024-01-28"
+    },
+    {
+      "id": "inv-128",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "CYRE3",
+      "value": 149755,
+      "return": 8480,
+      "date": "2024-01-02"
+    },
+    {
+      "id": "inv-129",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "CCRO3",
+      "value": 197386,
+      "return": 25012,
+      "date": "2024-02-11"
+    },
+    {
+      "id": "inv-130",
+      "userId": "investor-6",
+      "type": "AÃ§Ãµes",
+      "name": "EQTL3",
+      "value": 93781,
+      "return": 32177,
+      "date": "2024-01-27"
+    },
+    {
+      "id": "inv-131",
+      "userId": "investor-6",
+      "type": "Fundos",
+      "name": "Fundo Alavancagem Total",
+      "value": 348190,
+      "return": 8500,
+      "date": "2024-01-26"
+    },
+    {
+      "id": "inv-132",
+      "userId": "investor-6",
+      "type": "Tesouro",
+      "name": "Tesouro Selic 2029",
+      "value": 246377,
+      "return": 15223,
+      "date": "2024-02-10"
+    },
+    {
+      "id": "inv-133",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "PETR4",
+      "value": 110659,
+      "return": 27133,
+      "date": "2024-02-10"
+    },
+    {
+      "id": "inv-134",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "VALE3",
+      "value": 178315,
+      "return": 27910,
+      "date": "2024-02-23"
+    },
+    {
+      "id": "inv-135",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "ITUB4",
+      "value": 227416,
+      "return": 34874,
+      "date": "2024-02-02"
+    },
+    {
+      "id": "inv-136",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "BBDC4",
+      "value": 142416,
+      "return": 31556,
+      "date": "2024-02-06"
+    },
+    {
+      "id": "inv-137",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "WEGE3",
+      "value": 85068,
+      "return": 21448,
+      "date": "2024-01-23"
+    },
+    {
+      "id": "inv-138",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "MGLU3",
+      "value": 77609,
+      "return": 27077,
+      "date": "2024-01-23"
+    },
+    {
+      "id": "inv-139",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "SUZB3",
+      "value": 214248,
+      "return": 13757,
+      "date": "2024-01-17"
+    },
+    {
+      "id": "inv-140",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "ELET3",
+      "value": 97029,
+      "return": 22084,
+      "date": "2024-01-04"
+    },
+    {
+      "id": "inv-141",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "ABEV3",
+      "value": 119879,
+      "return": 28789,
+      "date": "2024-03-11"
+    },
+    {
+      "id": "inv-142",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "RENT3",
+      "value": 151433,
+      "return": 22810,
+      "date": "2024-02-06"
+    },
+    {
+      "id": "inv-143",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "BRAP4",
+      "value": 61704,
+      "return": 22852,
+      "date": "2024-03-07"
+    },
+    {
+      "id": "inv-144",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "CSAN3",
+      "value": 154153,
+      "return": 23063,
+      "date": "2024-02-02"
+    },
+    {
+      "id": "inv-145",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "CMIG4",
+      "value": 156501,
+      "return": 23561,
+      "date": "2024-01-26"
+    },
+    {
+      "id": "inv-146",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "BRFS3",
+      "value": 203213,
+      "return": 16561,
+      "date": "2024-02-27"
+    },
+    {
+      "id": "inv-147",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "UGPA3",
+      "value": 117861,
+      "return": 27161,
+      "date": "2024-03-23"
+    },
+    {
+      "id": "inv-148",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "GGBR4",
+      "value": 114888,
+      "return": 33992,
+      "date": "2024-03-16"
+    },
+    {
+      "id": "inv-149",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "USIM5",
+      "value": 144070,
+      "return": 20130,
+      "date": "2024-03-12"
+    },
+    {
+      "id": "inv-150",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "CYRE3",
+      "value": 53850,
+      "return": 12560,
+      "date": "2024-02-17"
+    },
+    {
+      "id": "inv-151",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "CCRO3",
+      "value": 180819,
+      "return": 9011,
+      "date": "2024-03-04"
+    },
+    {
+      "id": "inv-152",
+      "userId": "investor-7",
+      "type": "AÃ§Ãµes",
+      "name": "EQTL3",
+      "value": 125045,
+      "return": 17583,
+      "date": "2024-01-05"
+    },
+    {
+      "id": "inv-153",
+      "userId": "investor-7",
+      "type": "Fundos",
+      "name": "Fundo Conservador Plus",
+      "value": 143343,
+      "return": 41614,
+      "date": "2024-02-12"
+    },
+    {
+      "id": "inv-154",
+      "userId": "investor-7",
+      "type": "Tesouro",
+      "name": "Tesouro IPCA+ 2030",
+      "value": 169770,
+      "return": 8568,
+      "date": "2024-01-05"
+    },
+    {
+      "id": "inv-155",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "PETR4",
+      "value": 230776,
+      "return": 17288,
+      "date": "2024-03-09"
+    },
+    {
+      "id": "inv-156",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "VALE3",
+      "value": 165987,
+      "return": 12004,
+      "date": "2024-01-05"
+    },
+    {
+      "id": "inv-157",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "ITUB4",
+      "value": 163541,
+      "return": 29512,
+      "date": "2024-01-07"
+    },
+    {
+      "id": "inv-158",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "BBDC4",
+      "value": 133329,
+      "return": 23471,
+      "date": "2024-03-23"
+    },
+    {
+      "id": "inv-159",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "WEGE3",
+      "value": 238665,
+      "return": 31956,
+      "date": "2024-03-02"
+    },
+    {
+      "id": "inv-160",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "MGLU3",
+      "value": 118907,
+      "return": 23334,
+      "date": "2024-01-23"
+    },
+    {
+      "id": "inv-161",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "SUZB3",
+      "value": 160917,
+      "return": 31377,
+      "date": "2024-01-23"
+    },
+    {
+      "id": "inv-162",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "ELET3",
+      "value": 239903,
+      "return": 27129,
+      "date": "2024-02-13"
+    },
+    {
+      "id": "inv-163",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "ABEV3",
+      "value": 232746,
+      "return": 7219,
+      "date": "2024-01-04"
+    },
+    {
+      "id": "inv-164",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "RENT3",
+      "value": 188847,
+      "return": 16703,
+      "date": "2024-01-26"
+    },
+    {
+      "id": "inv-165",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "BRAP4",
+      "value": 205536,
+      "return": 26474,
+      "date": "2024-02-08"
+    },
+    {
+      "id": "inv-166",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "CSAN3",
+      "value": 161378,
+      "return": 32029,
+      "date": "2024-02-07"
+    },
+    {
+      "id": "inv-167",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "CMIG4",
+      "value": 107995,
+      "return": 9439,
+      "date": "2024-01-09"
+    },
+    {
+      "id": "inv-168",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "BRFS3",
+      "value": 50531,
+      "return": 31257,
+      "date": "2024-03-08"
+    },
+    {
+      "id": "inv-169",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "UGPA3",
+      "value": 74133,
+      "return": 20194,
+      "date": "2024-01-12"
+    },
+    {
+      "id": "inv-170",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "GGBR4",
+      "value": 53716,
+      "return": 26033,
+      "date": "2024-02-13"
+    },
+    {
+      "id": "inv-171",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "USIM5",
+      "value": 76568,
+      "return": 5095,
+      "date": "2024-03-25"
+    },
+    {
+      "id": "inv-172",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "CYRE3",
+      "value": 135412,
+      "return": 7530,
+      "date": "2024-03-16"
+    },
+    {
+      "id": "inv-173",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "CCRO3",
+      "value": 223820,
+      "return": 5268,
+      "date": "2024-02-04"
+    },
+    {
+      "id": "inv-174",
+      "userId": "investor-8",
+      "type": "AÃ§Ãµes",
+      "name": "EQTL3",
+      "value": 153403,
+      "return": 29847,
+      "date": "2024-01-19"
+    },
+    {
+      "id": "inv-175",
+      "userId": "investor-8",
+      "type": "Fundos",
+      "name": "Fundo Agressivo Max",
+      "value": 227978,
+      "return": 30908,
+      "date": "2024-01-16"
+    },
+    {
+      "id": "inv-176",
+      "userId": "investor-8",
+      "type": "Tesouro",
+      "name": "Tesouro Prefixado 2030",
+      "value": 187149,
+      "return": 15907,
+      "date": "2024-03-28"
+    },
+    {
+      "id": "inv-177",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "PETR4",
+      "value": 202705,
+      "return": 16002,
+      "date": "2024-01-05"
+    },
+    {
+      "id": "inv-178",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "VALE3",
+      "value": 63891,
+      "return": 15829,
+      "date": "2024-02-13"
+    },
+    {
+      "id": "inv-179",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "ITUB4",
+      "value": 164752,
+      "return": 13260,
+      "date": "2024-01-21"
+    },
+    {
+      "id": "inv-180",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "BBDC4",
+      "value": 119352,
+      "return": 17369,
+      "date": "2024-03-20"
+    },
+    {
+      "id": "inv-181",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "WEGE3",
+      "value": 194231,
+      "return": 12118,
+      "date": "2024-02-15"
+    },
+    {
+      "id": "inv-182",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "MGLU3",
+      "value": 83144,
+      "return": 5227,
+      "date": "2024-03-23"
+    },
+    {
+      "id": "inv-183",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "SUZB3",
+      "value": 123336,
+      "return": 21168,
+      "date": "2024-02-19"
+    },
+    {
+      "id": "inv-184",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "ELET3",
+      "value": 218024,
+      "return": 8532,
+      "date": "2024-02-12"
+    },
+    {
+      "id": "inv-185",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "ABEV3",
+      "value": 153612,
+      "return": 15159,
+      "date": "2024-03-23"
+    },
+    {
+      "id": "inv-186",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "RENT3",
+      "value": 63376,
+      "return": 33687,
+      "date": "2024-03-14"
+    },
+    {
+      "id": "inv-187",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "BRAP4",
+      "value": 67707,
+      "return": 34114,
+      "date": "2024-03-21"
+    },
+    {
+      "id": "inv-188",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "CSAN3",
+      "value": 121655,
+      "return": 14626,
+      "date": "2024-02-07"
+    },
+    {
+      "id": "inv-189",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "CMIG4",
+      "value": 75750,
+      "return": 32259,
+      "date": "2024-01-28"
+    },
+    {
+      "id": "inv-190",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "BRFS3",
+      "value": 224655,
+      "return": 9030,
+      "date": "2024-02-28"
+    },
+    {
+      "id": "inv-191",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "UGPA3",
+      "value": 95681,
+      "return": 24976,
+      "date": "2024-02-19"
+    },
+    {
+      "id": "inv-192",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "GGBR4",
+      "value": 226700,
+      "return": 34660,
+      "date": "2024-01-26"
+    },
+    {
+      "id": "inv-193",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "USIM5",
+      "value": 223970,
+      "return": 11842,
+      "date": "2024-02-07"
+    },
+    {
+      "id": "inv-194",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "CYRE3",
+      "value": 118892,
+      "return": 21245,
+      "date": "2024-03-07"
+    },
+    {
+      "id": "inv-195",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "CCRO3",
+      "value": 153307,
+      "return": 23192,
+      "date": "2024-02-08"
+    },
+    {
+      "id": "inv-196",
+      "userId": "investor-9",
+      "type": "AÃ§Ãµes",
+      "name": "EQTL3",
+      "value": 210426,
+      "return": 7578,
+      "date": "2024-01-15"
+    },
+    {
+      "id": "inv-197",
+      "userId": "investor-9",
+      "type": "Fundos",
+      "name": "Fundo Balanced Elite",
+      "value": 191934,
+      "return": 21475,
+      "date": "2024-03-07"
+    },
+    {
+      "id": "inv-198",
+      "userId": "investor-9",
+      "type": "Tesouro",
+      "name": "Tesouro IPCA+ 2033",
+      "value": 261877,
+      "return": 19133,
+      "date": "2024-02-28"
+    }
+  ]
+}

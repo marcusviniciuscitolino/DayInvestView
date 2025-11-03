@@ -1,0 +1,41 @@
+{
+  "themes": [
+    {
+      "id": "theme-default",
+      "name": "Tema Padrão",
+      "primaryColor": "#1A3B7A",
+      "accentColor": "#4CAF50",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#000000",
+      "isCustom": false
+    },
+    {
+      "id": "theme-dark",
+      "name": "Tema Escuro",
+      "primaryColor": "#0A2B6A",
+      "accentColor": "#66BB6A",
+      "backgroundColor": "#1E1E1E",
+      "textColor": "#FFFFFF",
+      "isCustom": false
+    },
+    {
+      "id": "theme-blue",
+      "name": "Tema Azul Claro",
+      "primaryColor": "#2196F3",
+      "accentColor": "#FF9800",
+      "backgroundColor": "#F5F5F5",
+      "textColor": "#212121",
+      "isCustom": false
+    },
+    {
+      "id": "theme-green",
+      "name": "Tema Verde",
+      "primaryColor": "#388E3C",
+      "accentColor": "#1976D2",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#000000",
+      "isCustom": false
+    }
+  ]
+}
+

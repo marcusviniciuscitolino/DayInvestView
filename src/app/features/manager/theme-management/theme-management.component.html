@@ -1,0 +1,36 @@
+<div class="theme-management">
+  <div class="header">
+    <h1>Gerenciamento de Temas</h1>
+    <button mat-raised-button color="primary" (click)="openCreateDialog()">
+      <mat-icon>add</mat-icon>
+      Criar Novo Tema
+    </button>
+  </div>
+
+  <div class="themes-grid">
+    <mat-card *ngFor="let theme of themes" class="theme-card">
+      <div class="theme-preview" [style.background-color]="theme.backgroundColor">
+        <div class="preview-header" [style.background-color]="theme.primaryColor">
+          <span [style.color]="theme.textColor">Preview</span>
+        </div>
+        <div class="preview-content">
+          <div class="preview-box" [style.background-color]="theme.primaryColor"></div>
+          <div class="preview-box" [style.background-color]="theme.accentColor"></div>
+        </div>
+      </div>
+      <mat-card-content>
+        <h3>{{ theme.name }}</h3>
+        <p *ngIf="theme.isCustom" class="custom-badge">Tema Personalizado</p>
+        <div class="theme-colors">
+          <span class="color-label">Cor Principal:</span>
+          <div class="color-box" [style.background-color]="theme.primaryColor"></div>
+        </div>
+        <div class="theme-colors">
+          <span class="color-label">Cor de Destaque:</span>
+          <div class="color-box" [style.background-color]="theme.accentColor"></div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+

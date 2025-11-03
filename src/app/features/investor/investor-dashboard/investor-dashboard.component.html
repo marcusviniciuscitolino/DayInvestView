@@ -1,0 +1,57 @@
+<div class="investor-dashboard" *ngIf="!loading && portfolio">
+  <div class="dashboard-header">
+    <h1>Meu Portfólio</h1>
+    <div class="summary-cards">
+      <mat-card class="summary-card">
+        <mat-card-content>
+          <h3>Valor Total</h3>
+          <p class="value">{{ portfolio.totalValue | currency:'BRL':'symbol':'1.2-2' }}</p>
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="summary-card">
+        <mat-card-content>
+          <h3>Retorno Total</h3>
+          <p class="value positive">{{ portfolio.totalReturn | currency:'BRL':'symbol':'1.2-2' }}</p>
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="summary-card">
+        <mat-card-content>
+          <h3>Percentual de Retorno</h3>
+          <p class="value positive">{{ portfolio.returnPercentage | number:'1.2-2' }}%</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+
+    <div class="charts-container">
+      <div class="chart-wrapper" *ngIf="config && getChartConfig('1') && portfolio">
+        <app-portfolio-chart [data]="getFilteredPortfolio('1') || portfolio"></app-portfolio-chart>
+      </div>
+      <div class="chart-wrapper" *ngIf="config && getChartConfig('2') && portfolio">
+        <app-distribution-chart [data]="getFilteredPortfolio('2') || portfolio"></app-distribution-chart>
+      </div>
+      <div class="chart-wrapper" *ngIf="config && getChartConfig('3') && portfolio">
+        <app-composition-chart [data]="getFilteredPortfolio('3') || portfolio"></app-composition-chart>
+      </div>
+      <div class="chart-wrapper" *ngIf="config && getChartConfig('4') && portfolio">
+        <app-returns-chart [data]="getFilteredPortfolio('4') || portfolio"></app-returns-chart>
+      </div>
+    
+      <div class="no-config" *ngIf="!config || hasNoCharts()">
+        <mat-icon>info</mat-icon>
+        <h3>Dashboard não configurado</h3>
+        <p>Seu dashboard ainda não foi configurado ou não há gráficos disponíveis.</p>
+        <p>Entre em contato com seu gerente para configurar seu dashboard.</p>
+      </div>
+    </div>
+
+    <!-- Seção de ações abaixo de tudo -->
+    <div class="stocks-container" *ngIf="config && getChartConfig('5') && portfolio">
+      <app-stocks-info [data]="portfolio"></app-stocks-info>
+    </div>
+</div>
+
+<div *ngIf="loading" class="loading">
+  <p>Carregando...</p>
+</div>
+

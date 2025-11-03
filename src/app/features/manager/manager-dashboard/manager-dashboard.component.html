@@ -1,0 +1,30 @@
+<div class="manager-dashboard">
+  <h1>Painel do Gerente</h1>
+  
+  <div class="cards-grid">
+    <mat-card class="dashboard-card" (click)="navigate('/manager/themes')">
+      <mat-card-header>
+        <mat-card-title>
+          <mat-icon>palette</mat-icon>
+          Gerenciar Temas
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Criar e gerenciar temas personalizados para os dashboards dos investidores.</p>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="dashboard-card" (click)="navigate('/manager/clients')">
+      <mat-card-header>
+        <mat-card-title>
+          <mat-icon>people</mat-icon>
+          Configurar Clientes
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Configurar dashboards e modos de visualização para cada investidor.</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+

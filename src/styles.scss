@@ -1,0 +1,35 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+$primary-color: #1A3B7A;
+$primary-light: #2A4B8A;
+$primary-dark: #0A2B6A;
+$accent-color: #4CAF50;
+$warn-color: #F44336;
+
+:root {
+  --primary-color: #{$primary-color};
+  --primary-light: #{$primary-light};
+  --primary-dark: #{$primary-dark};
+  --accent-color: #{$accent-color};
+  --warn-color: #{$warn-color};
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-mdc-button.mat-primary {
+  --mdc-filled-button-container-color: #{$primary-color};
+}
+
+.mat-mdc-button.mat-accent {
+  --mdc-filled-button-container-color: #{$accent-color};
+}
+

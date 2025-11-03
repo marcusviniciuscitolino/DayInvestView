@@ -1,0 +1,174 @@
+.investor-layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--background-color, #f8f9fa);
+
+  .sidenav-container {
+    flex: 1;
+    height: 100%;
+
+    .sidenav {
+      width: 280px;
+      background: var(--background-color, #ffffff);
+      box-shadow: 4px 0 20px rgba(0, 0, 0, 0.08);
+      border-right: 1px solid rgba(26, 59, 122, 0.1);
+
+      @media (max-width: 959px) {
+        width: 300px;
+      }
+
+      mat-nav-list {
+        padding-top: 16px;
+
+        a {
+          display: flex;
+          align-items: center;
+          padding: 16px 24px;
+          color: var(--text-color, #333);
+          text-decoration: none;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          margin: 6px 12px;
+          border-radius: 16px;
+          position: relative;
+          overflow: hidden;
+
+          mat-icon {
+            margin-right: 16px;
+            color: var(--text-color, #666);
+            opacity: 0.7;
+            transition: all 0.3s ease;
+            font-size: 24px;
+            width: 24px;
+            height: 24px;
+          }
+
+          .nav-label {
+            flex: 1;
+            font-weight: 500;
+            font-size: 1rem;
+          }
+
+          &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--primary-color, #1A3B7A);
+            transform: scaleY(0);
+            transition: transform 0.3s ease;
+          }
+
+          &:hover {
+            background: rgba(26, 59, 122, 0.08);
+            transform: translateX(8px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+            mat-icon {
+              color: var(--primary-color, #1A3B7A);
+              opacity: 1;
+              transform: scale(1.1);
+            }
+          }
+
+          &.active {
+            background: rgba(26, 59, 122, 0.12);
+            color: var(--primary-color, #1A3B7A);
+            font-weight: 700;
+            box-shadow: 0 4px 16px rgba(26, 59, 122, 0.15);
+
+            &::before {
+              transform: scaleY(1);
+            }
+
+            mat-icon {
+              color: var(--primary-color, #1A3B7A);
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+
+    mat-toolbar {
+      background: linear-gradient(135deg, 
+        var(--primary-color, #1A3B7A) 0%, 
+        var(--primary-color, #2C5AA0) 100%);
+      color: var(--text-color, white);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      height: 72px;
+      padding: 0 24px;
+
+      .menu-toggle {
+        margin-right: 20px;
+        transition: all 0.3s ease;
+
+        &:hover {
+          transform: scale(1.15) rotate(90deg);
+        }
+      }
+
+      .logo {
+        font-size: 1.75rem;
+        font-weight: 700;
+        letter-spacing: -1px;
+        background: linear-gradient(135deg, #ffffff 0%, rgba(255, 255, 255, 0.9) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .spacer {
+        flex: 1 1 auto;
+      }
+    }
+
+    .content {
+      flex: 1;
+      overflow: auto;
+      padding: 40px;
+      background: var(--background-color, #f8f9fa);
+      min-height: calc(100vh - 72px);
+      position: relative;
+
+      @media (max-width: 768px) {
+        padding: 24px;
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, 
+          transparent 0%, 
+          rgba(26, 59, 122, 0.1) 50%, 
+          transparent 100%);
+      }
+    }
+  }
+}
+
+.user-info {
+  padding: 16px;
+  
+  p {
+    margin: 0;
+    color: var(--text-color, #000);
+    
+    &.role {
+      font-size: 0.875rem;
+      color: var(--text-color, #666);
+      opacity: 0.7;
+      margin-top: 4px;
+    }
+  }
+}
+

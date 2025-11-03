@@ -1,0 +1,96 @@
+<div class="client-configuration">
+  <h1>Configuração de Clientes</h1>
+
+  <div class="configuration-container">
+    <div class="investors-selection">
+      <h2>Configurar Cliente</h2>
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Buscar Cliente</mat-label>
+        <input 
+          type="text"
+          matInput
+          [formControl]="investorControl"
+          [matAutocomplete]="auto"
+          placeholder="Digite o nome ou email do cliente">
+        <mat-autocomplete 
+          #auto="matAutocomplete"
+          [displayWith]="displayInvestor"
+          (optionSelected)="onInvestorSelected($event)">
+          <mat-option *ngFor="let investor of filteredInvestors$ | async" [value]="investor">
+            <div class="investor-option">
+              <span class="investor-name">{{ investor.name }}</span>
+              <span class="investor-email">{{ investor.email }}</span>
+            </div>
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+    </div>
+
+    <div class="configuration-panel" *ngIf="selectedInvestor">
+      <h2>Configurar: {{ selectedInvestor.name }}</h2>
+
+      <div class="config-section">
+        <h3>Selecionar Tema</h3>
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Tema</mat-label>
+          <mat-select [(value)]="selectedTheme" [compareWith]="compareThemes" (selectionChange)="onThemeChange($event.value)">
+            <mat-option *ngFor="let theme of themes" [value]="theme">
+              {{ theme.name }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div class="config-section">
+        <h3>Selecionar Gráficos</h3>
+        <div class="charts-list">
+          <div 
+            *ngFor="let chart of availableCharts" 
+            class="chart-card-wrapper">
+            <mat-card 
+              class="chart-card"
+              [class.selected]="isChartSelected(chart.id)"
+              (click)="toggleChart(chart)">
+              <mat-card-content>
+                <mat-checkbox 
+                  [checked]="isChartSelected(chart.id)"
+                  (click)="$event.stopPropagation()">
+                </mat-checkbox>
+                <div class="chart-info">
+                  <h4>{{ chart.title }}</h4>
+                  <p>Tipo: {{ chart.type }}</p>
+                </div>
+              </mat-card-content>
+            </mat-card>
+            
+            <div class="chart-filters" *ngIf="isChartSelected(chart.id) && chart.type !== 'stocks'">
+              <h5>Tipos de Investimento a Exibir:</h5>
+              <div class="filter-checkboxes">
+                <mat-checkbox 
+                  *ngFor="let type of availableTypes"
+                  [checked]="getChartFilterTypes(chart.id).includes(type)"
+                  (change)="toggleFilterType(chart.id, type, $event.checked)"
+                  (click)="$event.stopPropagation()">
+                  {{ type }}
+                </mat-checkbox>
+              </div>
+            </div>
+            <div class="chart-filters" *ngIf="isChartSelected(chart.id) && chart.type === 'stocks'">
+              <p class="info-text">Este gráfico exibe automaticamente apenas informações de ações.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button 
+        mat-raised-button 
+        color="primary" 
+        class="save-button"
+        (click)="saveConfiguration()"
+        [disabled]="!selectedTheme">
+        Salvar Configuração
+      </button>
+    </div>
+  </div>
+</div>
+

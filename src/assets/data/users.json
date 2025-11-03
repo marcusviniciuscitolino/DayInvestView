@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": "manager-1",
+      "name": "João Silva",
+      "email": "joao.silva@bank.com",
+      "role": "manager",
+      "password": "manager123"
+    },
+    {
+      "id": "investor-1",
+      "name": "Maria Santos",
+      "email": "maria.santos@email.com",
+      "role": "investor",
+      "password": "investor123"
+    },
+    {
+      "id": "investor-2",
+      "name": "Carlos Oliveira",
+      "email": "carlos.oliveira@email.com",
+      "role": "investor",
+      "password": "investor123"
+    },
+    {
+      "id": "investor-3",
+      "name": "Ana Costa",
+      "email": "ana.costa@email.com",
+      "role": "investor",
+      "password": "investor123"
+    },
+    {
+      "id": "investor-4",
+      "name": "Pedro Almeida",
+      "email": "pedro.almeida@email.com",
+      "role": "investor",
+      "password": "investor123"
+    },
+    {
+      "id": "investor-5",
+      "name": "Julia Ferreira",
+      "email": "julia.ferreira@email.com",
+      "role": "investor",
+      "password": "investor123"
+    },
+    {
+      "id": "investor-6",
+      "name": "Ricardo Souza",
+      "email": "ricardo.souza@email.com",
+      "role": "investor",
+      "password": "investor123"
+    },
+    {
+      "id": "investor-7",
+      "name": "Fernanda Lima",
+      "email": "fernanda.lima@email.com",
+      "role": "investor",
+      "password": "investor123"
+    },
+    {
+      "id": "investor-8",
+      "name": "Lucas Martins",
+      "email": "lucas.martins@email.com",
+      "role": "investor",
+      "password": "investor123"
+    },
+    {
+      "id": "investor-9",
+      "name": "Isabela Rocha",
+      "email": "isabela.rocha@email.com",
+      "role": "investor",
+      "password": "investor123"
+    }
+  ]
+}
+

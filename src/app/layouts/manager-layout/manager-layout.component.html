@@ -1,0 +1,53 @@
+<div class="manager-layout">
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav mode="side" class="sidenav" fixedInViewport="true">
+      <mat-nav-list>
+        <a mat-list-item routerLink="/manager" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+          <mat-icon>dashboard</mat-icon>
+          <span class="nav-label">Home</span>
+        </a>
+        <a mat-list-item routerLink="/manager/themes" routerLinkActive="active">
+          <mat-icon>palette</mat-icon>
+          <span class="nav-label">Gerenciar Temas</span>
+        </a>
+        <a mat-list-item routerLink="/manager/clients" routerLinkActive="active">
+          <mat-icon>people</mat-icon>
+          <span class="nav-label">Configurar Clientes</span>
+        </a>
+        <a mat-list-item routerLink="/manager/view-client" routerLinkActive="active">
+          <mat-icon>visibility</mat-icon>
+          <span class="nav-label">Visualizar Dashboard Cliente</span>
+        </a>
+      </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <mat-toolbar color="primary">
+        <button mat-icon-button (click)="sidenav.toggle()" class="menu-toggle">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span class="logo">DayInvestView</span>
+        <span class="spacer"></span>
+        <button mat-icon-button [matMenuTriggerFor]="userMenu">
+          <mat-icon>account_circle</mat-icon>
+        </button>
+        <mat-menu #userMenu="matMenu">
+          <div class="user-info">
+            <p>{{ userName }}</p>
+            <p class="role">Gerente</p>
+          </div>
+          <mat-divider></mat-divider>
+          <button mat-menu-item (click)="logout()">
+            <mat-icon>logout</mat-icon>
+            <span>Sair</span>
+          </button>
+        </mat-menu>
+      </mat-toolbar>
+      
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+

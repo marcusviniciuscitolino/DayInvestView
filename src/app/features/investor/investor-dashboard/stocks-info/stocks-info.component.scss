@@ -1,0 +1,241 @@
+.stocks-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+
+  .highlight-card, .table-card {
+    width: 100%;
+    background: transparent !important;
+    box-shadow: none !important;
+
+    ::ng-deep mat-card-header {
+      mat-card-title {
+        color: var(--text-color, #000000);
+        font-weight: 700;
+      }
+    }
+
+    ::ng-deep mat-card-content {
+      color: var(--text-color, #000000);
+      background: transparent !important;
+    }
+
+    // Garantir que o conteúdo do card seja transparente
+    ::ng-deep .mat-mdc-card-content {
+      background: transparent !important;
+    }
+  }
+
+  .highlights-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 16px;
+
+    .highlight-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 20px;
+      position: relative;
+      border-radius: 8px;
+      border-left: 4px solid var(--primary-color, #1A3B7A);
+      transition: transform 0.2s, box-shadow 0.2s;
+      
+      // Background adaptativo para tema claro e escuro
+      background: linear-gradient(135deg, 
+        rgba(26, 59, 122, 0.05) 0%, 
+        rgba(255, 107, 53, 0.03) 100%);
+      
+      // Para tema escuro, adiciona uma camada mais escura
+      background-color: rgba(255, 255, 255, 0.02);
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .highlight-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: var(--primary-color, #1A3B7A);
+        color: white;
+        flex-shrink: 0;
+
+        mat-icon {
+          font-size: 24px;
+          width: 24px;
+          height: 24px;
+        }
+      }
+
+      .highlight-content {
+        flex: 1;
+
+        h4 {
+          margin: 0 0 8px 0;
+          font-size: 14px;
+          font-weight: 500;
+          color: var(--text-color, #000000);
+          opacity: 0.6;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+        }
+
+        .stock-name {
+          margin: 0 0 8px 0;
+          font-size: 20px;
+          font-weight: 600;
+          color: var(--text-color, #000000);
+        }
+
+        .stock-value {
+          margin: 0 0 4px 0;
+          font-size: 24px;
+          font-weight: 700;
+          color: var(--primary-color, #1A3B7A);
+        }
+
+        .stock-detail {
+          margin: 4px 0;
+          font-size: 14px;
+          color: var(--text-color, #000000);
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  .stocks-table {
+    width: 100%;
+    margin-top: 16px;
+    background: transparent !important;
+
+    // Estilizar tabela do Material para tema dark
+    ::ng-deep {
+      table {
+        background: transparent !important;
+        width: 100%;
+      }
+
+      thead {
+        background: transparent !important;
+
+        tr {
+          background: transparent !important;
+
+          th {
+            font-weight: 600;
+            color: var(--text-color, #000000) !important;
+            background: transparent !important;
+            padding: 12px 16px !important;
+          }
+        }
+      }
+
+      tbody {
+        background: transparent !important;
+
+        tr {
+          background: transparent !important;
+
+          td {
+            color: var(--text-color, #000000) !important;
+            background: transparent !important;
+            padding: 12px 16px !important;
+          }
+        }
+      }
+
+      // Bordas adaptativas - para tema claro
+      thead tr {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.2) !important;
+      }
+
+      tbody tr {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+
+        &:hover {
+          background: rgba(0, 0, 0, 0.02) !important;
+        }
+
+        &:last-child {
+          border-bottom: none !important;
+        }
+      }
+
+      // Para tema escuro - sobrescrever com bordas brancas
+      [style*="--text-color: #FFFFFF"],
+      [style*="--text-color: #ffffff"],
+      [style*="--text-color: #fff"] {
+        thead tr {
+          border-bottom-color: rgba(255, 255, 255, 0.2) !important;
+        }
+
+        tbody tr {
+          border-bottom-color: rgba(255, 255, 255, 0.12) !important;
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.04) !important;
+          }
+        }
+      }
+    }
+
+    th {
+      font-weight: 600;
+      color: var(--text-color, #000000);
+    }
+
+    td {
+      color: var(--text-color, #000000);
+    }
+
+    .positive {
+      color: #4CAF50;
+      font-weight: 600;
+    }
+
+    .negative {
+      color: #F44336;
+      font-weight: 600;
+    }
+  }
+
+  .no-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    color: var(--text-color, #000000);
+    opacity: 0.5;
+
+    mat-icon {
+      font-size: 48px;
+      width: 48px;
+      height: 48px;
+      margin-bottom: 16px;
+      opacity: 0.5;
+    }
+
+    p {
+      margin: 0;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .stocks-info {
+    .highlights-container {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
