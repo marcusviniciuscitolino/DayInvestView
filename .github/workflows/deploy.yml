@@ -42,6 +42,8 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
+        # Se der erro aqui, você precisa habilitar GitHub Pages manualmente:
+        # Settings → Pages → Source: GitHub Actions
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
