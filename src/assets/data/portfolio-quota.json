@@ -1,0 +1,2440 @@
+{
+  "portfolioQuota": [
+    {
+      "id": "quota-1",
+      "userId": "investor-1",
+      "date": "2023-01-02",
+      "quotaValue": 1
+    },
+    {
+      "id": "quota-2",
+      "userId": "investor-1",
+      "date": "2023-01-03",
+      "quotaValue": 0.963903586493601
+    },
+    {
+      "id": "quota-3",
+      "userId": "investor-1",
+      "date": "2023-01-04",
+      "quotaValue": 0.970191015857773
+    },
+    {
+      "id": "quota-4",
+      "userId": "investor-1",
+      "date": "2023-01-05",
+      "quotaValue": 0.986431977678062
+    },
+    {
+      "id": "quota-5",
+      "userId": "investor-1",
+      "date": "2023-01-06",
+      "quotaValue": 0.984476931233978
+    },
+    {
+      "id": "quota-6",
+      "userId": "investor-1",
+      "date": "2023-01-09",
+      "quotaValue": 0.983890417300753
+    },
+    {
+      "id": "quota-7",
+      "userId": "investor-1",
+      "date": "2023-01-10",
+      "quotaValue": 0.992071895659953
+    },
+    {
+      "id": "quota-8",
+      "userId": "investor-1",
+      "date": "2023-01-11",
+      "quotaValue": 0.99785883313444
+    },
+    {
+      "id": "quota-9",
+      "userId": "investor-1",
+      "date": "2023-01-12",
+      "quotaValue": 1.01287828193647
+    },
+    {
+      "id": "quota-10",
+      "userId": "investor-1",
+      "date": "2023-01-13",
+      "quotaValue": 1.00858499994526
+    },
+    {
+      "id": "quota-11",
+      "userId": "investor-1",
+      "date": "2023-01-16",
+      "quotaValue": 1.00079765894919
+    },
+    {
+      "id": "quota-12",
+      "userId": "investor-1",
+      "date": "2023-01-17",
+      "quotaValue": 1.02162437770872
+    },
+    {
+      "id": "quota-13",
+      "userId": "investor-1",
+      "date": "2023-01-18",
+      "quotaValue": 1.01741398968674
+    },
+    {
+      "id": "quota-14",
+      "userId": "investor-1",
+      "date": "2023-01-19",
+      "quotaValue": 1.01783002357004
+    },
+    {
+      "id": "quota-15",
+      "userId": "investor-1",
+      "date": "2023-01-20",
+      "quotaValue": 1.03516737543617
+    },
+    {
+      "id": "quota-16",
+      "userId": "investor-1",
+      "date": "2023-01-23",
+      "quotaValue": 1.03456678516855
+    },
+    {
+      "id": "quota-17",
+      "userId": "investor-1",
+      "date": "2023-01-24",
+      "quotaValue": 1.03033919273786
+    },
+    {
+      "id": "quota-18",
+      "userId": "investor-1",
+      "date": "2023-01-25",
+      "quotaValue": 1.0420647792909
+    },
+    {
+      "id": "quota-19",
+      "userId": "investor-1",
+      "date": "2023-01-26",
+      "quotaValue": 1.02669498616609
+    },
+    {
+      "id": "quota-20",
+      "userId": "investor-1",
+      "date": "2023-01-27",
+      "quotaValue": 1.01637390497849
+    },
+    {
+      "id": "quota-21",
+      "userId": "investor-1",
+      "date": "2023-01-30",
+      "quotaValue": 1.01939562476246
+    },
+    {
+      "id": "quota-22",
+      "userId": "investor-1",
+      "date": "2023-01-31",
+      "quotaValue": 1.02064841852383
+    },
+    {
+      "id": "quota-23",
+      "userId": "investor-1",
+      "date": "2023-02-01",
+      "quotaValue": 1.01528220704411
+    },
+    {
+      "id": "quota-24",
+      "userId": "investor-1",
+      "date": "2023-02-02",
+      "quotaValue": 0.9999405665881
+    },
+    {
+      "id": "quota-25",
+      "userId": "investor-1",
+      "date": "2023-02-03",
+      "quotaValue": 0.995462728212572
+    },
+    {
+      "id": "quota-26",
+      "userId": "investor-1",
+      "date": "2023-02-06",
+      "quotaValue": 1.01192421927175
+    },
+    {
+      "id": "quota-27",
+      "userId": "investor-1",
+      "date": "2023-02-07",
+      "quotaValue": 1.01715435951897
+    },
+    {
+      "id": "quota-28",
+      "userId": "investor-1",
+      "date": "2023-02-08",
+      "quotaValue": 1.02263943782249
+    },
+    {
+      "id": "quota-29",
+      "userId": "investor-1",
+      "date": "2023-02-09",
+      "quotaValue": 1.02439428751069
+    },
+    {
+      "id": "quota-30",
+      "userId": "investor-1",
+      "date": "2023-02-10",
+      "quotaValue": 1.03149658023276
+    },
+    {
+      "id": "quota-31",
+      "userId": "investor-1",
+      "date": "2023-02-13",
+      "quotaValue": 1.03721782814673
+    },
+    {
+      "id": "quota-32",
+      "userId": "investor-1",
+      "date": "2023-02-14",
+      "quotaValue": 1.03843152097921
+    },
+    {
+      "id": "quota-33",
+      "userId": "investor-1",
+      "date": "2023-02-15",
+      "quotaValue": 1.03982195001025
+    },
+    {
+      "id": "quota-34",
+      "userId": "investor-1",
+      "date": "2023-02-16",
+      "quotaValue": 1.0444108350238
+    },
+    {
+      "id": "quota-35",
+      "userId": "investor-1",
+      "date": "2023-02-17",
+      "quotaValue": 1.04241668765083
+    },
+    {
+      "id": "quota-36",
+      "userId": "investor-1",
+      "date": "2023-02-22",
+      "quotaValue": 1.03078963543858
+    },
+    {
+      "id": "quota-37",
+      "userId": "investor-1",
+      "date": "2023-02-23",
+      "quotaValue": 1.0399111001281
+    },
+    {
+      "id": "quota-38",
+      "userId": "investor-1",
+      "date": "2023-02-24",
+      "quotaValue": 1.03015776442785
+    },
+    {
+      "id": "quota-39",
+      "userId": "investor-1",
+      "date": "2023-02-27",
+      "quotaValue": 1.03406629327886
+    },
+    {
+      "id": "quota-40",
+      "userId": "investor-1",
+      "date": "2023-02-28",
+      "quotaValue": 1.01611740288502
+    },
+    {
+      "id": "quota-41",
+      "userId": "investor-1",
+      "date": "2023-03-01",
+      "quotaValue": 1.01537135716196
+    },
+    {
+      "id": "quota-42",
+      "userId": "investor-1",
+      "date": "2023-03-02",
+      "quotaValue": 1.00487353977581
+    },
+    {
+      "id": "quota-43",
+      "userId": "investor-1",
+      "date": "2023-03-03",
+      "quotaValue": 1.01928145005013
+    },
+    {
+      "id": "quota-44",
+      "userId": "investor-1",
+      "date": "2023-03-06",
+      "quotaValue": 1.02750984952399
+    },
+    {
+      "id": "quota-45",
+      "userId": "investor-1",
+      "date": "2023-03-07",
+      "quotaValue": 1.01288297404793
+    },
+    {
+      "id": "quota-46",
+      "userId": "investor-1",
+      "date": "2023-03-08",
+      "quotaValue": 1.01721379293087
+    },
+    {
+      "id": "quota-47",
+      "userId": "investor-1",
+      "date": "2023-03-09",
+      "quotaValue": 1.02184647098477
+    },
+    {
+      "id": "quota-48",
+      "userId": "investor-1",
+      "date": "2023-03-10",
+      "quotaValue": 1.01686344860809
+    },
+    {
+      "id": "quota-49",
+      "userId": "investor-1",
+      "date": "2023-03-13",
+      "quotaValue": 1.00826750040274
+    },
+    {
+      "id": "quota-50",
+      "userId": "investor-1",
+      "date": "2023-03-14",
+      "quotaValue": 1.00035972854571
+    },
+    {
+      "id": "quota-51",
+      "userId": "investor-1",
+      "date": "2023-03-15",
+      "quotaValue": 0.990090260584231
+    },
+    {
+      "id": "quota-52",
+      "userId": "investor-1",
+      "date": "2023-03-16",
+      "quotaValue": 0.993693802189965
+    },
+    {
+      "id": "quota-53",
+      "userId": "investor-1",
+      "date": "2023-03-17",
+      "quotaValue": 0.997400570247947
+    },
+    {
+      "id": "quota-54",
+      "userId": "investor-1",
+      "date": "2023-03-20",
+      "quotaValue": 0.99199056572788
+    },
+    {
+      "id": "quota-55",
+      "userId": "investor-1",
+      "date": "2023-03-21",
+      "quotaValue": 0.998115335227904
+    },
+    {
+      "id": "quota-56",
+      "userId": "investor-1",
+      "date": "2023-03-22",
+      "quotaValue": 0.995798996200954
+    },
+    {
+      "id": "quota-57",
+      "userId": "investor-1",
+      "date": "2023-03-23",
+      "quotaValue": 0.991896723498564
+    },
+    {
+      "id": "quota-58",
+      "userId": "investor-1",
+      "date": "2023-03-24",
+      "quotaValue": 0.997197245417763
+    },
+    {
+      "id": "quota-59",
+      "userId": "investor-1",
+      "date": "2023-03-27",
+      "quotaValue": 1.00188779284641
+    },
+    {
+      "id": "quota-60",
+      "userId": "investor-1",
+      "date": "2023-03-28",
+      "quotaValue": 1.01327711141106
+    },
+    {
+      "id": "quota-61",
+      "userId": "investor-1",
+      "date": "2023-03-29",
+      "quotaValue": 1.01895769435899
+    },
+    {
+      "id": "quota-62",
+      "userId": "investor-1",
+      "date": "2023-03-30",
+      "quotaValue": 1.01984293938887
+    },
+    {
+      "id": "quota-63",
+      "userId": "investor-1",
+      "date": "2023-03-31",
+      "quotaValue": 1.01045871645727
+    },
+    {
+      "id": "quota-64",
+      "userId": "investor-1",
+      "date": "2023-04-03",
+      "quotaValue": 1.02424257590663
+    },
+    {
+      "id": "quota-65",
+      "userId": "investor-1",
+      "date": "2023-04-04",
+      "quotaValue": 1.02526076409471
+    },
+    {
+      "id": "quota-66",
+      "userId": "investor-1",
+      "date": "2023-04-05",
+      "quotaValue": 1.02578315250457
+    },
+    {
+      "id": "quota-67",
+      "userId": "investor-1",
+      "date": "2023-04-06",
+      "quotaValue": 1.02270356334585
+    },
+    {
+      "id": "quota-68",
+      "userId": "investor-1",
+      "date": "2023-04-10",
+      "quotaValue": 1.02886117762614
+    },
+    {
+      "id": "quota-69",
+      "userId": "investor-1",
+      "date": "2023-04-11",
+      "quotaValue": 1.04739971002751
+    },
+    {
+      "id": "quota-70",
+      "userId": "investor-1",
+      "date": "2023-04-12",
+      "quotaValue": 1.05119406416619
+    },
+    {
+      "id": "quota-71",
+      "userId": "investor-1",
+      "date": "2023-04-13",
+      "quotaValue": 1.05483045055218
+    },
+    {
+      "id": "quota-72",
+      "userId": "investor-1",
+      "date": "2023-04-14",
+      "quotaValue": 1.06512181503384
+    },
+    {
+      "id": "quota-73",
+      "userId": "investor-1",
+      "date": "2023-04-17",
+      "quotaValue": 1.07364894560435
+    },
+    {
+      "id": "quota-74",
+      "userId": "investor-1",
+      "date": "2023-04-18",
+      "quotaValue": 1.08720289159189
+    },
+    {
+      "id": "quota-75",
+      "userId": "investor-1",
+      "date": "2023-04-19",
+      "quotaValue": 1.06265689247714
+    },
+    {
+      "id": "quota-76",
+      "userId": "investor-1",
+      "date": "2023-04-20",
+      "quotaValue": 1.06887081209501
+    },
+    {
+      "id": "quota-77",
+      "userId": "investor-1",
+      "date": "2023-04-24",
+      "quotaValue": 1.07850058885999
+    },
+    {
+      "id": "quota-78",
+      "userId": "investor-1",
+      "date": "2023-04-25",
+      "quotaValue": 1.08126267847619
+    },
+    {
+      "id": "quota-79",
+      "userId": "investor-1",
+      "date": "2023-04-26",
+      "quotaValue": 1.07515354934772
+    },
+    {
+      "id": "quota-80",
+      "userId": "investor-1",
+      "date": "2023-04-27",
+      "quotaValue": 1.06957775688919
+    },
+    {
+      "id": "quota-81",
+      "userId": "investor-1",
+      "date": "2023-04-28",
+      "quotaValue": 1.04990326430195
+    },
+    {
+      "id": "quota-82",
+      "userId": "investor-1",
+      "date": "2023-05-02",
+      "quotaValue": 1.03574911469021
+    },
+    {
+      "id": "quota-83",
+      "userId": "investor-1",
+      "date": "2023-05-03",
+      "quotaValue": 1.03583221458631
+    },
+    {
+      "id": "quota-84",
+      "userId": "investor-1",
+      "date": "2023-05-04",
+      "quotaValue": 1.04294844222785
+    },
+    {
+      "id": "quota-85",
+      "userId": "investor-1",
+      "date": "2023-05-05",
+      "quotaValue": 1.05888923960587
+    },
+    {
+      "id": "quota-86",
+      "userId": "investor-1",
+      "date": "2023-05-08",
+      "quotaValue": 1.07302101616866
+    },
+    {
+      "id": "quota-87",
+      "userId": "investor-1",
+      "date": "2023-05-09",
+      "quotaValue": 1.07293631819763
+    },
+    {
+      "id": "quota-88",
+      "userId": "investor-1",
+      "date": "2023-05-10",
+      "quotaValue": 1.07116724925553
+    },
+    {
+      "id": "quota-89",
+      "userId": "investor-1",
+      "date": "2023-05-11",
+      "quotaValue": 1.09076124591236
+    },
+    {
+      "id": "quota-90",
+      "userId": "investor-1",
+      "date": "2023-05-12",
+      "quotaValue": 1.10616988434032
+    },
+    {
+      "id": "quota-91",
+      "userId": "investor-1",
+      "date": "2023-05-15",
+      "quotaValue": 1.10008585329291
+    },
+    {
+      "id": "quota-92",
+      "userId": "investor-1",
+      "date": "2023-05-16",
+      "quotaValue": 1.11473726602033
+    },
+    {
+      "id": "quota-93",
+      "userId": "investor-1",
+      "date": "2023-05-17",
+      "quotaValue": 1.09947578447515
+    },
+    {
+      "id": "quota-94",
+      "userId": "investor-1",
+      "date": "2023-05-18",
+      "quotaValue": 1.10842669969041
+    },
+    {
+      "id": "quota-95",
+      "userId": "investor-1",
+      "date": "2023-05-19",
+      "quotaValue": 1.10814544136736
+    },
+    {
+      "id": "quota-96",
+      "userId": "investor-1",
+      "date": "2023-05-22",
+      "quotaValue": 1.10692261713474
+    },
+    {
+      "id": "quota-97",
+      "userId": "investor-1",
+      "date": "2023-05-23",
+      "quotaValue": 1.11172566380031
+    },
+    {
+      "id": "quota-98",
+      "userId": "investor-1",
+      "date": "2023-05-24",
+      "quotaValue": 1.12018557503761
+    },
+    {
+      "id": "quota-99",
+      "userId": "investor-1",
+      "date": "2023-05-25",
+      "quotaValue": 1.11983378594217
+    },
+    {
+      "id": "quota-100",
+      "userId": "investor-1",
+      "date": "2023-05-26",
+      "quotaValue": 1.12174926797754
+    },
+    {
+      "id": "quota-101",
+      "userId": "investor-1",
+      "date": "2023-05-29",
+      "quotaValue": 1.12390971033401
+    },
+    {
+      "id": "quota-102",
+      "userId": "investor-1",
+      "date": "2023-05-30",
+      "quotaValue": 1.12174744695457
+    },
+    {
+      "id": "quota-103",
+      "userId": "investor-1",
+      "date": "2023-05-31",
+      "quotaValue": 1.11764807914907
+    },
+    {
+      "id": "quota-104",
+      "userId": "investor-1",
+      "date": "2023-06-01",
+      "quotaValue": 1.1262277618093
+    },
+    {
+      "id": "quota-105",
+      "userId": "investor-1",
+      "date": "2023-06-02",
+      "quotaValue": 1.13036590480513
+    },
+    {
+      "id": "quota-106",
+      "userId": "investor-1",
+      "date": "2023-06-05",
+      "quotaValue": 1.13465383861546
+    },
+    {
+      "id": "quota-107",
+      "userId": "investor-1",
+      "date": "2023-06-06",
+      "quotaValue": 1.14470281314379
+    },
+    {
+      "id": "quota-108",
+      "userId": "investor-1",
+      "date": "2023-06-07",
+      "quotaValue": 1.15501873200621
+    },
+    {
+      "id": "quota-109",
+      "userId": "investor-1",
+      "date": "2023-06-09",
+      "quotaValue": 1.16575317113014
+    },
+    {
+      "id": "quota-110",
+      "userId": "investor-1",
+      "date": "2023-06-12",
+      "quotaValue": 1.17242728817473
+    },
+    {
+      "id": "quota-111",
+      "userId": "investor-1",
+      "date": "2023-06-13",
+      "quotaValue": 1.15835591036318
+    },
+    {
+      "id": "quota-112",
+      "userId": "investor-1",
+      "date": "2023-06-14",
+      "quotaValue": 1.17019024766851
+    },
+    {
+      "id": "quota-113",
+      "userId": "investor-1",
+      "date": "2023-06-15",
+      "quotaValue": 1.16805221003209
+    },
+    {
+      "id": "quota-114",
+      "userId": "investor-1",
+      "date": "2023-06-16",
+      "quotaValue": 1.16748829796181
+    },
+    {
+      "id": "quota-115",
+      "userId": "investor-1",
+      "date": "2023-06-19",
+      "quotaValue": 1.17832829058691
+    },
+    {
+      "id": "quota-116",
+      "userId": "investor-1",
+      "date": "2023-06-20",
+      "quotaValue": 1.18086020044335
+    },
+    {
+      "id": "quota-117",
+      "userId": "investor-1",
+      "date": "2023-06-21",
+      "quotaValue": 1.19354344335703
+    },
+    {
+      "id": "quota-118",
+      "userId": "investor-1",
+      "date": "2023-06-22",
+      "quotaValue": 1.19248836570543
+    },
+    {
+      "id": "quota-119",
+      "userId": "investor-1",
+      "date": "2023-06-23",
+      "quotaValue": 1.17938667420363
+    },
+    {
+      "id": "quota-120",
+      "userId": "investor-1",
+      "date": "2023-06-26",
+      "quotaValue": 1.18781096036454
+    },
+    {
+      "id": "quota-121",
+      "userId": "investor-1",
+      "date": "2023-06-27",
+      "quotaValue": 1.18584657234973
+    },
+    {
+      "id": "quota-122",
+      "userId": "investor-1",
+      "date": "2023-06-28",
+      "quotaValue": 1.18672019468527
+    },
+    {
+      "id": "quota-123",
+      "userId": "investor-1",
+      "date": "2023-06-29",
+      "quotaValue": 1.18592159611407
+    },
+    {
+      "id": "quota-124",
+      "userId": "investor-1",
+      "date": "2023-06-30",
+      "quotaValue": 1.17725989489186
+    },
+    {
+      "id": "quota-125",
+      "userId": "investor-1",
+      "date": "2023-07-03",
+      "quotaValue": 1.18754791271813
+    },
+    {
+      "id": "quota-126",
+      "userId": "investor-1",
+      "date": "2023-07-04",
+      "quotaValue": 1.18475470226618
+    },
+    {
+      "id": "quota-127",
+      "userId": "investor-1",
+      "date": "2023-07-05",
+      "quotaValue": 1.18677778734905
+    },
+    {
+      "id": "quota-128",
+      "userId": "investor-1",
+      "date": "2023-07-06",
+      "quotaValue": 1.17649131455701
+    },
+    {
+      "id": "quota-129",
+      "userId": "investor-1",
+      "date": "2023-07-07",
+      "quotaValue": 1.18350603127511
+    },
+    {
+      "id": "quota-130",
+      "userId": "investor-1",
+      "date": "2023-07-10",
+      "quotaValue": 1.18017387307249
+    },
+    {
+      "id": "quota-131",
+      "userId": "investor-1",
+      "date": "2023-07-11",
+      "quotaValue": 1.17483652073195
+    },
+    {
+      "id": "quota-132",
+      "userId": "investor-1",
+      "date": "2023-07-12",
+      "quotaValue": 1.1747837418236
+    },
+    {
+      "id": "quota-133",
+      "userId": "investor-1",
+      "date": "2023-07-13",
+      "quotaValue": 1.18029452925404
+    },
+    {
+      "id": "quota-134",
+      "userId": "investor-1",
+      "date": "2023-07-14",
+      "quotaValue": 1.16944863602072
+    },
+    {
+      "id": "quota-135",
+      "userId": "investor-1",
+      "date": "2023-07-17",
+      "quotaValue": 1.17138864343601
+    },
+    {
+      "id": "quota-136",
+      "userId": "investor-1",
+      "date": "2023-07-18",
+      "quotaValue": 1.17181570611321
+    },
+    {
+      "id": "quota-137",
+      "userId": "investor-1",
+      "date": "2023-07-19",
+      "quotaValue": 1.17212505080017
+    },
+    {
+      "id": "quota-138",
+      "userId": "investor-1",
+      "date": "2023-07-20",
+      "quotaValue": 1.17203852044332
+    },
+    {
+      "id": "quota-139",
+      "userId": "investor-1",
+      "date": "2023-07-21",
+      "quotaValue": 1.18494219599136
+    },
+    {
+      "id": "quota-140",
+      "userId": "investor-1",
+      "date": "2023-07-24",
+      "quotaValue": 1.19457308371123
+    },
+    {
+      "id": "quota-141",
+      "userId": "investor-1",
+      "date": "2023-07-25",
+      "quotaValue": 1.202150339274
+    },
+    {
+      "id": "quota-142",
+      "userId": "investor-1",
+      "date": "2023-07-26",
+      "quotaValue": 1.20353135544432
+    },
+    {
+      "id": "quota-143",
+      "userId": "investor-1",
+      "date": "2023-07-27",
+      "quotaValue": 1.18680157405571
+    },
+    {
+      "id": "quota-144",
+      "userId": "investor-1",
+      "date": "2023-07-28",
+      "quotaValue": 1.19261416132347
+    },
+    {
+      "id": "quota-145",
+      "userId": "investor-1",
+      "date": "2023-07-31",
+      "quotaValue": 1.20631435459478
+    },
+    {
+      "id": "quota-146",
+      "userId": "investor-1",
+      "date": "2023-08-01",
+      "quotaValue": 1.20315233608763
+    },
+    {
+      "id": "quota-147",
+      "userId": "investor-1",
+      "date": "2023-08-02",
+      "quotaValue": 1.20213561604046
+    },
+    {
+      "id": "quota-148",
+      "userId": "investor-1",
+      "date": "2023-08-03",
+      "quotaValue": 1.20333677311723
+    },
+    {
+      "id": "quota-149",
+      "userId": "investor-1",
+      "date": "2023-08-04",
+      "quotaValue": 1.19642293969492
+    },
+    {
+      "id": "quota-150",
+      "userId": "investor-1",
+      "date": "2023-08-07",
+      "quotaValue": 1.19618666933319
+    },
+    {
+      "id": "quota-151",
+      "userId": "investor-1",
+      "date": "2023-08-08",
+      "quotaValue": 1.19888935409659
+    },
+    {
+      "id": "quota-152",
+      "userId": "investor-1",
+      "date": "2023-08-09",
+      "quotaValue": 1.19831797287717
+    },
+    {
+      "id": "quota-153",
+      "userId": "investor-1",
+      "date": "2023-08-10",
+      "quotaValue": 1.20328792090836
+    },
+    {
+      "id": "quota-154",
+      "userId": "investor-1",
+      "date": "2023-08-11",
+      "quotaValue": 1.20416558818808
+    },
+    {
+      "id": "quota-155",
+      "userId": "investor-1",
+      "date": "2023-08-14",
+      "quotaValue": 1.19985486760485
+    },
+    {
+      "id": "quota-156",
+      "userId": "investor-1",
+      "date": "2023-08-15",
+      "quotaValue": 1.20361683759148
+    },
+    {
+      "id": "quota-157",
+      "userId": "investor-1",
+      "date": "2023-08-16",
+      "quotaValue": 1.20495323821949
+    },
+    {
+      "id": "quota-158",
+      "userId": "investor-1",
+      "date": "2023-08-17",
+      "quotaValue": 1.19963131784893
+    },
+    {
+      "id": "quota-159",
+      "userId": "investor-1",
+      "date": "2023-08-18",
+      "quotaValue": 1.2049790069676
+    },
+    {
+      "id": "quota-160",
+      "userId": "investor-1",
+      "date": "2023-08-21",
+      "quotaValue": 1.19671508625846
+    },
+    {
+      "id": "quota-161",
+      "userId": "investor-1",
+      "date": "2023-08-22",
+      "quotaValue": 1.200791225602
+    },
+    {
+      "id": "quota-162",
+      "userId": "investor-1",
+      "date": "2023-08-23",
+      "quotaValue": 1.21667241118354
+    },
+    {
+      "id": "quota-163",
+      "userId": "investor-1",
+      "date": "2023-08-24",
+      "quotaValue": 1.21244179315216
+    },
+    {
+      "id": "quota-164",
+      "userId": "investor-1",
+      "date": "2023-08-25",
+      "quotaValue": 1.20732850766161
+    },
+    {
+      "id": "quota-165",
+      "userId": "investor-1",
+      "date": "2023-08-28",
+      "quotaValue": 1.21184912086197
+    },
+    {
+      "id": "quota-166",
+      "userId": "investor-1",
+      "date": "2023-08-29",
+      "quotaValue": 1.2151492429465
+    },
+    {
+      "id": "quota-167",
+      "userId": "investor-1",
+      "date": "2023-08-30",
+      "quotaValue": 1.2128735240705
+    },
+    {
+      "id": "quota-168",
+      "userId": "investor-1",
+      "date": "2023-08-31",
+      "quotaValue": 1.19805609429199
+    },
+    {
+      "id": "quota-169",
+      "userId": "investor-1",
+      "date": "2023-09-01",
+      "quotaValue": 1.20796101447869
+    },
+    {
+      "id": "quota-170",
+      "userId": "investor-1",
+      "date": "2023-09-04",
+      "quotaValue": 1.20723937547196
+    },
+    {
+      "id": "quota-171",
+      "userId": "investor-1",
+      "date": "2023-09-05",
+      "quotaValue": 1.20954887511801
+    },
+    {
+      "id": "quota-172",
+      "userId": "investor-1",
+      "date": "2023-09-06",
+      "quotaValue": 1.20552212202276
+    },
+    {
+      "id": "quota-173",
+      "userId": "investor-1",
+      "date": "2023-09-08",
+      "quotaValue": 1.20237587687954
+    },
+    {
+      "id": "quota-174",
+      "userId": "investor-1",
+      "date": "2023-09-11",
+      "quotaValue": 1.20845758467928
+    },
+    {
+      "id": "quota-175",
+      "userId": "investor-1",
+      "date": "2023-09-12",
+      "quotaValue": 1.21696566397656
+    },
+    {
+      "id": "quota-176",
+      "userId": "investor-1",
+      "date": "2023-09-13",
+      "quotaValue": 1.21491308010722
+    },
+    {
+      "id": "quota-177",
+      "userId": "investor-1",
+      "date": "2023-09-14",
+      "quotaValue": 1.22194442318064
+    },
+    {
+      "id": "quota-178",
+      "userId": "investor-1",
+      "date": "2023-09-15",
+      "quotaValue": 1.22082144014221
+    },
+    {
+      "id": "quota-179",
+      "userId": "investor-1",
+      "date": "2023-09-18",
+      "quotaValue": 1.22062679601782
+    },
+    {
+      "id": "quota-180",
+      "userId": "investor-1",
+      "date": "2023-09-19",
+      "quotaValue": 1.21756079137774
+    },
+    {
+      "id": "quota-181",
+      "userId": "investor-1",
+      "date": "2023-09-20",
+      "quotaValue": 1.22063360465491
+    },
+    {
+      "id": "quota-182",
+      "userId": "investor-1",
+      "date": "2023-09-21",
+      "quotaValue": 1.20943349829074
+    },
+    {
+      "id": "quota-183",
+      "userId": "investor-1",
+      "date": "2023-09-22",
+      "quotaValue": 1.20981755263153
+    },
+    {
+      "id": "quota-184",
+      "userId": "investor-1",
+      "date": "2023-09-25",
+      "quotaValue": 1.21031335723654
+    },
+    {
+      "id": "quota-185",
+      "userId": "investor-1",
+      "date": "2023-09-26",
+      "quotaValue": 1.19566072725241
+    },
+    {
+      "id": "quota-186",
+      "userId": "investor-1",
+      "date": "2023-09-27",
+      "quotaValue": 1.19734796684573
+    },
+    {
+      "id": "quota-187",
+      "userId": "investor-1",
+      "date": "2023-09-28",
+      "quotaValue": 1.20431014675675
+    },
+    {
+      "id": "quota-188",
+      "userId": "investor-1",
+      "date": "2023-09-29",
+      "quotaValue": 1.21217687591523
+    },
+    {
+      "id": "quota-189",
+      "userId": "investor-1",
+      "date": "2023-10-02",
+      "quotaValue": 1.20191862217904
+    },
+    {
+      "id": "quota-190",
+      "userId": "investor-1",
+      "date": "2023-10-03",
+      "quotaValue": 1.19096476504116
+    },
+    {
+      "id": "quota-191",
+      "userId": "investor-1",
+      "date": "2023-10-04",
+      "quotaValue": 1.18468284769154
+    },
+    {
+      "id": "quota-192",
+      "userId": "investor-1",
+      "date": "2023-10-05",
+      "quotaValue": 1.18195047415453
+    },
+    {
+      "id": "quota-193",
+      "userId": "investor-1",
+      "date": "2023-10-06",
+      "quotaValue": 1.18638295812191
+    },
+    {
+      "id": "quota-194",
+      "userId": "investor-1",
+      "date": "2023-10-09",
+      "quotaValue": 1.20152866592721
+    },
+    {
+      "id": "quota-195",
+      "userId": "investor-1",
+      "date": "2023-10-10",
+      "quotaValue": 1.21525589089017
+    },
+    {
+      "id": "quota-196",
+      "userId": "investor-1",
+      "date": "2023-10-11",
+      "quotaValue": 1.21541827878723
+    },
+    {
+      "id": "quota-197",
+      "userId": "investor-1",
+      "date": "2023-10-13",
+      "quotaValue": 1.21304218329493
+    },
+    {
+      "id": "quota-198",
+      "userId": "investor-1",
+      "date": "2023-10-16",
+      "quotaValue": 1.21477420031201
+    },
+    {
+      "id": "quota-199",
+      "userId": "investor-1",
+      "date": "2023-10-17",
+      "quotaValue": 1.21980293614531
+    },
+    {
+      "id": "quota-200",
+      "userId": "investor-1",
+      "date": "2023-10-18",
+      "quotaValue": 1.2172992318752
+    },
+    {
+      "id": "quota-201",
+      "userId": "investor-1",
+      "date": "2023-10-19",
+      "quotaValue": 1.21870247768439
+    },
+    {
+      "id": "quota-202",
+      "userId": "investor-1",
+      "date": "2023-10-20",
+      "quotaValue": 1.21365275755328
+    },
+    {
+      "id": "quota-203",
+      "userId": "investor-1",
+      "date": "2023-10-23",
+      "quotaValue": 1.19909907598868
+    },
+    {
+      "id": "quota-204",
+      "userId": "investor-1",
+      "date": "2023-10-24",
+      "quotaValue": 1.21004063433212
+    },
+    {
+      "id": "quota-205",
+      "userId": "investor-1",
+      "date": "2023-10-25",
+      "quotaValue": 1.20909240297512
+    },
+    {
+      "id": "quota-206",
+      "userId": "investor-1",
+      "date": "2023-10-26",
+      "quotaValue": 1.21266487842426
+    },
+    {
+      "id": "quota-207",
+      "userId": "investor-1",
+      "date": "2023-10-27",
+      "quotaValue": 1.20482593655963
+    },
+    {
+      "id": "quota-208",
+      "userId": "investor-1",
+      "date": "2023-10-30",
+      "quotaValue": 1.19676294212362
+    },
+    {
+      "id": "quota-209",
+      "userId": "investor-1",
+      "date": "2023-10-31",
+      "quotaValue": 1.19649150652458
+    },
+    {
+      "id": "quota-210",
+      "userId": "investor-1",
+      "date": "2023-11-01",
+      "quotaValue": 1.20404048680484
+    },
+    {
+      "id": "quota-211",
+      "userId": "investor-1",
+      "date": "2023-11-03",
+      "quotaValue": 1.22121743295475
+    },
+    {
+      "id": "quota-212",
+      "userId": "investor-1",
+      "date": "2023-11-06",
+      "quotaValue": 1.21830429169615
+    },
+    {
+      "id": "quota-213",
+      "userId": "investor-1",
+      "date": "2023-11-07",
+      "quotaValue": 1.22400621210411
+    },
+    {
+      "id": "quota-214",
+      "userId": "investor-1",
+      "date": "2023-11-08",
+      "quotaValue": 1.21893858068671
+    },
+    {
+      "id": "quota-215",
+      "userId": "investor-1",
+      "date": "2023-11-09",
+      "quotaValue": 1.22566893634929
+    },
+    {
+      "id": "quota-216",
+      "userId": "investor-1",
+      "date": "2023-11-10",
+      "quotaValue": 1.22783737301148
+    },
+    {
+      "id": "quota-217",
+      "userId": "investor-1",
+      "date": "2023-11-13",
+      "quotaValue": 1.23369561717864
+    },
+    {
+      "id": "quota-218",
+      "userId": "investor-1",
+      "date": "2023-11-14",
+      "quotaValue": 1.24677644262514
+    },
+    {
+      "id": "quota-219",
+      "userId": "investor-1",
+      "date": "2023-11-16",
+      "quotaValue": 1.24246289959477
+    },
+    {
+      "id": "quota-220",
+      "userId": "investor-1",
+      "date": "2023-11-17",
+      "quotaValue": 1.25097157481731
+    },
+    {
+      "id": "quota-221",
+      "userId": "investor-1",
+      "date": "2023-11-20",
+      "quotaValue": 1.25376161936612
+    },
+    {
+      "id": "quota-222",
+      "userId": "investor-1",
+      "date": "2023-11-21",
+      "quotaValue": 1.24989529938844
+    },
+    {
+      "id": "quota-223",
+      "userId": "investor-1",
+      "date": "2023-11-22",
+      "quotaValue": 1.24248964507911
+    },
+    {
+      "id": "quota-224",
+      "userId": "investor-1",
+      "date": "2023-11-23",
+      "quotaValue": 1.24461099117651
+    },
+    {
+      "id": "quota-225",
+      "userId": "investor-1",
+      "date": "2023-11-24",
+      "quotaValue": 1.24016945273362
+    },
+    {
+      "id": "quota-226",
+      "userId": "investor-1",
+      "date": "2023-11-27",
+      "quotaValue": 1.23954560900222
+    },
+    {
+      "id": "quota-227",
+      "userId": "investor-1",
+      "date": "2023-11-28",
+      "quotaValue": 1.24619978611082
+    },
+    {
+      "id": "quota-228",
+      "userId": "investor-1",
+      "date": "2023-11-29",
+      "quotaValue": 1.24540948814788
+    },
+    {
+      "id": "quota-229",
+      "userId": "investor-1",
+      "date": "2023-11-30",
+      "quotaValue": 1.25161311150852
+    },
+    {
+      "id": "quota-230",
+      "userId": "investor-1",
+      "date": "2023-12-01",
+      "quotaValue": 1.25272270267533
+    },
+    {
+      "id": "quota-231",
+      "userId": "investor-1",
+      "date": "2023-12-04",
+      "quotaValue": 1.2417460383832
+    },
+    {
+      "id": "quota-232",
+      "userId": "investor-1",
+      "date": "2023-12-05",
+      "quotaValue": 1.24002747686622
+    },
+    {
+      "id": "quota-233",
+      "userId": "investor-1",
+      "date": "2023-12-06",
+      "quotaValue": 1.22947397790793
+    },
+    {
+      "id": "quota-234",
+      "userId": "investor-1",
+      "date": "2023-12-07",
+      "quotaValue": 1.23053479768577
+    },
+    {
+      "id": "quota-235",
+      "userId": "investor-1",
+      "date": "2023-12-08",
+      "quotaValue": 1.24009143966891
+    },
+    {
+      "id": "quota-236",
+      "userId": "investor-1",
+      "date": "2023-12-11",
+      "quotaValue": 1.23698504703058
+    },
+    {
+      "id": "quota-237",
+      "userId": "investor-1",
+      "date": "2023-12-12",
+      "quotaValue": 1.23345583712572
+    },
+    {
+      "id": "quota-238",
+      "userId": "investor-1",
+      "date": "2023-12-13",
+      "quotaValue": 1.24870769688095
+    },
+    {
+      "id": "quota-239",
+      "userId": "investor-1",
+      "date": "2023-12-14",
+      "quotaValue": 1.2604617039551
+    },
+    {
+      "id": "quota-240",
+      "userId": "investor-1",
+      "date": "2023-12-15",
+      "quotaValue": 1.25591135778206
+    },
+    {
+      "id": "quota-241",
+      "userId": "investor-1",
+      "date": "2023-12-18",
+      "quotaValue": 1.26407184848757
+    },
+    {
+      "id": "quota-242",
+      "userId": "investor-1",
+      "date": "2023-12-19",
+      "quotaValue": 1.26906478214266
+    },
+    {
+      "id": "quota-243",
+      "userId": "investor-1",
+      "date": "2023-12-20",
+      "quotaValue": 1.269288385851
+    },
+    {
+      "id": "quota-244",
+      "userId": "investor-1",
+      "date": "2023-12-21",
+      "quotaValue": 1.27119875301141
+    },
+    {
+      "id": "quota-245",
+      "userId": "investor-1",
+      "date": "2023-12-22",
+      "quotaValue": 1.27735759555981
+    },
+    {
+      "id": "quota-246",
+      "userId": "investor-1",
+      "date": "2023-12-26",
+      "quotaValue": 1.28466060655407
+    },
+    {
+      "id": "quota-247",
+      "userId": "investor-1",
+      "date": "2023-12-27",
+      "quotaValue": 1.28890670619454
+    },
+    {
+      "id": "quota-248",
+      "userId": "investor-1",
+      "date": "2023-12-28",
+      "quotaValue": 1.28786173821234
+    },
+    {
+      "id": "quota-249",
+      "userId": "investor-1",
+      "date": "2023-12-29",
+      "quotaValue": 1.28824571237561
+    },
+    {
+      "id": "quota-250",
+      "userId": "investor-1",
+      "date": "2024-01-02",
+      "quotaValue": 1.28491253414252
+    },
+    {
+      "id": "quota-251",
+      "userId": "investor-1",
+      "date": "2024-01-03",
+      "quotaValue": 1.29411698384677
+    },
+    {
+      "id": "quota-252",
+      "userId": "investor-1",
+      "date": "2024-01-04",
+      "quotaValue": 1.28537754745616
+    },
+    {
+      "id": "quota-253",
+      "userId": "investor-1",
+      "date": "2024-01-05",
+      "quotaValue": 1.29292363168301
+    },
+    {
+      "id": "quota-254",
+      "userId": "investor-1",
+      "date": "2024-01-08",
+      "quotaValue": 1.29716764690779
+    },
+    {
+      "id": "quota-255",
+      "userId": "investor-1",
+      "date": "2024-01-09",
+      "quotaValue": 1.29175932892156
+    },
+    {
+      "id": "quota-256",
+      "userId": "investor-1",
+      "date": "2024-01-10",
+      "quotaValue": 1.28620317239512
+    },
+    {
+      "id": "quota-257",
+      "userId": "investor-1",
+      "date": "2024-01-11",
+      "quotaValue": 1.28603363998517
+    },
+    {
+      "id": "quota-258",
+      "userId": "investor-1",
+      "date": "2024-01-12",
+      "quotaValue": 1.29137424369727
+    },
+    {
+      "id": "quota-259",
+      "userId": "investor-1",
+      "date": "2024-01-15",
+      "quotaValue": 1.29640188325291
+    },
+    {
+      "id": "quota-260",
+      "userId": "investor-1",
+      "date": "2024-01-16",
+      "quotaValue": 1.28268431563343
+    },
+    {
+      "id": "quota-261",
+      "userId": "investor-1",
+      "date": "2024-01-17",
+      "quotaValue": 1.27714871503498
+    },
+    {
+      "id": "quota-262",
+      "userId": "investor-1",
+      "date": "2024-01-18",
+      "quotaValue": 1.2692783217808
+    },
+    {
+      "id": "quota-263",
+      "userId": "investor-1",
+      "date": "2024-01-19",
+      "quotaValue": 1.27218123346765
+    },
+    {
+      "id": "quota-264",
+      "userId": "investor-1",
+      "date": "2024-01-22",
+      "quotaValue": 1.2699609674916
+    },
+    {
+      "id": "quota-265",
+      "userId": "investor-1",
+      "date": "2024-01-23",
+      "quotaValue": 1.27877155132498
+    },
+    {
+      "id": "quota-266",
+      "userId": "investor-1",
+      "date": "2024-01-24",
+      "quotaValue": 1.27614559147968
+    },
+    {
+      "id": "quota-267",
+      "userId": "investor-1",
+      "date": "2024-01-25",
+      "quotaValue": 1.2885331114571
+    },
+    {
+      "id": "quota-268",
+      "userId": "investor-1",
+      "date": "2024-01-26",
+      "quotaValue": 1.29330493027539
+    },
+    {
+      "id": "quota-269",
+      "userId": "investor-1",
+      "date": "2024-01-29",
+      "quotaValue": 1.29608197631137
+    },
+    {
+      "id": "quota-270",
+      "userId": "investor-1",
+      "date": "2024-01-30",
+      "quotaValue": 1.29248740968609
+    },
+    {
+      "id": "quota-271",
+      "userId": "investor-1",
+      "date": "2024-01-31",
+      "quotaValue": 1.29611464229413
+    },
+    {
+      "id": "quota-272",
+      "userId": "investor-1",
+      "date": "2024-02-01",
+      "quotaValue": 1.30508212765872
+    },
+    {
+      "id": "quota-273",
+      "userId": "investor-1",
+      "date": "2024-02-02",
+      "quotaValue": 1.29924456887399
+    },
+    {
+      "id": "quota-274",
+      "userId": "investor-1",
+      "date": "2024-02-05",
+      "quotaValue": 1.30030740954495
+    },
+    {
+      "id": "quota-275",
+      "userId": "investor-1",
+      "date": "2024-02-06",
+      "quotaValue": 1.31075220960446
+    },
+    {
+      "id": "quota-276",
+      "userId": "investor-1",
+      "date": "2024-02-07",
+      "quotaValue": 1.31524933557334
+    },
+    {
+      "id": "quota-277",
+      "userId": "investor-1",
+      "date": "2024-02-08",
+      "quotaValue": 1.30769178338971
+    },
+    {
+      "id": "quota-278",
+      "userId": "investor-1",
+      "date": "2024-02-09",
+      "quotaValue": 1.30666061492661
+    },
+    {
+      "id": "quota-279",
+      "userId": "investor-1",
+      "date": "2024-02-14",
+      "quotaValue": 1.29839043990805
+    },
+    {
+      "id": "quota-280",
+      "userId": "investor-1",
+      "date": "2024-02-15",
+      "quotaValue": 1.31065778285626
+    },
+    {
+      "id": "quota-281",
+      "userId": "investor-1",
+      "date": "2024-02-16",
+      "quotaValue": 1.31440651237652
+    },
+    {
+      "id": "quota-282",
+      "userId": "investor-1",
+      "date": "2024-02-19",
+      "quotaValue": 1.31431813983815
+    },
+    {
+      "id": "quota-283",
+      "userId": "investor-1",
+      "date": "2024-02-20",
+      "quotaValue": 1.3189491794138
+    },
+    {
+      "id": "quota-284",
+      "userId": "investor-1",
+      "date": "2024-02-21",
+      "quotaValue": 1.31851699837451
+    },
+    {
+      "id": "quota-285",
+      "userId": "investor-1",
+      "date": "2024-02-22",
+      "quotaValue": 1.32055161686254
+    },
+    {
+      "id": "quota-286",
+      "userId": "investor-1",
+      "date": "2024-02-23",
+      "quotaValue": 1.31522998661892
+    },
+    {
+      "id": "quota-287",
+      "userId": "investor-1",
+      "date": "2024-02-26",
+      "quotaValue": 1.3215676687338
+    },
+    {
+      "id": "quota-288",
+      "userId": "investor-1",
+      "date": "2024-02-27",
+      "quotaValue": 1.32885269923862
+    },
+    {
+      "id": "quota-289",
+      "userId": "investor-1",
+      "date": "2024-02-28",
+      "quotaValue": 1.3126574581043
+    },
+    {
+      "id": "quota-290",
+      "userId": "investor-1",
+      "date": "2024-02-29",
+      "quotaValue": 1.30740608974163
+    },
+    {
+      "id": "quota-291",
+      "userId": "investor-1",
+      "date": "2024-03-01",
+      "quotaValue": 1.31136199921415
+    },
+    {
+      "id": "quota-292",
+      "userId": "investor-1",
+      "date": "2024-03-04",
+      "quotaValue": 1.30569140646662
+    },
+    {
+      "id": "quota-293",
+      "userId": "investor-1",
+      "date": "2024-03-05",
+      "quotaValue": 1.30470008344346
+    },
+    {
+      "id": "quota-294",
+      "userId": "investor-1",
+      "date": "2024-03-06",
+      "quotaValue": 1.31189943916474
+    },
+    {
+      "id": "quota-295",
+      "userId": "investor-1",
+      "date": "2024-03-07",
+      "quotaValue": 1.30793754377851
+    },
+    {
+      "id": "quota-296",
+      "userId": "investor-1",
+      "date": "2024-03-08",
+      "quotaValue": 1.27840132161142
+    },
+    {
+      "id": "quota-297",
+      "userId": "investor-1",
+      "date": "2024-03-11",
+      "quotaValue": 1.27430147643915
+    },
+    {
+      "id": "quota-298",
+      "userId": "investor-1",
+      "date": "2024-03-12",
+      "quotaValue": 1.28888185207905
+    },
+    {
+      "id": "quota-299",
+      "userId": "investor-1",
+      "date": "2024-03-13",
+      "quotaValue": 1.28727609227371
+    },
+    {
+      "id": "quota-300",
+      "userId": "investor-1",
+      "date": "2024-03-14",
+      "quotaValue": 1.28455541038662
+    },
+    {
+      "id": "quota-301",
+      "userId": "investor-1",
+      "date": "2024-03-15",
+      "quotaValue": 1.28120835000218
+    },
+    {
+      "id": "quota-302",
+      "userId": "investor-1",
+      "date": "2024-03-18",
+      "quotaValue": 1.28049027306384
+    },
+    {
+      "id": "quota-303",
+      "userId": "investor-1",
+      "date": "2024-03-19",
+      "quotaValue": 1.27683333368127
+    },
+    {
+      "id": "quota-304",
+      "userId": "investor-1",
+      "date": "2024-03-20",
+      "quotaValue": 1.28884568528332
+    },
+    {
+      "id": "quota-305",
+      "userId": "investor-1",
+      "date": "2024-03-21",
+      "quotaValue": 1.28159492309288
+    },
+    {
+      "id": "quota-306",
+      "userId": "investor-1",
+      "date": "2024-03-22",
+      "quotaValue": 1.27793153123665
+    },
+    {
+      "id": "quota-307",
+      "userId": "investor-1",
+      "date": "2024-03-25",
+      "quotaValue": 1.28140668738117
+    },
+    {
+      "id": "quota-308",
+      "userId": "investor-1",
+      "date": "2024-03-26",
+      "quotaValue": 1.27725946109344
+    },
+    {
+      "id": "quota-309",
+      "userId": "investor-1",
+      "date": "2024-03-27",
+      "quotaValue": 1.28215414440829
+    },
+    {
+      "id": "quota-310",
+      "userId": "investor-1",
+      "date": "2024-03-28",
+      "quotaValue": 1.28574644279379
+    },
+    {
+      "id": "quota-311",
+      "userId": "investor-1",
+      "date": "2024-04-01",
+      "quotaValue": 1.28565223584804
+    },
+    {
+      "id": "quota-312",
+      "userId": "investor-1",
+      "date": "2024-04-02",
+      "quotaValue": 1.29103159565495
+    },
+    {
+      "id": "quota-313",
+      "userId": "investor-1",
+      "date": "2024-04-03",
+      "quotaValue": 1.28908478423915
+    },
+    {
+      "id": "quota-314",
+      "userId": "investor-1",
+      "date": "2024-04-04",
+      "quotaValue": 1.28909892044232
+    },
+    {
+      "id": "quota-315",
+      "userId": "investor-1",
+      "date": "2024-04-05",
+      "quotaValue": 1.2897061768404
+    },
+    {
+      "id": "quota-316",
+      "userId": "investor-1",
+      "date": "2024-04-08",
+      "quotaValue": 1.29767208263266
+    },
+    {
+      "id": "quota-317",
+      "userId": "investor-1",
+      "date": "2024-04-09",
+      "quotaValue": 1.30364706005416
+    },
+    {
+      "id": "quota-318",
+      "userId": "investor-1",
+      "date": "2024-04-10",
+      "quotaValue": 1.30197729179214
+    },
+    {
+      "id": "quota-319",
+      "userId": "investor-1",
+      "date": "2024-04-11",
+      "quotaValue": 1.29352006442024
+    },
+    {
+      "id": "quota-320",
+      "userId": "investor-1",
+      "date": "2024-04-12",
+      "quotaValue": 1.28634693241882
+    },
+    {
+      "id": "quota-321",
+      "userId": "investor-1",
+      "date": "2024-04-15",
+      "quotaValue": 1.28135592785186
+    },
+    {
+      "id": "quota-322",
+      "userId": "investor-1",
+      "date": "2024-04-16",
+      "quotaValue": 1.27557479350275
+    },
+    {
+      "id": "quota-323",
+      "userId": "investor-1",
+      "date": "2024-04-17",
+      "quotaValue": 1.27617803349851
+    },
+    {
+      "id": "quota-324",
+      "userId": "investor-1",
+      "date": "2024-04-18",
+      "quotaValue": 1.27806390627136
+    },
+    {
+      "id": "quota-325",
+      "userId": "investor-1",
+      "date": "2024-04-19",
+      "quotaValue": 1.28684128046027
+    },
+    {
+      "id": "quota-326",
+      "userId": "investor-1",
+      "date": "2024-04-22",
+      "quotaValue": 1.28695634815505
+    },
+    {
+      "id": "quota-327",
+      "userId": "investor-1",
+      "date": "2024-04-23",
+      "quotaValue": 1.29111648788167
+    },
+    {
+      "id": "quota-328",
+      "userId": "investor-1",
+      "date": "2024-04-24",
+      "quotaValue": 1.28656484197544
+    },
+    {
+      "id": "quota-329",
+      "userId": "investor-1",
+      "date": "2024-04-25",
+      "quotaValue": 1.29380776449362
+    },
+    {
+      "id": "quota-330",
+      "userId": "investor-1",
+      "date": "2024-04-26",
+      "quotaValue": 1.29567022984271
+    },
+    {
+      "id": "quota-331",
+      "userId": "investor-1",
+      "date": "2024-04-29",
+      "quotaValue": 1.30072163087172
+    },
+    {
+      "id": "quota-332",
+      "userId": "investor-1",
+      "date": "2024-04-30",
+      "quotaValue": 1.29456272292714
+    },
+    {
+      "id": "quota-333",
+      "userId": "investor-1",
+      "date": "2024-05-02",
+      "quotaValue": 1.29696770798314
+    },
+    {
+      "id": "quota-334",
+      "userId": "investor-1",
+      "date": "2024-05-03",
+      "quotaValue": 1.29050100946973
+    },
+    {
+      "id": "quota-335",
+      "userId": "investor-1",
+      "date": "2024-05-06",
+      "quotaValue": 1.29024703080974
+    },
+    {
+      "id": "quota-336",
+      "userId": "investor-1",
+      "date": "2024-05-07",
+      "quotaValue": 1.29503888075392
+    },
+    {
+      "id": "quota-337",
+      "userId": "investor-1",
+      "date": "2024-05-08",
+      "quotaValue": 1.29799764013035
+    },
+    {
+      "id": "quota-338",
+      "userId": "investor-1",
+      "date": "2024-05-09",
+      "quotaValue": 1.29695565503144
+    },
+    {
+      "id": "quota-339",
+      "userId": "investor-1",
+      "date": "2024-05-10",
+      "quotaValue": 1.302273679023
+    },
+    {
+      "id": "quota-340",
+      "userId": "investor-1",
+      "date": "2024-05-13",
+      "quotaValue": 1.29999477924477
+    },
+    {
+      "id": "quota-341",
+      "userId": "investor-1",
+      "date": "2024-05-14",
+      "quotaValue": 1.30049114750915
+    },
+    {
+      "id": "quota-342",
+      "userId": "investor-1",
+      "date": "2024-05-15",
+      "quotaValue": 1.27538398609489
+    },
+    {
+      "id": "quota-343",
+      "userId": "investor-1",
+      "date": "2024-05-16",
+      "quotaValue": 1.2703149230262
+    },
+    {
+      "id": "quota-344",
+      "userId": "investor-1",
+      "date": "2024-05-17",
+      "quotaValue": 1.26597168993555
+    },
+    {
+      "id": "quota-345",
+      "userId": "investor-1",
+      "date": "2024-05-20",
+      "quotaValue": 1.26674147471687
+    },
+    {
+      "id": "quota-346",
+      "userId": "investor-1",
+      "date": "2024-05-21",
+      "quotaValue": 1.2687393421164
+    },
+    {
+      "id": "quota-347",
+      "userId": "investor-1",
+      "date": "2024-05-22",
+      "quotaValue": 1.26212580647803
+    },
+    {
+      "id": "quota-348",
+      "userId": "investor-1",
+      "date": "2024-05-23",
+      "quotaValue": 1.25931429578284
+    },
+    {
+      "id": "quota-349",
+      "userId": "investor-1",
+      "date": "2024-05-24",
+      "quotaValue": 1.25973613729487
+    },
+    {
+      "id": "quota-350",
+      "userId": "investor-1",
+      "date": "2024-05-27",
+      "quotaValue": 1.26251638676331
+    },
+    {
+      "id": "quota-351",
+      "userId": "investor-1",
+      "date": "2024-05-28",
+      "quotaValue": 1.26483964592845
+    },
+    {
+      "id": "quota-352",
+      "userId": "investor-1",
+      "date": "2024-05-29",
+      "quotaValue": 1.25857888011675
+    },
+    {
+      "id": "quota-353",
+      "userId": "investor-1",
+      "date": "2024-05-31",
+      "quotaValue": 1.26329386450563
+    },
+    {
+      "id": "quota-354",
+      "userId": "investor-1",
+      "date": "2024-06-03",
+      "quotaValue": 1.26361018145482
+    },
+    {
+      "id": "quota-355",
+      "userId": "investor-1",
+      "date": "2024-06-04",
+      "quotaValue": 1.2578562202577
+    },
+    {
+      "id": "quota-356",
+      "userId": "investor-1",
+      "date": "2024-06-05",
+      "quotaValue": 1.25753823405308
+    },
+    {
+      "id": "quota-357",
+      "userId": "investor-1",
+      "date": "2024-06-06",
+      "quotaValue": 1.26149802683523
+    },
+    {
+      "id": "quota-358",
+      "userId": "investor-1",
+      "date": "2024-06-07",
+      "quotaValue": 1.24553280684283
+    },
+    {
+      "id": "quota-359",
+      "userId": "investor-1",
+      "date": "2024-06-10",
+      "quotaValue": 1.24740184198451
+    },
+    {
+      "id": "quota-360",
+      "userId": "investor-1",
+      "date": "2024-06-11",
+      "quotaValue": 1.25155821568262
+    },
+    {
+      "id": "quota-361",
+      "userId": "investor-1",
+      "date": "2024-06-12",
+      "quotaValue": 1.22851434809156
+    },
+    {
+      "id": "quota-362",
+      "userId": "investor-1",
+      "date": "2024-06-13",
+      "quotaValue": 1.22074268895362
+    },
+    {
+      "id": "quota-363",
+      "userId": "investor-1",
+      "date": "2024-06-14",
+      "quotaValue": 1.21997488204831
+    },
+    {
+      "id": "quota-364",
+      "userId": "investor-1",
+      "date": "2024-06-17",
+      "quotaValue": 1.21613637277534
+    },
+    {
+      "id": "quota-365",
+      "userId": "investor-1",
+      "date": "2024-06-18",
+      "quotaValue": 1.22375345427649
+    },
+    {
+      "id": "quota-366",
+      "userId": "investor-1",
+      "date": "2024-06-19",
+      "quotaValue": 1.22691924179769
+    },
+    {
+      "id": "quota-367",
+      "userId": "investor-1",
+      "date": "2024-06-20",
+      "quotaValue": 1.23234716922513
+    },
+    {
+      "id": "quota-368",
+      "userId": "investor-1",
+      "date": "2024-06-21",
+      "quotaValue": 1.23754797039821
+    },
+    {
+      "id": "quota-369",
+      "userId": "investor-1",
+      "date": "2024-06-24",
+      "quotaValue": 1.24541588904097
+    },
+    {
+      "id": "quota-370",
+      "userId": "investor-1",
+      "date": "2024-06-25",
+      "quotaValue": 1.24350466608804
+    },
+    {
+      "id": "quota-371",
+      "userId": "investor-1",
+      "date": "2024-06-26",
+      "quotaValue": 1.24590765132863
+    },
+    {
+      "id": "quota-372",
+      "userId": "investor-1",
+      "date": "2024-06-27",
+      "quotaValue": 1.2581231722643
+    },
+    {
+      "id": "quota-373",
+      "userId": "investor-1",
+      "date": "2024-06-28",
+      "quotaValue": 1.25531554943255
+    },
+    {
+      "id": "quota-374",
+      "userId": "investor-1",
+      "date": "2024-07-01",
+      "quotaValue": 1.25657131333602
+    },
+    {
+      "id": "quota-375",
+      "userId": "investor-1",
+      "date": "2024-07-02",
+      "quotaValue": 1.25475354693368
+    },
+    {
+      "id": "quota-376",
+      "userId": "investor-1",
+      "date": "2024-07-03",
+      "quotaValue": 1.25708305585746
+    },
+    {
+      "id": "quota-377",
+      "userId": "investor-1",
+      "date": "2024-07-04",
+      "quotaValue": 1.2620053210877
+    },
+    {
+      "id": "quota-378",
+      "userId": "investor-1",
+      "date": "2024-07-05",
+      "quotaValue": 1.26727405006643
+    },
+    {
+      "id": "quota-379",
+      "userId": "investor-1",
+      "date": "2024-07-08",
+      "quotaValue": 1.27608660386603
+    },
+    {
+      "id": "quota-380",
+      "userId": "investor-1",
+      "date": "2024-07-09",
+      "quotaValue": 1.28108015175914
+    },
+    {
+      "id": "quota-381",
+      "userId": "investor-1",
+      "date": "2024-07-10",
+      "quotaValue": 1.27963943644848
+    },
+    {
+      "id": "quota-382",
+      "userId": "investor-1",
+      "date": "2024-07-11",
+      "quotaValue": 1.28791794754316
+    },
+    {
+      "id": "quota-383",
+      "userId": "investor-1",
+      "date": "2024-07-12",
+      "quotaValue": 1.28964845793154
+    },
+    {
+      "id": "quota-384",
+      "userId": "investor-1",
+      "date": "2024-07-15",
+      "quotaValue": 1.29260540922577
+    },
+    {
+      "id": "quota-385",
+      "userId": "investor-1",
+      "date": "2024-07-16",
+      "quotaValue": 1.29243579464959
+    },
+    {
+      "id": "quota-386",
+      "userId": "investor-1",
+      "date": "2024-07-17",
+      "quotaValue": 1.29205156093171
+    },
+    {
+      "id": "quota-387",
+      "userId": "investor-1",
+      "date": "2024-07-18",
+      "quotaValue": 1.28504257095215
+    },
+    {
+      "id": "quota-388",
+      "userId": "investor-1",
+      "date": "2024-07-19",
+      "quotaValue": 1.28621300579594
+    },
+    {
+      "id": "quota-389",
+      "userId": "investor-1",
+      "date": "2024-07-22",
+      "quotaValue": 1.28418102588131
+    },
+    {
+      "id": "quota-390",
+      "userId": "investor-1",
+      "date": "2024-07-23",
+      "quotaValue": 1.27582334744219
+    },
+    {
+      "id": "quota-391",
+      "userId": "investor-1",
+      "date": "2024-07-24",
+      "quotaValue": 1.27364243933491
+    },
+    {
+      "id": "quota-392",
+      "userId": "investor-1",
+      "date": "2024-07-25",
+      "quotaValue": 1.27239189383359
+    },
+    {
+      "id": "quota-393",
+      "userId": "investor-1",
+      "date": "2024-07-26",
+      "quotaValue": 1.27755514551115
+    },
+    {
+      "id": "quota-394",
+      "userId": "investor-1",
+      "date": "2024-07-29",
+      "quotaValue": 1.26935237086558
+    },
+    {
+      "id": "quota-395",
+      "userId": "investor-1",
+      "date": "2024-07-30",
+      "quotaValue": 1.26687196915674
+    },
+    {
+      "id": "quota-396",
+      "userId": "investor-1",
+      "date": "2024-07-31",
+      "quotaValue": 1.27347394039142
+    },
+    {
+      "id": "quota-397",
+      "userId": "investor-1",
+      "date": "2024-08-01",
+      "quotaValue": 1.27167583296492
+    },
+    {
+      "id": "quota-398",
+      "userId": "investor-1",
+      "date": "2024-08-02",
+      "quotaValue": 1.26642189839751
+    },
+    {
+      "id": "quota-399",
+      "userId": "investor-1",
+      "date": "2024-08-05",
+      "quotaValue": 1.26347767869795
+    },
+    {
+      "id": "quota-400",
+      "userId": "investor-1",
+      "date": "2024-08-06",
+      "quotaValue": 1.27329387056469
+    },
+    {
+      "id": "quota-401",
+      "userId": "investor-1",
+      "date": "2024-08-07",
+      "quotaValue": 1.27837412698142
+    },
+    {
+      "id": "quota-402",
+      "userId": "investor-1",
+      "date": "2024-08-08",
+      "quotaValue": 1.28631779737869
+    },
+    {
+      "id": "quota-403",
+      "userId": "investor-1",
+      "date": "2024-08-09",
+      "quotaValue": 1.29206680126144
+    },
+    {
+      "id": "quota-404",
+      "userId": "investor-1",
+      "date": "2024-08-12",
+      "quotaValue": 1.29915427277297
+    },
+    {
+      "id": "quota-405",
+      "userId": "investor-1",
+      "date": "2024-08-13",
+      "quotaValue": 1.30351635606083
+    },
+    {
+      "id": "quota-406",
+      "userId": "investor-1",
+      "date": "2024-08-14",
+      "quotaValue": 1.30767030986146
+    }
+  ]
+}

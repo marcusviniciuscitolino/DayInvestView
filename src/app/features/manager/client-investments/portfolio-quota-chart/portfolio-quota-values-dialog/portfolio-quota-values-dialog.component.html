@@ -1,0 +1,54 @@
+<div class="portfolio-quota-values-dialog">
+  <h2 mat-dialog-title>
+    <mat-icon>show_chart</mat-icon>
+    Valores Detalhados da Cota da Carteira
+  </h2>
+
+  <mat-dialog-content>
+    <div class="values-container" *ngIf="sortedQuotaData.length > 0">
+      <div class="summary-cards">
+        <div class="summary-card">
+          <h4>Valor Mínimo</h4>
+          <p class="value">{{ formatValue(getMinValue()) }}</p>
+        </div>
+        <div class="summary-card">
+          <h4>Valor Máximo</h4>
+          <p class="value">{{ formatValue(getMaxValue()) }}</p>
+        </div>
+        <div class="summary-card">
+          <h4>Valor Médio</h4>
+          <p class="value">{{ formatValue(getAverageValue()) }}</p>
+        </div>
+        <div class="summary-card">
+          <h4>Total de Registros</h4>
+          <p class="value">{{ sortedQuotaData.length }}</p>
+        </div>
+      </div>
+
+      <table mat-table [dataSource]="sortedQuotaData" class="values-table">
+        <ng-container matColumnDef="date">
+          <th mat-header-cell *matHeaderCellDef>Data</th>
+          <td mat-cell *matCellDef="let quota">{{ formatDate(quota.date) }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="quotaValue">
+          <th mat-header-cell *matHeaderCellDef>Valor da Cota</th>
+          <td mat-cell *matCellDef="let quota">{{ formatValue(quota.quotaValue) }}</td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    </div>
+
+    <div class="no-data" *ngIf="sortedQuotaData.length === 0">
+      <mat-icon>info</mat-icon>
+      <p>Não há dados de quota disponíveis</p>
+    </div>
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="end">
+    <button mat-button (click)="close()">Fechar</button>
+  </mat-dialog-actions>
+</div>
+

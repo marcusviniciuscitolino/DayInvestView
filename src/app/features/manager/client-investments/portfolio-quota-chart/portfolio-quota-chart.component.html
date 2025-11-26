@@ -1,0 +1,25 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Valor da Cota da Carteira</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="chart-container" *ngIf="chartData.labels && chartData.labels.length > 0">
+      <canvas baseChart
+              [data]="chartData"
+              [options]="chartOptions"
+              type="line">
+      </canvas>
+    </div>
+    <div class="no-data" *ngIf="!chartData.labels || chartData.labels.length === 0">
+      <mat-icon>info</mat-icon>
+      <p>Não há dados de quota da carteira disponíveis para este cliente</p>
+    </div>
+    <div class="chart-actions" *ngIf="chartData.labels && chartData.labels.length > 0">
+      <button mat-raised-button color="primary" (click)="openValuesDialog()">
+        <mat-icon>expand_more</mat-icon>
+        Expandir Valores
+      </button>
+    </div>
+  </mat-card-content>
+</mat-card>
+

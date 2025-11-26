@@ -44,11 +44,21 @@
       </div>
     </div>
 
-    <div class="charts-section" *ngIf="movements.length > 0">
+    <div class="charts-section" *ngIf="movements.length > 0 || quotaData.length > 0 || portfolio">
       <h3>Gráficos de Movimentações</h3>
       <div class="charts-grid">
-        <app-interest-chart [movements]="movements"></app-interest-chart>
-        <app-ir-chart [movements]="movements"></app-ir-chart>
+        <app-portfolio-quota-chart *ngIf="quotaData.length > 0" [quotaData]="quotaData"></app-portfolio-quota-chart>
+        <app-interest-chart *ngIf="movements.length > 0" [movements]="movements"></app-interest-chart>
+        <app-ir-chart *ngIf="movements.length > 0" [movements]="movements"></app-ir-chart>
+        <app-dividends-chart *ngIf="movements.length > 0" [movements]="movements"></app-dividends-chart>
+      </div>
+    </div>
+
+    <div class="distribution-charts-section" *ngIf="portfolio && portfolio.investments.length > 0">
+      <h3>Gráficos de Distribuição</h3>
+      <div class="distribution-charts-grid">
+        <app-class-distribution-chart [portfolio]="portfolio"></app-class-distribution-chart>
+        <app-strategy-distribution-chart [portfolio]="portfolio"></app-strategy-distribution-chart>
       </div>
     </div>
 

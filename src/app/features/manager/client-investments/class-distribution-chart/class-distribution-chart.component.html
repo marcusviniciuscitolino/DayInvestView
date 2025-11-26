@@ -1,0 +1,19 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Distribuição por Classe</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="chart-container" *ngIf="chartData.labels && chartData.labels.length > 0">
+      <canvas baseChart
+              [data]="chartData"
+              [options]="chartOptions"
+              type="pie">
+      </canvas>
+    </div>
+    <div class="no-data" *ngIf="!chartData.labels || chartData.labels.length === 0">
+      <mat-icon>info</mat-icon>
+      <p>Não há dados disponíveis para este gráfico</p>
+    </div>
+  </mat-card-content>
+</mat-card>
+

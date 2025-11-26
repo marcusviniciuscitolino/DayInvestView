@@ -19,7 +19,7 @@ export interface MovementData {
   id: string;
   userId: string;
   assetName: string;
-  movementType: 'Aplicação' | 'Juros' | 'IR' | 'Vencimento';
+  movementType: 'Aplicação' | 'Juros' | 'IR' | 'Vencimento' | 'Dividendos';
   movementDate: string;
   movementValue: number;
   quotaValue: number;
@@ -33,5 +33,12 @@ export interface PositionData {
   date: string;
   quantity: number;
   position: number;
+}
+
+export interface PortfolioQuotaData {
+  id: string;
+  userId: string;
+  date: string;
+  quotaValue: number;
 }
 

@@ -1,0 +1,109 @@
+.portfolio-quota-values-dialog {
+  min-width: 700px;
+  max-width: 900px;
+
+  h2[mat-dialog-title] {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    padding: 24px 24px 16px 24px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    border-bottom: 1px solid #e0e0e0;
+
+    mat-icon {
+      color: #1A3B7A;
+      font-size: 28px;
+      width: 28px;
+      height: 28px;
+    }
+  }
+
+  mat-dialog-content {
+    padding: 24px;
+    max-height: 70vh;
+    overflow-y: auto;
+
+    .values-container {
+      .summary-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 16px;
+        margin-bottom: 24px;
+
+        .summary-card {
+          padding: 16px;
+          background: #f5f5f5;
+          border-radius: 8px;
+          text-align: center;
+
+          h4 {
+            margin: 0 0 8px 0;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+          }
+
+          .value {
+            margin: 0;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1A3B7A;
+          }
+        }
+      }
+
+      .values-table {
+        width: 100%;
+
+        th {
+          background: #f5f5f5;
+          font-weight: 600;
+          color: #1a1a1a;
+        }
+
+        td {
+          color: #666;
+        }
+
+        tr:hover {
+          background: #f9f9f9;
+        }
+      }
+    }
+
+    .no-data {
+      text-align: center;
+      padding: 48px 24px;
+      color: #999;
+
+      mat-icon {
+        font-size: 64px;
+        width: 64px;
+        height: 64px;
+        color: #ccc;
+        margin-bottom: 16px;
+      }
+
+      p {
+        margin: 0;
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  mat-dialog-actions {
+    padding: 16px 24px;
+    border-top: 1px solid #e0e0e0;
+    margin: 0;
+
+    button {
+      min-width: 100px;
+    }
+  }
+}
+

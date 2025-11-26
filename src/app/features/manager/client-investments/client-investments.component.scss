@@ -102,6 +102,31 @@
       }
     }
 
+    .distribution-charts-section {
+      margin-bottom: 48px;
+
+      h3 {
+        color: #1a1a1a;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0 0 24px 0;
+      }
+
+      .distribution-charts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 24px;
+
+        @media (max-width: 1200px) {
+          grid-template-columns: 1fr;
+        }
+
+        @media (max-width: 768px) {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
     .investments-list {
       h3 {
         color: #1a1a1a;

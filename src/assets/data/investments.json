@@ -1585,30 +1585,12 @@
       "date": "2024-02-28"
     },
     {
-      "id": "inv-199",
-      "userId": "investor-1",
-      "type": "Tesouro",
-      "name": "NTN-B 05/15/35",
-      "value": 39437.10,
-      "return": 818.25,
-      "date": "2023-05-15"
-    },
-    {
-      "id": "inv-200",
-      "userId": "investor-1",
-      "type": "Ações",
-      "name": "PETR25",
-      "value": 41752.34,
-      "return": 0,
-      "date": "2023-05-18"
-    },
-    {
       "id": "inv-201",
       "userId": "investor-2",
       "type": "Tesouro",
       "name": "NTN-B 05/15/35",
-      "value": 500000.00,
-      "return": 62500.00,
+      "value": 500000,
+      "return": 62500,
       "date": "2025-01-31"
     },
     {
@@ -1616,9 +1598,45 @@
       "userId": "investor-2",
       "type": "Ações",
       "name": "PETR25",
-      "value": 600000.00,
-      "return": 106500.00,
+      "value": 600000,
+      "return": 106500,
       "date": "2025-01-31"
+    },
+    {
+      "id": "inv-208",
+      "userId": "investor-1",
+      "type": "Tesouro",
+      "name": "NTN-B 05/15/35",
+      "value": 36949.66,
+      "return": 1847.48,
+      "date": "2024-08-14"
+    },
+    {
+      "id": "inv-209",
+      "userId": "investor-1",
+      "type": "Tesouro",
+      "name": "PETR25",
+      "value": 36949.66,
+      "return": 1847.48,
+      "date": "2024-08-14"
+    },
+    {
+      "id": "inv-210",
+      "userId": "investor-1",
+      "type": "Fundos",
+      "name": "BOGARI VALUE ADV FC FIA",
+      "value": 44903.34,
+      "return": 4490.33,
+      "date": "2024-08-14"
+    },
+    {
+      "id": "inv-211",
+      "userId": "investor-1",
+      "type": "Ações",
+      "name": "PETR4",
+      "value": 31197.33,
+      "return": 4679.6,
+      "date": "2024-08-14"
     }
   ]
 }

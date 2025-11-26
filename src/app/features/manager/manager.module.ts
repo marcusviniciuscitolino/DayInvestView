@@ -13,6 +13,12 @@ import { InterestChartComponent } from './client-investments/interest-chart/inte
 import { InterestValuesDialogComponent } from './client-investments/interest-chart/interest-values-dialog/interest-values-dialog.component';
 import { IrChartComponent } from './client-investments/ir-chart/ir-chart.component';
 import { IrValuesDialogComponent } from './client-investments/ir-chart/ir-values-dialog/ir-values-dialog.component';
+import { PortfolioQuotaChartComponent } from './client-investments/portfolio-quota-chart/portfolio-quota-chart.component';
+import { PortfolioQuotaValuesDialogComponent } from './client-investments/portfolio-quota-chart/portfolio-quota-values-dialog/portfolio-quota-values-dialog.component';
+import { ClassDistributionChartComponent } from './client-investments/class-distribution-chart/class-distribution-chart.component';
+import { StrategyDistributionChartComponent } from './client-investments/strategy-distribution-chart/strategy-distribution-chart.component';
+import { DividendsChartComponent } from './client-investments/dividends-chart/dividends-chart.component';
+import { DividendsValuesDialogComponent } from './client-investments/dividends-chart/dividends-values-dialog/dividends-values-dialog.component';
 import { PositionDailyComponent } from './position-daily/position-daily.component';
 import { InvestorModule } from '../investor/investor.module';
 
@@ -28,6 +34,12 @@ import { InvestorModule } from '../investor/investor.module';
     InterestValuesDialogComponent,
     IrChartComponent,
     IrValuesDialogComponent,
+    PortfolioQuotaChartComponent,
+    PortfolioQuotaValuesDialogComponent,
+    ClassDistributionChartComponent,
+    StrategyDistributionChartComponent,
+    DividendsChartComponent,
+    DividendsValuesDialogComponent,
     PositionDailyComponent
   ],
   imports: [
