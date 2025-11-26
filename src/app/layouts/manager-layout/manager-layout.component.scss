@@ -9,7 +9,7 @@
 
     .sidenav {
       width: 250px;
-      background-color: #ffffff;
+      background: linear-gradient(135deg, #1A3B7A 0%, #2C5AA0 100%);
       box-shadow: 2px 0 4px rgba(0,0,0,0.1);
 
       @media (max-width: 959px) {
@@ -23,7 +23,7 @@
           display: flex;
           align-items: center;
           padding: 14px 20px;
-          color: #333;
+          color: #ffffff;
           text-decoration: none;
           transition: all 0.2s ease;
           margin: 4px 8px;
@@ -31,32 +31,33 @@
 
           mat-icon {
             margin-right: 16px;
-            color: #666;
+            color: rgba(255, 255, 255, 0.8);
             transition: color 0.2s ease;
           }
 
           .nav-label {
             flex: 1;
             font-weight: 500;
+            color: #ffffff;
           }
 
           &:hover {
-            background-color: #f5f5f5;
+            background-color: rgba(255, 255, 255, 0.15);
             transform: translateX(4px);
 
             mat-icon {
-              color: #1A3B7A;
+              color: #ffffff;
             }
           }
 
           &.active {
-            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
-            color: #1A3B7A;
+            background: rgba(255, 255, 255, 0.25);
+            color: #ffffff;
             font-weight: 600;
-            box-shadow: 0 2px 4px rgba(26, 59, 122, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
             mat-icon {
-              color: #1A3B7A;
+              color: #ffffff;
             }
           }
         }
