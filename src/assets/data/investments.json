@@ -1,204 +1,6 @@
 {
   "investments": [
     {
-      "id": "inv-1",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "PETR4",
-      "value": 249472,
-      "return": 26450,
-      "date": "2024-03-16"
-    },
-    {
-      "id": "inv-2",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "VALE3",
-      "value": 244641,
-      "return": 24075,
-      "date": "2024-03-02"
-    },
-    {
-      "id": "inv-3",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "ITUB4",
-      "value": 179956,
-      "return": 30991,
-      "date": "2024-01-21"
-    },
-    {
-      "id": "inv-4",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "BBDC4",
-      "value": 72229,
-      "return": 8705,
-      "date": "2024-03-05"
-    },
-    {
-      "id": "inv-5",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "WEGE3",
-      "value": 176841,
-      "return": 32479,
-      "date": "2024-02-04"
-    },
-    {
-      "id": "inv-6",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "MGLU3",
-      "value": 222370,
-      "return": 30724,
-      "date": "2024-03-07"
-    },
-    {
-      "id": "inv-7",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "SUZB3",
-      "value": 196782,
-      "return": 18929,
-      "date": "2024-03-06"
-    },
-    {
-      "id": "inv-8",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "ELET3",
-      "value": 242239,
-      "return": 28186,
-      "date": "2024-01-14"
-    },
-    {
-      "id": "inv-9",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "ABEV3",
-      "value": 137674,
-      "return": 15551,
-      "date": "2024-02-23"
-    },
-    {
-      "id": "inv-10",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "RENT3",
-      "value": 210301,
-      "return": 18067,
-      "date": "2024-03-21"
-    },
-    {
-      "id": "inv-11",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "BRAP4",
-      "value": 117987,
-      "return": 33418,
-      "date": "2024-03-25"
-    },
-    {
-      "id": "inv-12",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "CSAN3",
-      "value": 141026,
-      "return": 16919,
-      "date": "2024-02-12"
-    },
-    {
-      "id": "inv-13",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "CMIG4",
-      "value": 125131,
-      "return": 34773,
-      "date": "2024-01-04"
-    },
-    {
-      "id": "inv-14",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "BRFS3",
-      "value": 224416,
-      "return": 18182,
-      "date": "2024-03-04"
-    },
-    {
-      "id": "inv-15",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "UGPA3",
-      "value": 227118,
-      "return": 8036,
-      "date": "2024-02-13"
-    },
-    {
-      "id": "inv-16",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "GGBR4",
-      "value": 120255,
-      "return": 17985,
-      "date": "2024-01-04"
-    },
-    {
-      "id": "inv-17",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "USIM5",
-      "value": 62797,
-      "return": 18569,
-      "date": "2024-01-10"
-    },
-    {
-      "id": "inv-18",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "CYRE3",
-      "value": 188349,
-      "return": 28942,
-      "date": "2024-02-15"
-    },
-    {
-      "id": "inv-19",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "CCRO3",
-      "value": 184593,
-      "return": 10471,
-      "date": "2024-03-19"
-    },
-    {
-      "id": "inv-20",
-      "userId": "investor-1",
-      "type": "AÃ§Ãµes",
-      "name": "EQTL3",
-      "value": 100777,
-      "return": 31469,
-      "date": "2024-01-21"
-    },
-    {
-      "id": "inv-21",
-      "userId": "investor-1",
-      "type": "Fundos",
-      "name": "Fundo Multimercado XYZ",
-      "value": 304107,
-      "return": 47561,
-      "date": "2024-02-01"
-    },
-    {
-      "id": "inv-22",
-      "userId": "investor-1",
-      "type": "Tesouro",
-      "name": "Tesouro IPCA+ 2029",
-      "value": 83905,
-      "return": 24132,
-      "date": "2024-03-16"
-    },
-    {
       "id": "inv-23",
       "userId": "investor-2",
       "type": "AÃ§Ãµes",
@@ -1781,6 +1583,42 @@
       "value": 261877,
       "return": 19133,
       "date": "2024-02-28"
+    },
+    {
+      "id": "inv-199",
+      "userId": "investor-1",
+      "type": "Tesouro",
+      "name": "NTN-B 05/15/35",
+      "value": 39437.10,
+      "return": 818.25,
+      "date": "2023-05-15"
+    },
+    {
+      "id": "inv-200",
+      "userId": "investor-1",
+      "type": "Ações",
+      "name": "PETR25",
+      "value": 41752.34,
+      "return": 0,
+      "date": "2023-05-18"
+    },
+    {
+      "id": "inv-201",
+      "userId": "investor-2",
+      "type": "Tesouro",
+      "name": "NTN-B 05/15/35",
+      "value": 500000.00,
+      "return": 62500.00,
+      "date": "2025-01-31"
+    },
+    {
+      "id": "inv-202",
+      "userId": "investor-2",
+      "type": "Ações",
+      "name": "PETR25",
+      "value": 600000.00,
+      "return": 106500.00,
+      "date": "2025-01-31"
     }
   ]
 }

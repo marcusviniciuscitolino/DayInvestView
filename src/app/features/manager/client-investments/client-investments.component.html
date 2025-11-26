@@ -1,0 +1,135 @@
+<div class="client-investments">
+  <div class="header-section">
+    <h1>Área do Gerentes</h1>
+    <div class="client-selector">
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Selecione um Cliente</mat-label>
+        <mat-select [(value)]="selectedInvestor" (selectionChange)="onInvestorSelected($event.value)">
+          <mat-option *ngFor="let investor of investors" [value]="investor">
+            {{ investor.name }} - {{ investor.email }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+
+  <div class="investments-content" *ngIf="selectedInvestor && !loading && portfolio">
+    <div class="portfolio-summary">
+      <h2>Portfólio de {{ selectedInvestor.name }}</h2>
+      <div class="summary-cards">
+        <mat-card class="summary-card">
+          <mat-card-content>
+            <h3>Valor Total</h3>
+            <p class="value">{{ portfolio.totalValue | currency:'BRL':'symbol':'1.2-2' }}</p>
+          </mat-card-content>
+        </mat-card>
+        <mat-card class="summary-card">
+          <mat-card-content>
+            <h3>Retorno Total</h3>
+            <p class="value positive">{{ portfolio.totalReturn | currency:'BRL':'symbol':'1.2-2' }}</p>
+          </mat-card-content>
+        </mat-card>
+        <mat-card class="summary-card">
+          <mat-card-content>
+            <h3>Percentual de Retorno</h3>
+            <p class="value positive">{{ portfolio.returnPercentage | number:'1.2-2' }}%</p>
+          </mat-card-content>
+        </mat-card>
+        <mat-card class="summary-card">
+          <mat-card-content>
+            <h3>Total de Investimentos</h3>
+            <p class="value">{{ portfolio.investments.length }}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+
+    <div class="charts-section" *ngIf="movements.length > 0">
+      <h3>Gráficos de Movimentações</h3>
+      <div class="charts-grid">
+        <app-interest-chart [movements]="movements"></app-interest-chart>
+        <app-ir-chart [movements]="movements"></app-ir-chart>
+      </div>
+    </div>
+
+    <div class="investments-list">
+      <h3>Lista de Investimentos</h3>
+      
+      <div *ngFor="let type of getUniqueTypes()" class="investment-type-section">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>{{ getTypeIcon(type) }}</mat-icon>
+              <span>{{ type }}</span>
+              <span class="count-badge">({{ getInvestmentsByType(type).length }})</span>
+            </mat-panel-title>
+            <mat-panel-description>
+              Total: {{ getTypeTotal(type) | currency:'BRL':'symbol':'1.2-2' }}
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+
+          <div class="investments-table">
+            <table mat-table [dataSource]="getInvestmentsByType(type)" class="mat-elevation-z2">
+              <ng-container matColumnDef="name">
+                <th mat-header-cell *matHeaderCellDef>Ativo</th>
+                <td mat-cell *matCellDef="let investment">{{ investment.name }}</td>
+              </ng-container>
+
+              <ng-container matColumnDef="value">
+                <th mat-header-cell *matHeaderCellDef>Valor</th>
+                <td mat-cell *matCellDef="let investment">{{ investment.value | currency:'BRL':'symbol':'1.2-2' }}</td>
+              </ng-container>
+
+              <ng-container matColumnDef="return">
+                <th mat-header-cell *matHeaderCellDef>Retorno</th>
+                <td mat-cell *matCellDef="let investment" [class.positive]="investment.return >= 0">
+                  {{ investment.return | currency:'BRL':'symbol':'1.2-2' }}
+                </td>
+              </ng-container>
+
+              <ng-container matColumnDef="returnPercentage">
+                <th mat-header-cell *matHeaderCellDef>% Retorno</th>
+                <td mat-cell *matCellDef="let investment" [class.positive]="investment.return >= 0">
+                  {{ investment.value > 0 ? (investment.return / investment.value * 100 | number:'1.2-2') : '0.00' }}%
+                </td>
+              </ng-container>
+
+              <ng-container matColumnDef="date">
+                <th mat-header-cell *matHeaderCellDef>Data</th>
+                <td mat-cell *matCellDef="let investment">{{ investment.date | date:'dd/MM/yyyy' }}</td>
+              </ng-container>
+
+              <ng-container matColumnDef="actions">
+                <th mat-header-cell *matHeaderCellDef>Ações</th>
+                <td mat-cell *matCellDef="let investment">
+                  <button mat-icon-button color="primary" (click)="viewPosition(investment)" matTooltip="Ver Posição Diária">
+                    <mat-icon>bar_chart</mat-icon>
+                  </button>
+                </td>
+              </ng-container>
+
+              <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+          </div>
+        </mat-expansion-panel>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="loading" class="loading">
+    <mat-spinner diameter="50"></mat-spinner>
+    <p>Carregando investimentos...</p>
+  </div>
+
+  <div *ngIf="!selectedInvestor && !loading" class="no-selection">
+    <mat-icon>person_search</mat-icon>
+    <p>Selecione um cliente acima para visualizar seus investimentos</p>
+  </div>
+
+  <div *ngIf="selectedInvestor && !loading && portfolio && portfolio.investments.length === 0" class="no-investments">
+    <mat-icon>info</mat-icon>
+    <p>Este cliente não possui investimentos cadastrados</p>
+  </div>
+</div>
+

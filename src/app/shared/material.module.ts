@@ -22,6 +22,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 const MaterialModules = [
   MatButtonModule,
@@ -46,7 +47,8 @@ const MaterialModules = [
   MatProgressSpinnerModule,
   MatTableModule,
   MatSortModule,
-  MatAutocompleteModule
+  MatAutocompleteModule,
+  MatExpansionModule
 ];
 
 @NgModule({

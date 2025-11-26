@@ -1,0 +1,354 @@
+{
+  "movements": [
+    {
+      "id": "mov-1",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Aplicação",
+      "movementDate": "2023-01-02",
+      "movementValue": 39437.10,
+      "quotaValue": 3943.71,
+      "quantity": 10.00
+    },
+    {
+      "id": "mov-2",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Juros",
+      "movementDate": "2023-05-15",
+      "movementValue": -1017.92,
+      "quotaValue": 121.76,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-3",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "IR",
+      "movementDate": "2023-05-15",
+      "movementValue": -199.67,
+      "quotaValue": 199.67,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-4",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "movementType": "Aplicação",
+      "movementDate": "2023-05-18",
+      "movementValue": 41752.34,
+      "quotaValue": 1391.74,
+      "quantity": 30.00
+    },
+    {
+      "id": "mov-5",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "movementType": "Juros",
+      "movementDate": "2023-08-15",
+      "movementValue": -2141.02,
+      "quotaValue": 71.37,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-6",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Juros",
+      "movementDate": "2023-11-16",
+      "movementValue": -983.85,
+      "quotaValue": 122.98,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-7",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "IR",
+      "movementDate": "2023-11-16",
+      "movementValue": -245.96,
+      "quotaValue": 245.96,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-8",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Juros",
+      "movementDate": "2024-05-15",
+      "movementValue": -1041.55,
+      "quotaValue": 126.25,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-9",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "IR",
+      "movementDate": "2024-05-15",
+      "movementValue": -220.94,
+      "quotaValue": 220.94,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-10",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "movementType": "Vencimento",
+      "movementDate": "2024-08-15",
+      "movementValue": -43140.00,
+      "quotaValue": 1438.00,
+      "quantity": -30.00
+    },
+    {
+      "id": "mov-11",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "movementType": "Juros",
+      "movementDate": "2024-08-15",
+      "movementValue": -2237.33,
+      "quotaValue": 74.58,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-12",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Juros",
+      "movementDate": "2024-11-18",
+      "movementValue": -1062.86,
+      "quotaValue": 128.83,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-13",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "IR",
+      "movementDate": "2024-11-18",
+      "movementValue": -225.46,
+      "quotaValue": 225.46,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-14",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Juros",
+      "movementDate": "2025-05-15",
+      "movementValue": -1132.46,
+      "quotaValue": 133.23,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-15",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "IR",
+      "movementDate": "2025-05-15",
+      "movementValue": -199.84,
+      "quotaValue": 199.84,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-16",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Aplicação",
+      "movementDate": "2020-01-15",
+      "movementValue": 500000.00,
+      "quotaValue": 50000.00,
+      "quantity": 100.00
+    },
+    {
+      "id": "mov-17",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "movementType": "Aplicação",
+      "movementDate": "2020-01-20",
+      "movementValue": 600000.00,
+      "quotaValue": 20000.00,
+      "quantity": 300.00
+    },
+    {
+      "id": "mov-18",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Juros",
+      "movementDate": "2020-01-31",
+      "movementValue": -8500.00,
+      "quotaValue": 850.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-19",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "IR",
+      "movementDate": "2020-01-31",
+      "movementValue": -1700.00,
+      "quotaValue": 170.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-20",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "movementType": "Juros",
+      "movementDate": "2020-01-31",
+      "movementValue": -18000.00,
+      "quotaValue": 600.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-21",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Juros",
+      "movementDate": "2021-01-31",
+      "movementValue": -9200.00,
+      "quotaValue": 920.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-22",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "IR",
+      "movementDate": "2021-01-31",
+      "movementValue": -1840.00,
+      "quotaValue": 184.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-23",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "movementType": "Juros",
+      "movementDate": "2021-01-31",
+      "movementValue": -19500.00,
+      "quotaValue": 650.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-24",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Juros",
+      "movementDate": "2022-01-31",
+      "movementValue": -10000.00,
+      "quotaValue": 1000.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-25",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "IR",
+      "movementDate": "2022-01-31",
+      "movementValue": -2000.00,
+      "quotaValue": 200.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-26",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "movementType": "Juros",
+      "movementDate": "2022-01-31",
+      "movementValue": -21000.00,
+      "quotaValue": 700.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-27",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Juros",
+      "movementDate": "2023-01-31",
+      "movementValue": -10800.00,
+      "quotaValue": 1080.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-28",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "IR",
+      "movementDate": "2023-01-31",
+      "movementValue": -2160.00,
+      "quotaValue": 216.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-29",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "movementType": "Juros",
+      "movementDate": "2023-01-31",
+      "movementValue": -22500.00,
+      "quotaValue": 750.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-30",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Juros",
+      "movementDate": "2024-01-31",
+      "movementValue": -11600.00,
+      "quotaValue": 1160.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-31",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "IR",
+      "movementDate": "2024-01-31",
+      "movementValue": -2320.00,
+      "quotaValue": 232.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-32",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "movementType": "Juros",
+      "movementDate": "2024-01-31",
+      "movementValue": -24000.00,
+      "quotaValue": 800.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-33",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "Juros",
+      "movementDate": "2025-01-31",
+      "movementValue": -12400.00,
+      "quotaValue": 1240.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-34",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "movementType": "IR",
+      "movementDate": "2025-01-31",
+      "movementValue": -2480.00,
+      "quotaValue": 248.00,
+      "quantity": 0.00
+    },
+    {
+      "id": "mov-35",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "movementType": "Juros",
+      "movementDate": "2025-01-31",
+      "movementValue": -25500.00,
+      "quotaValue": 850.00,
+      "quantity": 0.00
+    }
+  ]
+}

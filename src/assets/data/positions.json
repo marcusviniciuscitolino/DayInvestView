@@ -1,0 +1,1852 @@
+{
+  "positions": [
+    {
+      "id": "pos-1",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-02",
+      "quantity": 10.00,
+      "position": 39437.10
+    },
+    {
+      "id": "pos-2",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-03",
+      "quantity": 10.00,
+      "position": 39520.50
+    },
+    {
+      "id": "pos-3",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-04",
+      "quantity": 10.00,
+      "position": 39610.25
+    },
+    {
+      "id": "pos-4",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-05",
+      "quantity": 10.00,
+      "position": 39685.80
+    },
+    {
+      "id": "pos-5",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-09",
+      "quantity": 10.00,
+      "position": 39820.15
+    },
+    {
+      "id": "pos-6",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-10",
+      "quantity": 10.00,
+      "position": 39910.30
+    },
+    {
+      "id": "pos-7",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-11",
+      "quantity": 10.00,
+      "position": 39985.75
+    },
+    {
+      "id": "pos-8",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-12",
+      "quantity": 10.00,
+      "position": 40050.20
+    },
+    {
+      "id": "pos-9",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-13",
+      "quantity": 10.00,
+      "position": 40125.40
+    },
+    {
+      "id": "pos-10",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-16",
+      "quantity": 10.00,
+      "position": 40200.60
+    },
+    {
+      "id": "pos-11",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-17",
+      "quantity": 10.00,
+      "position": 40275.90
+    },
+    {
+      "id": "pos-12",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-18",
+      "quantity": 10.00,
+      "position": 40350.15
+    },
+    {
+      "id": "pos-13",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-19",
+      "quantity": 10.00,
+      "position": 40425.30
+    },
+    {
+      "id": "pos-14",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-20",
+      "quantity": 10.00,
+      "position": 40500.50
+    },
+    {
+      "id": "pos-15",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-23",
+      "quantity": 10.00,
+      "position": 40575.70
+    },
+    {
+      "id": "pos-16",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-24",
+      "quantity": 10.00,
+      "position": 40650.85
+    },
+    {
+      "id": "pos-17",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-25",
+      "quantity": 10.00,
+      "position": 40725.95
+    },
+    {
+      "id": "pos-18",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-26",
+      "quantity": 10.00,
+      "position": 40800.10
+    },
+    {
+      "id": "pos-19",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-27",
+      "quantity": 10.00,
+      "position": 40875.25
+    },
+    {
+      "id": "pos-20",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-30",
+      "quantity": 10.00,
+      "position": 40950.40
+    },
+    {
+      "id": "pos-21",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-31",
+      "quantity": 10.00,
+      "position": 41025.55
+    },
+    {
+      "id": "pos-22",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-01",
+      "quantity": 10.00,
+      "position": 41100.70
+    },
+    {
+      "id": "pos-23",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-02",
+      "quantity": 10.00,
+      "position": 41175.85
+    },
+    {
+      "id": "pos-24",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-03",
+      "quantity": 10.00,
+      "position": 41250.95
+    },
+    {
+      "id": "pos-25",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-06",
+      "quantity": 10.00,
+      "position": 41325.10
+    },
+    {
+      "id": "pos-26",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-07",
+      "quantity": 10.00,
+      "position": 41400.25
+    },
+    {
+      "id": "pos-27",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-08",
+      "quantity": 10.00,
+      "position": 41475.40
+    },
+    {
+      "id": "pos-28",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-09",
+      "quantity": 10.00,
+      "position": 41550.55
+    },
+    {
+      "id": "pos-29",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-10",
+      "quantity": 10.00,
+      "position": 41625.70
+    },
+    {
+      "id": "pos-30",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-13",
+      "quantity": 10.00,
+      "position": 41700.85
+    },
+    {
+      "id": "pos-31",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-14",
+      "quantity": 10.00,
+      "position": 41775.95
+    },
+    {
+      "id": "pos-32",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-15",
+      "quantity": 10.00,
+      "position": 41850.10
+    },
+    {
+      "id": "pos-33",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-16",
+      "quantity": 10.00,
+      "position": 41925.25
+    },
+    {
+      "id": "pos-34",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-17",
+      "quantity": 10.00,
+      "position": 42000.40
+    },
+    {
+      "id": "pos-35",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-20",
+      "quantity": 10.00,
+      "position": 42075.55
+    },
+    {
+      "id": "pos-36",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-21",
+      "quantity": 10.00,
+      "position": 42150.70
+    },
+    {
+      "id": "pos-37",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-22",
+      "quantity": 10.00,
+      "position": 42225.85
+    },
+    {
+      "id": "pos-38",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-23",
+      "quantity": 10.00,
+      "position": 42300.95
+    },
+    {
+      "id": "pos-39",
+      "userId": "investor-1",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-02-24",
+      "quantity": 10.00,
+      "position": 42375.10
+    },
+    {
+      "id": "pos-40",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-02",
+      "quantity": 0.00,
+      "position": 0.00
+    },
+    {
+      "id": "pos-41",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-03",
+      "quantity": 0.00,
+      "position": 0.00
+    },
+    {
+      "id": "pos-42",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-04",
+      "quantity": 0.00,
+      "position": 0.00
+    },
+    {
+      "id": "pos-43",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-05",
+      "quantity": 0.00,
+      "position": 0.00
+    },
+    {
+      "id": "pos-44",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-09",
+      "quantity": 0.00,
+      "position": 0.00
+    },
+    {
+      "id": "pos-45",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-10",
+      "quantity": 0.00,
+      "position": 0.00
+    },
+    {
+      "id": "pos-46",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-11",
+      "quantity": 0.00,
+      "position": 0.00
+    },
+    {
+      "id": "pos-47",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-12",
+      "quantity": 0.00,
+      "position": 0.00
+    },
+    {
+      "id": "pos-48",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-13",
+      "quantity": 0.00,
+      "position": 0.00
+    },
+    {
+      "id": "pos-49",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-16",
+      "quantity": 0.00,
+      "position": 0.00
+    },
+    {
+      "id": "pos-50",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-17",
+      "quantity": 0.00,
+      "position": 0.00
+    },
+    {
+      "id": "pos-51",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-18",
+      "quantity": 30.00,
+      "position": 41752.34
+    },
+    {
+      "id": "pos-52",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-19",
+      "quantity": 30.00,
+      "position": 41850.20
+    },
+    {
+      "id": "pos-53",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-20",
+      "quantity": 30.00,
+      "position": 41948.10
+    },
+    {
+      "id": "pos-54",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-23",
+      "quantity": 30.00,
+      "position": 42045.95
+    },
+    {
+      "id": "pos-55",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-24",
+      "quantity": 30.00,
+      "position": 42143.80
+    },
+    {
+      "id": "pos-56",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-25",
+      "quantity": 30.00,
+      "position": 42241.65
+    },
+    {
+      "id": "pos-57",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-26",
+      "quantity": 30.00,
+      "position": 42339.50
+    },
+    {
+      "id": "pos-58",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-27",
+      "quantity": 30.00,
+      "position": 42437.35
+    },
+    {
+      "id": "pos-59",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-30",
+      "quantity": 30.00,
+      "position": 42535.20
+    },
+    {
+      "id": "pos-60",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-01-31",
+      "quantity": 30.00,
+      "position": 42633.05
+    },
+    {
+      "id": "pos-61",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-01",
+      "quantity": 30.00,
+      "position": 42730.90
+    },
+    {
+      "id": "pos-62",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-02",
+      "quantity": 30.00,
+      "position": 42828.75
+    },
+    {
+      "id": "pos-63",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-03",
+      "quantity": 30.00,
+      "position": 42926.60
+    },
+    {
+      "id": "pos-64",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-06",
+      "quantity": 30.00,
+      "position": 43024.45
+    },
+    {
+      "id": "pos-65",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-07",
+      "quantity": 30.00,
+      "position": 43122.30
+    },
+    {
+      "id": "pos-66",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-08",
+      "quantity": 30.00,
+      "position": 43220.15
+    },
+    {
+      "id": "pos-67",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-09",
+      "quantity": 30.00,
+      "position": 43318.00
+    },
+    {
+      "id": "pos-68",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-10",
+      "quantity": 30.00,
+      "position": 43415.85
+    },
+    {
+      "id": "pos-69",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-13",
+      "quantity": 30.00,
+      "position": 43513.70
+    },
+    {
+      "id": "pos-70",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-14",
+      "quantity": 30.00,
+      "position": 43611.55
+    },
+    {
+      "id": "pos-71",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-15",
+      "quantity": 30.00,
+      "position": 43709.40
+    },
+    {
+      "id": "pos-72",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-16",
+      "quantity": 30.00,
+      "position": 43807.25
+    },
+    {
+      "id": "pos-73",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-17",
+      "quantity": 30.00,
+      "position": 43905.10
+    },
+    {
+      "id": "pos-74",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-20",
+      "quantity": 30.00,
+      "position": 44002.95
+    },
+    {
+      "id": "pos-75",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-21",
+      "quantity": 30.00,
+      "position": 44100.80
+    },
+    {
+      "id": "pos-76",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-22",
+      "quantity": 30.00,
+      "position": 44198.65
+    },
+    {
+      "id": "pos-77",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-23",
+      "quantity": 30.00,
+      "position": 44296.50
+    },
+    {
+      "id": "pos-78",
+      "userId": "investor-1",
+      "assetName": "PETR25",
+      "date": "2023-02-24",
+      "quantity": 30.00,
+      "position": 44394.35
+    },
+    {
+      "id": "pos-79",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-15",
+      "quantity": 100.00,
+      "position": 500000.00
+    },
+    {
+      "id": "pos-80",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-16",
+      "quantity": 100.00,
+      "position": 501250.00
+    },
+    {
+      "id": "pos-81",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-17",
+      "quantity": 100.00,
+      "position": 502500.00
+    },
+    {
+      "id": "pos-82",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-20",
+      "quantity": 100.00,
+      "position": 503750.00
+    },
+    {
+      "id": "pos-83",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-21",
+      "quantity": 100.00,
+      "position": 505000.00
+    },
+    {
+      "id": "pos-84",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-22",
+      "quantity": 100.00,
+      "position": 506250.00
+    },
+    {
+      "id": "pos-85",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-23",
+      "quantity": 100.00,
+      "position": 507500.00
+    },
+    {
+      "id": "pos-86",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-24",
+      "quantity": 100.00,
+      "position": 508750.00
+    },
+    {
+      "id": "pos-87",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-27",
+      "quantity": 100.00,
+      "position": 510000.00
+    },
+    {
+      "id": "pos-88",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-28",
+      "quantity": 100.00,
+      "position": 511250.00
+    },
+    {
+      "id": "pos-89",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-29",
+      "quantity": 100.00,
+      "position": 512500.00
+    },
+    {
+      "id": "pos-90",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-30",
+      "quantity": 100.00,
+      "position": 513750.00
+    },
+    {
+      "id": "pos-91",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-01-31",
+      "quantity": 100.00,
+      "position": 515000.00
+    },
+    {
+      "id": "pos-92",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-01-20",
+      "quantity": 300.00,
+      "position": 600000.00
+    },
+    {
+      "id": "pos-93",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-01-21",
+      "quantity": 300.00,
+      "position": 601500.00
+    },
+    {
+      "id": "pos-94",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-01-22",
+      "quantity": 300.00,
+      "position": 603000.00
+    },
+    {
+      "id": "pos-95",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-01-23",
+      "quantity": 300.00,
+      "position": 604500.00
+    },
+    {
+      "id": "pos-96",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-01-24",
+      "quantity": 300.00,
+      "position": 606000.00
+    },
+    {
+      "id": "pos-97",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-01-27",
+      "quantity": 300.00,
+      "position": 607500.00
+    },
+    {
+      "id": "pos-98",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-01-28",
+      "quantity": 300.00,
+      "position": 609000.00
+    },
+    {
+      "id": "pos-99",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-01-29",
+      "quantity": 300.00,
+      "position": 610500.00
+    },
+    {
+      "id": "pos-100",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-01-30",
+      "quantity": 300.00,
+      "position": 612000.00
+    },
+    {
+      "id": "pos-101",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-01-31",
+      "quantity": 300.00,
+      "position": 613500.00
+    },
+    {
+      "id": "pos-112",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-02-03",
+      "quantity": 100.00,
+      "position": 516250.00
+    },
+    {
+      "id": "pos-113",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-02-04",
+      "quantity": 100.00,
+      "position": 517500.00
+    },
+    {
+      "id": "pos-114",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-02-05",
+      "quantity": 100.00,
+      "position": 518750.00
+    },
+    {
+      "id": "pos-115",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-02-06",
+      "quantity": 100.00,
+      "position": 520000.00
+    },
+    {
+      "id": "pos-116",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-02-07",
+      "quantity": 100.00,
+      "position": 521250.00
+    },
+    {
+      "id": "pos-117",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-02-10",
+      "quantity": 100.00,
+      "position": 522500.00
+    },
+    {
+      "id": "pos-118",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-02-11",
+      "quantity": 100.00,
+      "position": 523750.00
+    },
+    {
+      "id": "pos-119",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2020-02-12",
+      "quantity": 100.00,
+      "position": 525000.00
+    },
+    {
+      "id": "pos-120",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-02-03",
+      "quantity": 300.00,
+      "position": 615000.00
+    },
+    {
+      "id": "pos-121",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-02-04",
+      "quantity": 300.00,
+      "position": 616500.00
+    },
+    {
+      "id": "pos-122",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-02-05",
+      "quantity": 300.00,
+      "position": 618000.00
+    },
+    {
+      "id": "pos-123",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-02-06",
+      "quantity": 300.00,
+      "position": 619500.00
+    },
+    {
+      "id": "pos-124",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-02-07",
+      "quantity": 300.00,
+      "position": 621000.00
+    },
+    {
+      "id": "pos-125",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-02-10",
+      "quantity": 300.00,
+      "position": 622500.00
+    },
+    {
+      "id": "pos-126",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-02-11",
+      "quantity": 300.00,
+      "position": 624000.00
+    },
+    {
+      "id": "pos-127",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2020-02-12",
+      "quantity": 300.00,
+      "position": 625500.00
+    },
+    {
+      "id": "pos-102",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2021-01-15",
+      "quantity": 100.00,
+      "position": 520000.00
+    },
+    {
+      "id": "pos-128",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2021-01-18",
+      "quantity": 100.00,
+      "position": 521000.00
+    },
+    {
+      "id": "pos-129",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2021-01-19",
+      "quantity": 100.00,
+      "position": 522000.00
+    },
+    {
+      "id": "pos-130",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2021-01-20",
+      "quantity": 100.00,
+      "position": 523000.00
+    },
+    {
+      "id": "pos-131",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2021-01-21",
+      "quantity": 100.00,
+      "position": 524000.00
+    },
+    {
+      "id": "pos-132",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2021-01-22",
+      "quantity": 100.00,
+      "position": 524500.00
+    },
+    {
+      "id": "pos-133",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2021-01-25",
+      "quantity": 100.00,
+      "position": 524750.00
+    },
+    {
+      "id": "pos-134",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2021-01-26",
+      "quantity": 100.00,
+      "position": 524850.00
+    },
+    {
+      "id": "pos-135",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2021-01-27",
+      "quantity": 100.00,
+      "position": 524900.00
+    },
+    {
+      "id": "pos-136",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2021-01-28",
+      "quantity": 100.00,
+      "position": 524950.00
+    },
+    {
+      "id": "pos-137",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2021-01-29",
+      "quantity": 100.00,
+      "position": 524975.00
+    },
+    {
+      "id": "pos-138",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2021-01-31",
+      "quantity": 100.00,
+      "position": 525000.00
+    },
+    {
+      "id": "pos-139",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2021-01-15",
+      "quantity": 300.00,
+      "position": 620000.00
+    },
+    {
+      "id": "pos-140",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2021-01-18",
+      "quantity": 300.00,
+      "position": 621000.00
+    },
+    {
+      "id": "pos-141",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2021-01-19",
+      "quantity": 300.00,
+      "position": 622000.00
+    },
+    {
+      "id": "pos-142",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2021-01-20",
+      "quantity": 300.00,
+      "position": 623000.00
+    },
+    {
+      "id": "pos-143",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2021-01-21",
+      "quantity": 300.00,
+      "position": 624000.00
+    },
+    {
+      "id": "pos-144",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2021-01-22",
+      "quantity": 300.00,
+      "position": 624500.00
+    },
+    {
+      "id": "pos-145",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2021-01-25",
+      "quantity": 300.00,
+      "position": 624750.00
+    },
+    {
+      "id": "pos-146",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2021-01-26",
+      "quantity": 300.00,
+      "position": 624850.00
+    },
+    {
+      "id": "pos-147",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2021-01-27",
+      "quantity": 300.00,
+      "position": 624900.00
+    },
+    {
+      "id": "pos-148",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2021-01-28",
+      "quantity": 300.00,
+      "position": 624950.00
+    },
+    {
+      "id": "pos-149",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2021-01-29",
+      "quantity": 300.00,
+      "position": 624975.00
+    },
+    {
+      "id": "pos-103",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2021-01-31",
+      "quantity": 300.00,
+      "position": 625000.00
+    },
+    {
+      "id": "pos-150",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2022-01-15",
+      "quantity": 100.00,
+      "position": 530000.00
+    },
+    {
+      "id": "pos-151",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2022-01-18",
+      "quantity": 100.00,
+      "position": 531000.00
+    },
+    {
+      "id": "pos-152",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2022-01-19",
+      "quantity": 100.00,
+      "position": 532000.00
+    },
+    {
+      "id": "pos-153",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2022-01-20",
+      "quantity": 100.00,
+      "position": 533000.00
+    },
+    {
+      "id": "pos-154",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2022-01-21",
+      "quantity": 100.00,
+      "position": 534000.00
+    },
+    {
+      "id": "pos-155",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2022-01-24",
+      "quantity": 100.00,
+      "position": 534500.00
+    },
+    {
+      "id": "pos-156",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2022-01-25",
+      "quantity": 100.00,
+      "position": 534750.00
+    },
+    {
+      "id": "pos-157",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2022-01-26",
+      "quantity": 100.00,
+      "position": 534850.00
+    },
+    {
+      "id": "pos-158",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2022-01-27",
+      "quantity": 100.00,
+      "position": 534900.00
+    },
+    {
+      "id": "pos-159",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2022-01-28",
+      "quantity": 100.00,
+      "position": 534950.00
+    },
+    {
+      "id": "pos-104",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2022-01-31",
+      "quantity": 100.00,
+      "position": 535000.00
+    },
+    {
+      "id": "pos-160",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2022-01-15",
+      "quantity": 300.00,
+      "position": 630000.00
+    },
+    {
+      "id": "pos-161",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2022-01-18",
+      "quantity": 300.00,
+      "position": 631000.00
+    },
+    {
+      "id": "pos-162",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2022-01-19",
+      "quantity": 300.00,
+      "position": 632000.00
+    },
+    {
+      "id": "pos-163",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2022-01-20",
+      "quantity": 300.00,
+      "position": 633000.00
+    },
+    {
+      "id": "pos-164",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2022-01-21",
+      "quantity": 300.00,
+      "position": 634000.00
+    },
+    {
+      "id": "pos-165",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2022-01-24",
+      "quantity": 300.00,
+      "position": 634500.00
+    },
+    {
+      "id": "pos-166",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2022-01-25",
+      "quantity": 300.00,
+      "position": 634750.00
+    },
+    {
+      "id": "pos-167",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2022-01-26",
+      "quantity": 300.00,
+      "position": 634850.00
+    },
+    {
+      "id": "pos-168",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2022-01-27",
+      "quantity": 300.00,
+      "position": 634900.00
+    },
+    {
+      "id": "pos-169",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2022-01-28",
+      "quantity": 300.00,
+      "position": 634950.00
+    },
+    {
+      "id": "pos-105",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2022-01-31",
+      "quantity": 300.00,
+      "position": 635000.00
+    },
+    {
+      "id": "pos-170",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-15",
+      "quantity": 100.00,
+      "position": 540000.00
+    },
+    {
+      "id": "pos-171",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-18",
+      "quantity": 100.00,
+      "position": 541000.00
+    },
+    {
+      "id": "pos-172",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-19",
+      "quantity": 100.00,
+      "position": 542000.00
+    },
+    {
+      "id": "pos-173",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-20",
+      "quantity": 100.00,
+      "position": 543000.00
+    },
+    {
+      "id": "pos-174",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-23",
+      "quantity": 100.00,
+      "position": 543500.00
+    },
+    {
+      "id": "pos-175",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-24",
+      "quantity": 100.00,
+      "position": 543750.00
+    },
+    {
+      "id": "pos-176",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-25",
+      "quantity": 100.00,
+      "position": 543850.00
+    },
+    {
+      "id": "pos-177",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-26",
+      "quantity": 100.00,
+      "position": 543900.00
+    },
+    {
+      "id": "pos-178",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-27",
+      "quantity": 100.00,
+      "position": 543950.00
+    },
+    {
+      "id": "pos-179",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-30",
+      "quantity": 100.00,
+      "position": 544000.00
+    },
+    {
+      "id": "pos-106",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2023-01-31",
+      "quantity": 100.00,
+      "position": 545000.00
+    },
+    {
+      "id": "pos-180",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2023-01-15",
+      "quantity": 300.00,
+      "position": 640000.00
+    },
+    {
+      "id": "pos-181",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2023-01-18",
+      "quantity": 300.00,
+      "position": 641000.00
+    },
+    {
+      "id": "pos-182",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2023-01-19",
+      "quantity": 300.00,
+      "position": 642000.00
+    },
+    {
+      "id": "pos-183",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2023-01-20",
+      "quantity": 300.00,
+      "position": 643000.00
+    },
+    {
+      "id": "pos-184",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2023-01-23",
+      "quantity": 300.00,
+      "position": 643500.00
+    },
+    {
+      "id": "pos-185",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2023-01-24",
+      "quantity": 300.00,
+      "position": 643750.00
+    },
+    {
+      "id": "pos-186",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2023-01-25",
+      "quantity": 300.00,
+      "position": 643850.00
+    },
+    {
+      "id": "pos-187",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2023-01-26",
+      "quantity": 300.00,
+      "position": 643900.00
+    },
+    {
+      "id": "pos-188",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2023-01-27",
+      "quantity": 300.00,
+      "position": 643950.00
+    },
+    {
+      "id": "pos-189",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2023-01-30",
+      "quantity": 300.00,
+      "position": 644000.00
+    },
+    {
+      "id": "pos-107",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2023-01-31",
+      "quantity": 300.00,
+      "position": 645000.00
+    },
+    {
+      "id": "pos-190",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2024-01-15",
+      "quantity": 100.00,
+      "position": 550000.00
+    },
+    {
+      "id": "pos-191",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2024-01-18",
+      "quantity": 100.00,
+      "position": 551000.00
+    },
+    {
+      "id": "pos-192",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2024-01-19",
+      "quantity": 100.00,
+      "position": 552000.00
+    },
+    {
+      "id": "pos-193",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2024-01-22",
+      "quantity": 100.00,
+      "position": 553000.00
+    },
+    {
+      "id": "pos-194",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2024-01-23",
+      "quantity": 100.00,
+      "position": 553500.00
+    },
+    {
+      "id": "pos-195",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2024-01-24",
+      "quantity": 100.00,
+      "position": 554000.00
+    },
+    {
+      "id": "pos-196",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2024-01-25",
+      "quantity": 100.00,
+      "position": 554250.00
+    },
+    {
+      "id": "pos-197",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2024-01-26",
+      "quantity": 100.00,
+      "position": 554500.00
+    },
+    {
+      "id": "pos-198",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2024-01-29",
+      "quantity": 100.00,
+      "position": 554750.00
+    },
+    {
+      "id": "pos-108",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2024-01-31",
+      "quantity": 100.00,
+      "position": 555000.00
+    },
+    {
+      "id": "pos-199",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2024-01-15",
+      "quantity": 300.00,
+      "position": 650000.00
+    },
+    {
+      "id": "pos-200",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2024-01-18",
+      "quantity": 300.00,
+      "position": 651000.00
+    },
+    {
+      "id": "pos-201",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2024-01-19",
+      "quantity": 300.00,
+      "position": 652000.00
+    },
+    {
+      "id": "pos-202",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2024-01-22",
+      "quantity": 300.00,
+      "position": 653000.00
+    },
+    {
+      "id": "pos-203",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2024-01-23",
+      "quantity": 300.00,
+      "position": 653500.00
+    },
+    {
+      "id": "pos-204",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2024-01-24",
+      "quantity": 300.00,
+      "position": 654000.00
+    },
+    {
+      "id": "pos-205",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2024-01-25",
+      "quantity": 300.00,
+      "position": 654250.00
+    },
+    {
+      "id": "pos-206",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2024-01-26",
+      "quantity": 300.00,
+      "position": 654500.00
+    },
+    {
+      "id": "pos-207",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2024-01-29",
+      "quantity": 300.00,
+      "position": 654750.00
+    },
+    {
+      "id": "pos-109",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2024-01-31",
+      "quantity": 300.00,
+      "position": 655000.00
+    },
+    {
+      "id": "pos-208",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-15",
+      "quantity": 100.00,
+      "position": 560000.00
+    },
+    {
+      "id": "pos-209",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-16",
+      "quantity": 100.00,
+      "position": 561000.00
+    },
+    {
+      "id": "pos-210",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-17",
+      "quantity": 100.00,
+      "position": 562000.00
+    },
+    {
+      "id": "pos-211",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-20",
+      "quantity": 100.00,
+      "position": 563000.00
+    },
+    {
+      "id": "pos-212",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-21",
+      "quantity": 100.00,
+      "position": 563500.00
+    },
+    {
+      "id": "pos-213",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-22",
+      "quantity": 100.00,
+      "position": 564000.00
+    },
+    {
+      "id": "pos-214",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-23",
+      "quantity": 100.00,
+      "position": 564250.00
+    },
+    {
+      "id": "pos-215",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-24",
+      "quantity": 100.00,
+      "position": 564500.00
+    },
+    {
+      "id": "pos-216",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-27",
+      "quantity": 100.00,
+      "position": 564750.00
+    },
+    {
+      "id": "pos-217",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-28",
+      "quantity": 100.00,
+      "position": 564850.00
+    },
+    {
+      "id": "pos-218",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-29",
+      "quantity": 100.00,
+      "position": 564900.00
+    },
+    {
+      "id": "pos-219",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-30",
+      "quantity": 100.00,
+      "position": 564950.00
+    },
+    {
+      "id": "pos-110",
+      "userId": "investor-2",
+      "assetName": "NTN-B 05/15/35",
+      "date": "2025-01-31",
+      "quantity": 100.00,
+      "position": 565000.00
+    },
+    {
+      "id": "pos-220",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-15",
+      "quantity": 300.00,
+      "position": 660000.00
+    },
+    {
+      "id": "pos-221",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-16",
+      "quantity": 300.00,
+      "position": 661000.00
+    },
+    {
+      "id": "pos-222",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-17",
+      "quantity": 300.00,
+      "position": 662000.00
+    },
+    {
+      "id": "pos-223",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-20",
+      "quantity": 300.00,
+      "position": 663000.00
+    },
+    {
+      "id": "pos-224",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-21",
+      "quantity": 300.00,
+      "position": 663500.00
+    },
+    {
+      "id": "pos-225",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-22",
+      "quantity": 300.00,
+      "position": 664000.00
+    },
+    {
+      "id": "pos-226",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-23",
+      "quantity": 300.00,
+      "position": 664250.00
+    },
+    {
+      "id": "pos-227",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-24",
+      "quantity": 300.00,
+      "position": 664500.00
+    },
+    {
+      "id": "pos-228",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-27",
+      "quantity": 300.00,
+      "position": 664750.00
+    },
+    {
+      "id": "pos-229",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-28",
+      "quantity": 300.00,
+      "position": 664850.00
+    },
+    {
+      "id": "pos-230",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-29",
+      "quantity": 300.00,
+      "position": 664900.00
+    },
+    {
+      "id": "pos-231",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-30",
+      "quantity": 300.00,
+      "position": 664950.00
+    },
+    {
+      "id": "pos-111",
+      "userId": "investor-2",
+      "assetName": "PETR25",
+      "date": "2025-01-31",
+      "quantity": 300.00,
+      "position": 665000.00
+    }
+  ]
+}

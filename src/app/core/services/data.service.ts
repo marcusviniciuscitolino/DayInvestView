@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { InvestmentData, PortfolioSummary } from '../models/investment-data.model';
+import { InvestmentData, PortfolioSummary, MovementData, PositionData } from '../models/investment-data.model';
 import investmentData from '../../../assets/data/investments.json';
+import movementsData from '../../../assets/data/movements.json';
+import positionsData from '../../../assets/data/positions.json';
 
 @Injectable({
   providedIn: 'root'
@@ -46,6 +48,28 @@ export class DataService {
 
   getAllInvestments(): Observable<InvestmentData[]> {
     return of((investmentData as any).investments);
+  }
+
+  getMovementsByUserId(userId: string): Observable<MovementData[]> {
+    const movements: MovementData[] = (movementsData as any).movements.filter(
+      (mov: MovementData) => mov.userId === userId
+    );
+    return of(movements);
+  }
+
+  getAllMovements(): Observable<MovementData[]> {
+    return of((movementsData as any).movements);
+  }
+
+  getPositionsByUserIdAndAsset(userId: string, assetName: string): Observable<PositionData[]> {
+    const positions: PositionData[] = (positionsData as any).positions.filter(
+      (pos: PositionData) => pos.userId === userId && pos.assetName === assetName
+    );
+    return of(positions);
+  }
+
+  getAllPositions(): Observable<PositionData[]> {
+    return of((positionsData as any).positions);
   }
 }
 

@@ -1,0 +1,54 @@
+<div class="interest-values-dialog">
+  <h2 mat-dialog-title>
+    <mat-icon>account_balance_wallet</mat-icon>
+    Valores Detalhados de Juros
+  </h2>
+
+  <mat-dialog-content>
+    <div class="values-container" *ngIf="interestMovements.length > 0">
+      <div class="asset-section" *ngFor="let asset of groupedByAsset.keys()">
+        <h3 class="asset-name">{{ asset }}</h3>
+        <table mat-table [dataSource]="groupedByAsset.get(asset)!" class="values-table">
+          <ng-container matColumnDef="date">
+            <th mat-header-cell *matHeaderCellDef>Data</th>
+            <td mat-cell *matCellDef="let movement">{{ formatDate(movement.movementDate) }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="quotaValue">
+            <th mat-header-cell *matHeaderCellDef>Valor Cota Moviment</th>
+            <td mat-cell *matCellDef="let movement">{{ formatCurrency(movement.quotaValue || 0) }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="movementValue">
+            <th mat-header-cell *matHeaderCellDef>Valor Movimento</th>
+            <td mat-cell *matCellDef="let movement">{{ formatCurrency(movement.movementValue) }}</td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+        <div class="asset-total">
+          <strong>Total {{ asset }}: {{ formatCurrency(getTotalByAsset(asset)) }}</strong>
+        </div>
+      </div>
+
+      <div class="grand-total">
+        <mat-divider></mat-divider>
+        <div class="total-value">
+          <h3>Total Geral de Juros</h3>
+          <p class="total-amount">{{ formatCurrency(getGrandTotal()) }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="no-data" *ngIf="interestMovements.length === 0">
+      <mat-icon>info</mat-icon>
+      <p>Não há dados de juros disponíveis</p>
+    </div>
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="end">
+    <button mat-button (click)="close()">Fechar</button>
+  </mat-dialog-actions>
+</div>
+

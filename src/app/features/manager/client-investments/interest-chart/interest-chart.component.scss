@@ -1,0 +1,58 @@
+mat-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: none;
+  height: 100%;
+
+  mat-card-header {
+    padding: 16px 24px 8px 24px;
+
+    mat-card-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+  }
+
+  mat-card-content {
+    padding: 16px 24px 24px 24px;
+
+    .chart-container {
+      height: 400px;
+      position: relative;
+    }
+
+    .no-data {
+      text-align: center;
+      padding: 48px 24px;
+      color: #999;
+
+      mat-icon {
+        font-size: 48px;
+        width: 48px;
+        height: 48px;
+        color: #ccc;
+        margin-bottom: 16px;
+      }
+
+      p {
+        margin: 0;
+        font-size: 1rem;
+      }
+    }
+
+    .chart-actions {
+      margin-top: 16px;
+      text-align: center;
+      padding-top: 16px;
+      border-top: 1px solid #e0e0e0;
+
+      button {
+        mat-icon {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}
+

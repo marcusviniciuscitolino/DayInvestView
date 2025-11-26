@@ -5,6 +5,8 @@ import { ManagerDashboardComponent } from './manager-dashboard/manager-dashboard
 import { ThemeManagementComponent } from './theme-management/theme-management.component';
 import { ClientConfigurationComponent } from './client-configuration/client-configuration.component';
 import { ViewClientDashboardComponent } from './view-client-dashboard/view-client-dashboard.component';
+import { ClientInvestmentsComponent } from './client-investments/client-investments.component';
+import { PositionDailyComponent } from './position-daily/position-daily.component';
 
 const routes: Routes = [
   {
@@ -26,6 +28,14 @@ const routes: Routes = [
       {
         path: 'view-client',
         component: ViewClientDashboardComponent
+      },
+      {
+        path: 'client-investments',
+        component: ClientInvestmentsComponent
+      },
+      {
+        path: 'position/:userId/:assetName',
+        component: PositionDailyComponent
       }
     ]
   }
