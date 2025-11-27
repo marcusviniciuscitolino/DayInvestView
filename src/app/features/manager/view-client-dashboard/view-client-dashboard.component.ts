@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { DataService } from '../../../core/services/data.service';
 import { DashboardConfigService } from '../../../core/services/dashboard-config.service';
 import { ThemeService } from '../../../core/services/theme.service';
-import { PortfolioSummary } from '../../../core/models/investment-data.model';
+import { PortfolioSummary, InvestmentData, MovementData, PortfolioQuotaData } from '../../../core/models/investment-data.model';
 import { DashboardConfig, ChartConfig } from '../../../core/models/dashboard-config.model';
 import { Theme } from '../../../core/models/theme.model';
 import { User } from '../../../core/models/user.model';
@@ -17,14 +18,18 @@ export class ViewClientDashboardComponent implements OnInit {
   investors: User[] = [];
   selectedInvestor: User | null = null;
   portfolio: PortfolioSummary | null = null;
+  movements: MovementData[] = [];
+  quotaData: PortfolioQuotaData[] = [];
   config: DashboardConfig | null = null;
   theme: Theme | null = null;
   loading = false;
+  displayedColumns: string[] = ['name', 'value', 'return', 'returnPercentage', 'date', 'actions'];
 
   constructor(
     private dataService: DataService,
     private dashboardConfigService: DashboardConfigService,
-    private themeService: ThemeService
+    private themeService: ThemeService,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -43,11 +48,21 @@ export class ViewClientDashboardComponent implements OnInit {
   loadDashboard(userId: string): void {
     this.loading = true;
     this.portfolio = null;
+    this.movements = [];
+    this.quotaData = [];
     this.config = null;
     this.theme = null;
 
     this.dataService.getInvestorData(userId).subscribe(portfolio => {
       this.portfolio = portfolio;
+    });
+
+    this.dataService.getMovementsByUserId(userId).subscribe(movements => {
+      this.movements = movements;
+    });
+
+    this.dataService.getPortfolioQuotaByUserId(userId).subscribe(quota => {
+      this.quotaData = quota;
     });
 
     this.dashboardConfigService.getUserConfig(userId).subscribe(config => {
@@ -86,55 +101,38 @@ export class ViewClientDashboardComponent implements OnInit {
     return this.config !== null && (!this.config.chartTypes || this.config.chartTypes.length === 0);
   }
 
-  getFilteredPortfolio(chartId: string): PortfolioSummary | null {
-    if (!this.portfolio || !this.config) return null;
-    
-    const chartConfig = this.getChartConfig(chartId);
-    if (!chartConfig) return null;
+  getInvestmentsByType(type: string): InvestmentData[] {
+    if (!this.portfolio) return [];
+    return this.portfolio.investments.filter(inv => inv.type === type);
+  }
 
-    // Se não há filtros definidos, retorna todos os investimentos
-    if (!chartConfig.filterTypes || chartConfig.filterTypes.length === 0) {
-      return this.portfolio;
+  getUniqueTypes(): string[] {
+    if (!this.portfolio) return [];
+    const types = this.portfolio.investments.map(inv => inv.type);
+    return [...new Set(types)];
+  }
+
+  getTypeIcon(type: string): string {
+    switch (type) {
+      case 'Ações':
+        return 'trending_up';
+      case 'Tesouro':
+        return 'account_balance';
+      case 'Fundos':
+        return 'pie_chart';
+      default:
+        return 'attach_money';
     }
+  }
 
-    // Normaliza os tipos de filtro para garantir correspondência
-    const normalizedFilterTypes = chartConfig.filterTypes.map(type => {
-      if (type === 'AÃ§Ãµes' || type.includes('Ã§') || type === 'Acoes') return 'Ações';
-      return type;
-    });
+  getTypeTotal(type: string): number {
+    if (!this.portfolio) return 0;
+    return this.getInvestmentsByType(type).reduce((sum, inv) => sum + inv.value, 0);
+  }
 
-    // Função auxiliar para normalizar tipo de investimento
-    const normalizeInvestmentType = (type: string): string => {
-      if (type === 'AÃ§Ãµes' || type.includes('Ã§') || type === 'Acoes') return 'Ações';
-      if (type === 'Fundos' || type === 'Fundo') return 'Fundos';
-      if (type === 'Tesouro' || type?.includes('Tesouro')) return 'Tesouro';
-      return type;
-    };
-
-    // Filtra os investimentos pelos tipos selecionados
-    const filteredInvestments = this.portfolio.investments.filter(
-      inv => normalizedFilterTypes.includes(normalizeInvestmentType(inv.type))
-    );
-
-    // Se não há investimentos após filtrar, retorna um portfólio vazio
-    if (filteredInvestments.length === 0) {
-      return {
-        totalValue: 0,
-        totalReturn: 0,
-        returnPercentage: 0,
-        investments: []
-      };
+  viewPosition(investment: InvestmentData): void {
+    if (this.selectedInvestor) {
+      this.router.navigate(['/manager/position', this.selectedInvestor.id, investment.name]);
     }
-
-    const totalValue = filteredInvestments.reduce((sum, inv) => sum + inv.value, 0);
-    const totalReturn = filteredInvestments.reduce((sum, inv) => sum + inv.return, 0);
-    const returnPercentage = totalValue > 0 ? (totalReturn / totalValue) * 100 : 0;
-
-    return {
-      totalValue,
-      totalReturn,
-      returnPercentage,
-      investments: filteredInvestments
-    };
   }
 }

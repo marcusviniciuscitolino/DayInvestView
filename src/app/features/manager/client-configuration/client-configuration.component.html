@@ -62,22 +62,6 @@
                 </div>
               </mat-card-content>
             </mat-card>
-            
-            <div class="chart-filters" *ngIf="isChartSelected(chart.id) && chart.type !== 'stocks'">
-              <h5>Tipos de Investimento a Exibir:</h5>
-              <div class="filter-checkboxes">
-                <mat-checkbox 
-                  *ngFor="let type of availableTypes"
-                  [checked]="getChartFilterTypes(chart.id).includes(type)"
-                  (change)="toggleFilterType(chart.id, type, $event.checked)"
-                  (click)="$event.stopPropagation()">
-                  {{ type }}
-                </mat-checkbox>
-              </div>
-            </div>
-            <div class="chart-filters" *ngIf="isChartSelected(chart.id) && chart.type === 'stocks'">
-              <p class="info-text">Este gráfico exibe automaticamente apenas informações de ações.</p>
-            </div>
           </div>
         </div>
       </div>

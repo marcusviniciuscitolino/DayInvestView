@@ -8,7 +8,7 @@ export interface DashboardConfig {
 
 export interface ChartConfig {
   id: string;
-  type: 'line' | 'bar' | 'pie' | 'doughnut' | 'stocks';
+  type: 'line' | 'bar' | 'pie' | 'doughnut' | 'stocks' | 'portfolio-quota' | 'interest' | 'ir' | 'dividends' | 'class-distribution' | 'strategy-distribution';
   title: string;
   dataSource: string;
   position: number;

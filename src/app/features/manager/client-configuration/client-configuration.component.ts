@@ -24,14 +24,13 @@ export class ClientConfigurationComponent implements OnInit {
   selectedTheme: Theme | null = null;
   selectedCharts: ChartConfig[] = [];
   availableCharts: ChartConfig[] = [
-    { id: '1', type: 'line', title: 'Evolução de Patrimônio', dataSource: 'portfolio', position: 1 },
-    { id: '2', type: 'bar', title: 'Distribuição por Tipo', dataSource: 'distribution', position: 2 },
-    { id: '3', type: 'pie', title: 'Composição do Portfólio', dataSource: 'composition', position: 3 },
-    { id: '4', type: 'doughnut', title: 'Retorno por Investimento', dataSource: 'returns', position: 4 },
-    { id: '5', type: 'stocks', title: 'Informações de Ações', dataSource: 'stocks', position: 5 }
+    { id: '1', type: 'portfolio-quota', title: 'Evolução de Cotas do Portfólio', dataSource: 'quota', position: 1 },
+    { id: '2', type: 'interest', title: 'Gráfico de Juros', dataSource: 'movements', position: 2 },
+    { id: '3', type: 'ir', title: 'Gráfico de IR', dataSource: 'movements', position: 3 },
+    { id: '4', type: 'dividends', title: 'Gráfico de Dividendos', dataSource: 'movements', position: 4 },
+    { id: '5', type: 'class-distribution', title: 'Distribuição por Classe', dataSource: 'portfolio', position: 5 },
+    { id: '6', type: 'strategy-distribution', title: 'Distribuição por Estratégia', dataSource: 'portfolio', position: 6 }
   ];
-  availableTypes = ['Ações', 'Fundos', 'Tesouro'];
-  chartFilterTypes: { [chartId: string]: string[] } = {};
 
   constructor(
     private dashboardConfigService: DashboardConfigService,
@@ -120,22 +119,7 @@ export class ClientConfigurationComponent implements OnInit {
           .map(chartConfig => {
             const availableChart = this.availableCharts.find(ac => ac.id === chartConfig.id);
             if (availableChart) {
-              const chart = { ...availableChart };
-              // Para gráfico de ações, não precisa de filtros
-              if (chart.type === 'stocks') {
-                return chart;
-              }
-              // Preservar os filtros de tipo se existirem
-              // Inicializa os filtros, mesmo que não existam na configuração salva
-              if (chartConfig.filterTypes && chartConfig.filterTypes.length > 0) {
-                chart.filterTypes = [...chartConfig.filterTypes];
-                this.chartFilterTypes[chart.id] = [...chartConfig.filterTypes];
-              } else {
-                // Por padrão, seleciona todos os tipos se não houver configuração
-                chart.filterTypes = [...this.availableTypes];
-                this.chartFilterTypes[chart.id] = [...this.availableTypes];
-              }
-              return chart;
+              return { ...availableChart };
             }
             return null;
           })
@@ -159,7 +143,6 @@ export class ClientConfigurationComponent implements OnInit {
           this.selectedTheme = null;
         }
         this.selectedCharts = [];
-        this.chartFilterTypes = {};
         this.cdr.detectChanges();
       }
     });
@@ -169,55 +152,10 @@ export class ClientConfigurationComponent implements OnInit {
     const index = this.selectedCharts.findIndex(c => c.id === chart.id);
     if (index >= 0) {
       this.selectedCharts.splice(index, 1);
-      delete this.chartFilterTypes[chart.id];
     } else {
-      // Para gráfico de ações, não precisa de filtros
-      const newChart = chart.type === 'stocks' 
-        ? { ...chart } 
-        : { ...chart, filterTypes: [...this.availableTypes] };
-      this.selectedCharts.push(newChart);
-      if (chart.type !== 'stocks') {
-        this.chartFilterTypes[chart.id] = [...this.availableTypes];
-      }
+      this.selectedCharts.push({ ...chart });
     }
-    // Força detecção de mudanças para atualizar a UI (movido para fora do if/else)
-    this.cdr.detectChanges();
-  }
-
-  updateChartFilterTypes(chartId: string, types: string[]): void {
-    this.chartFilterTypes[chartId] = types;
-    const chart = this.selectedCharts.find(c => c.id === chartId);
-    if (chart) {
-      chart.filterTypes = types;
-    }
-  }
-
-  getChartFilterTypes(chartId: string): string[] {
-    // Se o gráfico está selecionado mas não tem filtros definidos, inicializa com todos os tipos
-    if (this.isChartSelected(chartId)) {
-      if (!this.chartFilterTypes[chartId] || this.chartFilterTypes[chartId].length === 0) {
-        this.chartFilterTypes[chartId] = [...this.availableTypes];
-        // Atualiza também no objeto do gráfico
-        const chart = this.selectedCharts.find(c => c.id === chartId);
-        if (chart && (!chart.filterTypes || chart.filterTypes.length === 0)) {
-          chart.filterTypes = [...this.availableTypes];
-        }
-      }
-      return this.chartFilterTypes[chartId];
-    }
-    return [];
-  }
-
-  toggleFilterType(chartId: string, type: string, checked: boolean): void {
-    let currentTypes = this.getChartFilterTypes(chartId);
-    if (checked) {
-      if (!currentTypes.includes(type)) {
-        currentTypes.push(type);
-      }
-    } else {
-      currentTypes = currentTypes.filter(t => t !== type);
-    }
-    this.updateChartFilterTypes(chartId, currentTypes);
+    // Força detecção de mudanças para atualizar a UI
     this.cdr.detectChanges();
   }
 
