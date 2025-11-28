@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { AuthService } from '../../../core/services/auth.service';
 import { DataService } from '../../../core/services/data.service';
 import { DashboardConfigService } from '../../../core/services/dashboard-config.service';
 import { ThemeService } from '../../../core/services/theme.service';
-import { PortfolioSummary } from '../../../core/models/investment-data.model';
+import { PortfolioSummary, InvestmentData, MovementData, PortfolioQuotaData } from '../../../core/models/investment-data.model';
 import { DashboardConfig, ChartConfig } from '../../../core/models/dashboard-config.model';
 import { Theme } from '../../../core/models/theme.model';
 
@@ -14,15 +15,19 @@ import { Theme } from '../../../core/models/theme.model';
 })
 export class InvestorDashboardComponent implements OnInit {
   portfolio: PortfolioSummary | null = null;
+  movements: MovementData[] = [];
+  quotaData: PortfolioQuotaData[] = [];
   config: DashboardConfig | null = null;
   theme: Theme | null = null;
   loading = true;
+  displayedColumns: string[] = ['name', 'value', 'return', 'returnPercentage', 'date', 'actions'];
 
   constructor(
     private authService: AuthService,
     private dataService: DataService,
     private dashboardConfigService: DashboardConfigService,
-    private themeService: ThemeService
+    private themeService: ThemeService,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -45,8 +50,20 @@ export class InvestorDashboardComponent implements OnInit {
 
   loadDashboard(userId: string): void {
     console.log('Carregando dashboard para usuário:', userId);
+    this.portfolio = null;
+    this.movements = [];
+    this.quotaData = [];
+
     this.dataService.getInvestorData(userId).subscribe(portfolio => {
       this.portfolio = portfolio;
+    });
+
+    this.dataService.getMovementsByUserId(userId).subscribe(movements => {
+      this.movements = movements;
+    });
+
+    this.dataService.getPortfolioQuotaByUserId(userId).subscribe(quota => {
+      this.quotaData = quota;
     });
 
     this.dashboardConfigService.getUserConfig(userId).subscribe(config => {
@@ -155,6 +172,42 @@ export class InvestorDashboardComponent implements OnInit {
       returnPercentage,
       investments: filteredInvestments
     };
+  }
+
+  getInvestmentsByType(type: string): InvestmentData[] {
+    if (!this.portfolio) return [];
+    return this.portfolio.investments.filter(inv => inv.type === type);
+  }
+
+  getUniqueTypes(): string[] {
+    if (!this.portfolio) return [];
+    const types = this.portfolio.investments.map(inv => inv.type);
+    return [...new Set(types)];
+  }
+
+  getTypeIcon(type: string): string {
+    switch (type) {
+      case 'Ações':
+        return 'trending_up';
+      case 'Tesouro':
+        return 'account_balance';
+      case 'Fundos':
+        return 'pie_chart';
+      default:
+        return 'attach_money';
+    }
+  }
+
+  getTypeTotal(type: string): number {
+    if (!this.portfolio) return 0;
+    return this.getInvestmentsByType(type).reduce((sum, inv) => sum + inv.value, 0);
+  }
+
+  viewPosition(investment: InvestmentData): void {
+    const user = this.authService.getCurrentUser();
+    if (user) {
+      this.router.navigate(['/manager/position', user.id, investment.name]);
+    }
   }
 }
 

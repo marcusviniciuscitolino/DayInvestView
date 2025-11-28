@@ -46,8 +46,15 @@ import { InvestorModule } from '../investor/investor.module';
     CommonModule,
     ManagerRoutingModule,
     SharedModule,
-    LayoutModule,
-    InvestorModule
+    LayoutModule
+  ],
+  exports: [
+    InterestChartComponent,
+    IrChartComponent,
+    PortfolioQuotaChartComponent,
+    ClassDistributionChartComponent,
+    StrategyDistributionChartComponent,
+    DividendsChartComponent
   ]
 })
 export class ManagerModule { }

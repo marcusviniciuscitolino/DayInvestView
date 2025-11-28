@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, forwardRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InvestorRoutingModule } from './investor-routing.module';
 import { SharedModule } from '../../shared/shared.module';
@@ -9,6 +9,7 @@ import { DistributionChartComponent } from './investor-dashboard/distribution-ch
 import { CompositionChartComponent } from './investor-dashboard/composition-chart/composition-chart.component';
 import { ReturnsChartComponent } from './investor-dashboard/returns-chart/returns-chart.component';
 import { StocksInfoComponent } from './investor-dashboard/stocks-info/stocks-info.component';
+import { ManagerModule } from '../manager/manager.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { StocksInfoComponent } from './investor-dashboard/stocks-info/stocks-inf
     CommonModule,
     InvestorRoutingModule,
     SharedModule,
-    LayoutModule
+    LayoutModule,
+    forwardRef(() => ManagerModule)
   ],
   exports: [
     PortfolioChartComponent,
